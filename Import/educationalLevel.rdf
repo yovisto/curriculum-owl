@@ -1,0 +1,414 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:isced97="https://w3id.org/kim/isced-1997/"
+     xmlns:isced2011="https://w3id.org/kim/isced-2011/"
+     xmlns:eduContext="http://w3id.org/openeduhub/vocabs/educationalContext/">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broadMatch -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broadMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broader -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#hasTopConcept -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#narrowMatch -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrowMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#narrower -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#topConceptOf -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
+
+    <Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/kim/educationalLevel/ -->
+
+    <NamedIndividual rdf:about="https://w3id.org/kim/educationalLevel/">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-08</dct:created>
+        <dct:description xml:lang="de">Eine Wertelliste für die Stufe im Bildungssystem als Lehr-/Lernkontext, für den Lernobjekt ausgewiesen ist.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-08</dct:issued>
+        <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-03-23</dct:modified>
+        <dct:title xml:lang="de">Bildungsstufe</dct:title>
+        <dct:title xml:lang="en">Educational level</dct:title>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/kim/educationalLevel/level_0"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/kim/educationalLevel/level_1"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/kim/educationalLevel/level_3"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/kim/educationalLevel/level_4"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/kim/educationalLevel/level_5"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/kim/educationalLevel/level_A"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/kim/educationalLevel/level_B"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/kim/educationalLevel/level_C"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/kim/educationalLevel/level_0 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/kim/educationalLevel/level_0">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Elementarstufe</skos:altLabel>
+        <skos:altLabel xml:lang="de">Frühbereich</skos:altLabel>
+        <skos:altLabel xml:lang="de">Frühkindliche Bildung</skos:altLabel>
+        <skos:altLabel xml:lang="de">ISCED 2011, Level 0</skos:altLabel>
+        <skos:altLabel xml:lang="en">ISCED 2011, Level 0</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://w3id.org/openeduhub/vocabs/educationalContext/elementarbereich"/>
+        <skos:exactMatch rdf:resource="https://w3id.org/kim/isced-2011/level0"/>
+        <skos:narrowMatch rdf:resource="https://w3id.org/kim/isced-1997/level0"/>
+        <skos:prefLabel xml:lang="en">Early childhood education</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Elementarbereich</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/kim/educationalLevel/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/kim/educationalLevel/level_1 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/kim/educationalLevel/level_1">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">ISCED 2011, Level 1</skos:altLabel>
+        <skos:altLabel xml:lang="en">ISCED 2011, Level 1</skos:altLabel>
+        <skos:altLabel xml:lang="de">Primarstufe</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://w3id.org/openeduhub/vocabs/educationalContext/grundschule"/>
+        <skos:exactMatch rdf:resource="https://w3id.org/kim/isced-1997/level1"/>
+        <skos:exactMatch rdf:resource="https://w3id.org/kim/isced-2011/level1"/>
+        <skos:prefLabel xml:lang="de">Primarbereich</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Primary education</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/kim/educationalLevel/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/kim/educationalLevel/level_2 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/kim/educationalLevel/level_2">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">ISCED 2011, Level 2</skos:altLabel>
+        <skos:altLabel xml:lang="en">ISCED 2011, Level 2</skos:altLabel>
+        <skos:altLabel xml:lang="de">Sekundarstufe I</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://w3id.org/openeduhub/vocabs/educationalContext/sekundarstufe_1"/>
+        <skos:exactMatch rdf:resource="https://w3id.org/kim/isced-1997/level2"/>
+        <skos:exactMatch rdf:resource="https://w3id.org/kim/isced-2011/level2"/>
+        <skos:prefLabel xml:lang="en">Lower secondary education</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sekundarbereich I</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/kim/educationalLevel/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/kim/educationalLevel/level_3 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/kim/educationalLevel/level_3">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">ISCED 2011, Level 3</skos:altLabel>
+        <skos:altLabel xml:lang="en">ISCED 2011, Level 3</skos:altLabel>
+        <skos:altLabel xml:lang="de">Sekundarstufe II</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://w3id.org/openeduhub/vocabs/educationalContext/sekundarstufe_2"/>
+        <skos:exactMatch rdf:resource="https://w3id.org/kim/isced-1997/level3"/>
+        <skos:exactMatch rdf:resource="https://w3id.org/kim/isced-2011/level3"/>
+        <skos:prefLabel xml:lang="de">Sekundarbereich II</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Upper secondary education</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/kim/educationalLevel/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/kim/educationalLevel/level_4 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/kim/educationalLevel/level_4">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Berufliche Bildung</skos:altLabel>
+        <skos:altLabel xml:lang="de">ISCED 2011, Level 4</skos:altLabel>
+        <skos:altLabel xml:lang="en">ISCED 2011, Level 4</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://w3id.org/openeduhub/vocabs/educationalContext/berufliche_bildung"/>
+        <skos:exactMatch rdf:resource="https://w3id.org/kim/isced-1997/level4"/>
+        <skos:exactMatch rdf:resource="https://w3id.org/kim/isced-2011/level4"/>
+        <skos:prefLabel xml:lang="en">Post-secondary non-tertiary education</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Postsekundarer nicht-tertiärer Bereich</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/kim/educationalLevel/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/kim/educationalLevel/level_5 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/kim/educationalLevel/level_5">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">ISCED 2011, Level 5</skos:altLabel>
+        <skos:altLabel xml:lang="en">ISCED 2011, Level 5</skos:altLabel>
+        <skos:closeMatch rdf:resource="https://w3id.org/kim/isced-1997/level5"/>
+        <skos:definition xml:lang="de">Erste Stufe der tertiären Bildung, die nicht direkt zu einer höheren Forschungsqualifikation führt</skos:definition>
+        <skos:definition xml:lang="en">First stage of tertiary education, not leading directly to an advanced research qualification</skos:definition>
+        <skos:exactMatch rdf:resource="https://w3id.org/kim/isced-2011/level5"/>
+        <skos:prefLabel xml:lang="de">Kurzes tertiäres Bildungsprogramm</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Short-cycle tertiary education</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/kim/educationalLevel/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/kim/educationalLevel/level_6 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/kim/educationalLevel/level_6">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">ISCED 2011, Level 6</skos:altLabel>
+        <skos:altLabel xml:lang="en">ISCED 2011, Level 6</skos:altLabel>
+        <skos:broadMatch rdf:resource="http://w3id.org/openeduhub/vocabs/educationalContext/hochschule"/>
+        <skos:broader rdf:resource="https://w3id.org/kim/educationalLevel/level_A"/>
+        <skos:closeMatch rdf:resource="https://w3id.org/kim/isced-1997/level5"/>
+        <skos:exactMatch rdf:resource="https://w3id.org/kim/isced-2011/level6"/>
+        <skos:inScheme rdf:resource="https://w3id.org/kim/educationalLevel/"/>
+        <skos:prefLabel xml:lang="de">Bachelor oder äquivalent</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Bachelor or equivalent</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/kim/educationalLevel/level_7 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/kim/educationalLevel/level_7">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">ISCED 2011, Level 7</skos:altLabel>
+        <skos:altLabel xml:lang="en">ISCED 2011, Level 7</skos:altLabel>
+        <skos:broadMatch rdf:resource="http://w3id.org/openeduhub/vocabs/educationalContext/hochschule"/>
+        <skos:broader rdf:resource="https://w3id.org/kim/educationalLevel/level_A"/>
+        <skos:closeMatch rdf:resource="https://w3id.org/kim/isced-1997/level5"/>
+        <skos:exactMatch rdf:resource="https://w3id.org/kim/isced-2011/level7"/>
+        <skos:inScheme rdf:resource="https://w3id.org/kim/educationalLevel/"/>
+        <skos:prefLabel xml:lang="de">Master oder äquivalent</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Master or equivalent</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/kim/educationalLevel/level_8 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/kim/educationalLevel/level_8">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">ISCED 2011, Level 8</skos:altLabel>
+        <skos:altLabel xml:lang="en">ISCED 2011, Level 8</skos:altLabel>
+        <skos:broadMatch rdf:resource="http://w3id.org/openeduhub/vocabs/educationalContext/hochschule"/>
+        <skos:broader rdf:resource="https://w3id.org/kim/educationalLevel/level_A"/>
+        <skos:exactMatch rdf:resource="https://w3id.org/kim/isced-1997/level6"/>
+        <skos:exactMatch rdf:resource="https://w3id.org/kim/isced-2011/level8"/>
+        <skos:inScheme rdf:resource="https://w3id.org/kim/educationalLevel/"/>
+        <skos:prefLabel xml:lang="en">Doctoral or equivalent</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Promotion oder äquivalent</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/kim/educationalLevel/level_A -->
+
+    <NamedIndividual rdf:about="https://w3id.org/kim/educationalLevel/level_A">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:exactMatch rdf:resource="http://w3id.org/openeduhub/vocabs/educationalContext/hochschule"/>
+        <skos:narrowMatch rdf:resource="https://w3id.org/kim/isced-1997/level5"/>
+        <skos:narrowMatch rdf:resource="https://w3id.org/kim/isced-1997/level6"/>
+        <skos:narrowMatch rdf:resource="https://w3id.org/kim/isced-2011/level6"/>
+        <skos:narrowMatch rdf:resource="https://w3id.org/kim/isced-2011/level7"/>
+        <skos:narrowMatch rdf:resource="https://w3id.org/kim/isced-2011/level8"/>
+        <skos:narrower rdf:resource="https://w3id.org/kim/educationalLevel/level_6"/>
+        <skos:narrower rdf:resource="https://w3id.org/kim/educationalLevel/level_7"/>
+        <skos:narrower rdf:resource="https://w3id.org/kim/educationalLevel/level_8"/>
+        <skos:prefLabel xml:lang="de">Hochschule</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">University</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/kim/educationalLevel/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/kim/educationalLevel/level_B -->
+
+    <NamedIndividual rdf:about="https://w3id.org/kim/educationalLevel/level_B">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="de">Der Vorbereitungsdienst bezeichnet die zweite Phase der Lehrkräfteausbildung in Deutschland.</skos:definition>
+        <skos:definition xml:lang="en">The preparatory service designates the second phase of teacher training in germany.</skos:definition>
+        <skos:prefLabel xml:lang="en">Preparatory service</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Vorbereitungsdienst</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/kim/educationalLevel/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/kim/educationalLevel/level_C -->
+
+    <NamedIndividual rdf:about="https://w3id.org/kim/educationalLevel/level_C">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:exactMatch rdf:resource="http://w3id.org/openeduhub/vocabs/educationalContext/fortbildung"/>
+        <skos:prefLabel xml:lang="en">Advanced training</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Fortbildung</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/kim/educationalLevel/"/>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

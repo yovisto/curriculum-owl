@@ -1,0 +1,2625 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broader -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#hasTopConcept -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#narrower -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#notation -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#topConceptOf -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
+
+    <Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/ -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <dct:creator xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</dct:creator>
+        <dct:title xml:lang="de">Deutsch Sek1_Standards ESA</dct:title>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b912ae89-9eff-46d6-bea8-d372ae33bc01"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c5276f76-7440-496d-a034-17301994bc9f"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/e97dd2d5-b8ce-4a6e-949c-833df6a8a823"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/109af016-0593-47c2-844f-3a184cddf78a"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/46e49922-b3c3-4075-8a39-03cc89a15e72"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b912ae89-9eff-46d6-bea8-d372ae33bc01"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c5276f76-7440-496d-a034-17301994bc9f"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/e97dd2d5-b8ce-4a6e-949c-833df6a8a823"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/109af016-0593-47c2-844f-3a184cddf78a"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/46e49922-b3c3-4075-8a39-03cc89a15e72"/>
+        <skos:prefLabel xml:lang="de">Standards ESA</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/a2d06648-ea33-49c9-8ecc-b809f4da8e96 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/a2d06648-ea33-49c9-8ecc-b809f4da8e96">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b40314f0-b078-4b3b-b52a-05f733eb4311"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.5.3.2</skos:notation>
+        <skos:prefLabel xml:lang="de">Darstellen: Informieren (Beschreiben, Berichten), Erklären, Instruieren, Erörtern, z. B. in den Textsorten: Orts‐, Funktions‐ oder Bildbeschreibung, Bericht, Protokoll, Nachricht, (Online)Lexikon-Eintrag, Artikel für Schülerzeitung, Gebrauchsanweisung, Konstruktions- oder Spielanleitung, Zusammenfassung,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/a40eff8f-ad77-4a60-b16b-db9ac9fbe1d6 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/a40eff8f-ad77-4a60-b16b-db9ac9fbe1d6">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/68660d81-9d90-42ee-a2e7-bdb1764d4686"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.2.1.4</skos:notation>
+        <skos:prefLabel xml:lang="de">unterscheiden zwischen Kernwörtern und Fremdwörtern,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/a4bc1616-8611-40e6-8417-a26e2407fc35 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/a4bc1616-8611-40e6-8417-a26e2407fc35">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/d5558e46-feb6-4a89-ba94-75b51b546baa"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.5.2</skos:notation>
+        <skos:prefLabel xml:lang="de">werten nichtlineare und multimodale Texte (Text-Bild-Bezüge) zielorientiert aus, z. B. um über ein Thema zu sprechen oder zu schreiben</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/a5a5bf92-5143-4cc2-b525-6d958dd29fff -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/a5a5bf92-5143-4cc2-b525-6d958dd29fff">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/837374d8-d20c-4c8c-9469-10239cb22b79"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.4.3</skos:notation>
+        <skos:prefLabel xml:lang="de">planen und gestalten typische Formen des Präsentierens, z. B. Standbild, Stegreif-Rede, Kurzreferat, Podcasts, Erklärvideos,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/a6405631-c41c-49cd-b9a8-6bbf7da3fe9f -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/a6405631-c41c-49cd-b9a8-6bbf7da3fe9f">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/734f2b48-e4ae-4375-b060-21cf29a4d5f1"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>3.1.3</skos:notation>
+        <skos:prefLabel xml:lang="de">lesen komplexere Texte nach Vorbereitung sinngestaltend vor,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/a76b29cb-c0a7-476e-bd20-14f15a9f582a -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/a76b29cb-c0a7-476e-bd20-14f15a9f582a">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/22c7b269-b3ef-4dd6-8397-ad9d6fc12014"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.1.2.3</skos:notation>
+        <skos:prefLabel xml:lang="de">unterscheiden an ausgewählten Beispielen grundlegende Textfunktionen – Darstellen (z. B. Informieren in einer Zeitungsmeldung), Appellieren (z. B. Überzeugen in einer Werbeanzeige; Gesetzestext), Ausdrücken (z. B. sich selbst ausdrücken in einem Bewerbungsschreiben, einer Beschwerde oder einem Gedicht) – und nutzen ihr Wissen über Textfunktionen für das eigene Schreiben und für die Erschließung von Texten.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/a7a3fc99-927e-440f-99ab-b4f5b8ec8810 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/a7a3fc99-927e-440f-99ab-b4f5b8ec8810">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c4e6462b-0905-4af1-bc19-c9f3be62e835"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.1.4</skos:notation>
+        <skos:prefLabel xml:lang="de">stellen an einem Beispiel Zusammenhänge zwischen Text und Kontext her (insbes. Entstehungszeit, Leben des Autors/der Autorin),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/a96afc32-a9c3-485a-9225-7b300b8028a4 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/a96afc32-a9c3-485a-9225-7b300b8028a4">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/75cd0302-4b52-4cf3-8770-c84268188354"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/d3655150-d34d-4b13-b861-c40fcddcc317"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/e7f276b4-93b7-4e5f-8b9f-2c58e77de5f6"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f90dc6f7-e8cf-4699-8910-33d5d90ee554"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/5ddc5b5a-4fa3-45f8-b340-dd18b3b275b0"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/6c87ea0f-f367-4e5a-b5fc-b3be7d4ddd77"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/8e29b4f0-8940-47db-a63e-7f6da724956e"/>
+        <skos:notation>1.1.3</skos:notation>
+        <skos:prefLabel xml:lang="de">kommunizieren mit Blick auf Adressaten und Ziele situationsangemessen:</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/abd3140e-7d61-4deb-bb5b-3933ca08e3f5 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/abd3140e-7d61-4deb-bb5b-3933ca08e3f5">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/d5558e46-feb6-4a89-ba94-75b51b546baa"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.5.3</skos:notation>
+        <skos:prefLabel xml:lang="de">unterscheiden Information und Wertung in Texten,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/ad390051-6481-42c3-a585-b9ba73ff9d95 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/ad390051-6481-42c3-a585-b9ba73ff9d95">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/75cd0302-4b52-4cf3-8770-c84268188354"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.1.9</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen technische Möglichkeiten beim digitalen Kommunizieren in vertrauten und unvertrauten Situationen.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/b170a110-fe7d-4273-a139-3113cab6c17a -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/b170a110-fe7d-4273-a139-3113cab6c17a">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/21b9e2a9-e0f5-463d-8ace-af56ac97f58b"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.2.6</skos:notation>
+        <skos:prefLabel xml:lang="de">verfügen über Fehleraufmerksamkeit und nutzen Strategien zur Klärung orthografischer Fragen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/b3392947-b2af-49df-b5fc-6967431083f7 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/b3392947-b2af-49df-b5fc-6967431083f7">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/50b9a421-b5f5-4b6e-bff5-fe69cdc165fc"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.4.5</skos:notation>
+        <skos:prefLabel xml:lang="de">entwickeln gemäß der Schreibaufgabe und der Zeitvorgabe einen Schreibplan, entscheiden sich für die angemessene Textsorte und konzipieren einen ziel-, adressaten- und situationsbezogenen Text,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/b40314f0-b078-4b3b-b52a-05f733eb4311 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/b40314f0-b078-4b3b-b52a-05f733eb4311">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/38bf2d37-1b37-417a-900c-f8ebfe669634"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/a2d06648-ea33-49c9-8ecc-b809f4da8e96"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c12fd430-e503-49d0-b19c-8b1d6542bb74"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f4afcfa6-af16-49c2-b2dc-4099e8374cf1"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/20bc80e3-b8d6-400c-a272-a56c43306f2f"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/720f3b4f-a62a-40be-96e8-314ed3819cd7"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/89748323-eb92-4da6-ac5e-4dc90a0a7b8e"/>
+        <skos:notation>2.5.3</skos:notation>
+        <skos:prefLabel xml:lang="de">realisieren mit unterschiedlichen Textsorten grundlegende kommunikative und personale Schreibfunktionen:</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/b5604218-e8e1-4d64-af8b-06e1b1dc7049 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/b5604218-e8e1-4d64-af8b-06e1b1dc7049">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/8d07cde9-e806-410d-832e-792b1a55fe25"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/34734e40-0e14-407c-9557-d6703a04908d"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/39f03fee-4419-43a7-a9b4-312509623896"/>
+        <skos:notation>1.2.1</skos:notation>
+        <skos:prefLabel xml:lang="de">können in vertrauten und unvertrauten Kommunikationssituationen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/b5ebaf04-23bd-4af0-a3e9-aa168df7f904 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/b5ebaf04-23bd-4af0-a3e9-aa168df7f904">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/68660d81-9d90-42ee-a2e7-bdb1764d4686"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.2.1.1</skos:notation>
+        <skos:prefLabel xml:lang="de">vergleichen Schreibungen von Wörtern und Sätzen (z. B. orthografische Zweifelsfälle: Photografie/Fotografie, Phantasie/Fantasie; Groß- und Kleinschreibung: genossen/Genossen) und sprechen über Gemeinsamkeiten und Unterschiede,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/b6784760-a816-4092-9ad7-1461aa255b14 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/b6784760-a816-4092-9ad7-1461aa255b14">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/50b9a421-b5f5-4b6e-bff5-fe69cdc165fc"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.4.3</skos:notation>
+        <skos:prefLabel xml:lang="de">stellen Überlegungen zu den Adressaten (unbekannt, verschiedene), deren unterschiedlichem Vorwissen und ihren Lesezielen an,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/b912ae89-9eff-46d6-bea8-d372ae33bc01 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/b912ae89-9eff-46d6-bea8-d372ae33bc01">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:definition xml:lang="de">Im Unterschied zum Sprechen wird beim Schreiben in handschriftlicher wie digitaler Form der Text langsamer und überlegter entwickelt, über Geschriebenes kann auch mit anderen nachgedacht und es kann entsprechend überarbeitet werden. Die Schülerinnen und Schüler verfügen über Schreibfertigkeiten, eine korrekte Rechtschreibung und über gesicherte Möglichkeiten des Schreibens als Mittel der Kommunikation. Sie schreiben und formulieren flüssig. Sie können Texte zur besseren Lesbarkeit orthografisch richtig schreiben. Orthografische Zweifelsfälle klären sie sicher mithilfe orthografischer Strategien und durch Nachschlagen. Sie beherrschen die Zeichensetzung. Sie haben Einsicht in die Prinzipien der Rechtschreibung gewonnen, kennen Rechtschreibstrategien und wenden diese reflektiert an. Sie bauen ihre individuelle Fehleraufmerksamkeit weiter aus und gelangen durch das Anwenden von Rechtschreibstrategien und Nachschlagen zu richtigen Schreibungen. Die Schülerinnen und Schüler entwickeln ihre Schreibkompetenz weiter und festigen diese zunehmend, um zu kommunizieren, um Informationen festzuhalten, sich gedanklich mit einem Sachverhalt auseinanderzusetzen und kreativ und gestaltend mit Sprache umgehen zu können. Sie können Ergebnisse der inhaltlichen Auseinandersetzung und Untersuchung von Texten in den Grundzügen darstellen. Sie verfassen auch für unbekannte und unterschiedliche Leserinnen und Leser adressatenorientiert Texte zu verschiedenen Textsorten mit Ausdrucks-, Darstellungs- und Appellfunktion. Sie können eigene Texte gestützt auf mehrere und unterschiedliche Quellen schreiben und deren Informationen und Positionen verarbeiten wie auch in den Grundzügen sprachlich integrieren, nachweisen und kennzeichnen. Sie gestalten ihren Schreibprozess weitgehend selbstständig und bauen ihre Fähigkeiten im Umgang mit den Anforderungen des Schreibens im Hinblick auf allgemeine Texteigenschaften, auf Adressaten, Textfunktion, Schreibanlass und Textsorte, auf Formen kooperativen Schreibens, digitale Schreibwerkzeuge und Schreibstrategien weiter aus. Den Zielen der Sekundarstufe entsprechend können sie Darstellungen, Quellen und Belege formal in eigene Texte integrieren. Sie nutzen Textverarbeitungsprogramme für Überarbeitungsprozesse.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/21b9e2a9-e0f5-463d-8ace-af56ac97f58b"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/23ff64ec-87ac-43f5-a194-896ce0d61e1e"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/38bf2d37-1b37-417a-900c-f8ebfe669634"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/4d84ead8-2aba-4f85-ba3d-81abfb43fbdf"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/50b9a421-b5f5-4b6e-bff5-fe69cdc165fc"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/574a72fe-53f3-47bc-8787-771c3e980def"/>
+        <skos:notation>2</skos:notation>
+        <skos:prefLabel xml:lang="de">Schreiben</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/be4232cf-23ab-4475-88a8-0d636241ddf6 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/be4232cf-23ab-4475-88a8-0d636241ddf6">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/402ce841-8da6-473d-8354-afb14b2432d5"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.2.2.2</skos:notation>
+        <skos:prefLabel xml:lang="de">erfassen dem Lernstand entsprechende Hörtexte, Gesprächsphasen oder Gespräche (z. B. zentrale Aussagen sowie Sprech- und Gesprächsabsichten),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/be720c28-1318-47ba-9393-20b4418dbf28 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/be720c28-1318-47ba-9393-20b4418dbf28">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c4e6462b-0905-4af1-bc19-c9f3be62e835"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.1.3</skos:notation>
+        <skos:prefLabel xml:lang="de">kennen Merkmale medialer und szenischer Gestaltung (u. a. Musik, Geräusche, Farben, Perspektive, Animation, Bühnenbild) und beschreiben an ausgewählten Beispielen ihre Wirkung,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/bf2f3ac3-d450-4914-8040-7fa834e40f76 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/bf2f3ac3-d450-4914-8040-7fa834e40f76">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/50b9a421-b5f5-4b6e-bff5-fe69cdc165fc"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.4.9</skos:notation>
+        <skos:prefLabel xml:lang="de">wenden Planungsstrategien (auch kooperativ) an und reflektieren sowohl ihren Planungsprozess als auch den Strategieeinsatz.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/c0935610-c645-4d19-909c-f43d60383e84 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/c0935610-c645-4d19-909c-f43d60383e84">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/54459a32-1634-47bf-8a7e-2b14e2c94a92"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.1.1.2</skos:notation>
+        <skos:prefLabel xml:lang="de">untersuchen Merkmale der Adressatenorientierung und beschreiben ihre Bedeutung für das angemessene sprachliche Handeln,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/c12fd430-e503-49d0-b19c-8b1d6542bb74 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/c12fd430-e503-49d0-b19c-8b1d6542bb74">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b40314f0-b078-4b3b-b52a-05f733eb4311"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.5.3.1</skos:notation>
+        <skos:prefLabel xml:lang="de">Ausdrücken: Sich selbst, Erlebtes und Erdachtes, Gedanken und Gefühle, u. a. in den Textsorten: Selbstportrait, (Lern-)Tagebuch, Bewerbungsanschreiben, Gedicht, </skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/c29026f8-a942-4726-890d-a952cb7bd486 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/c29026f8-a942-4726-890d-a952cb7bd486">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/21b9e2a9-e0f5-463d-8ace-af56ac97f58b"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.2.4</skos:notation>
+        <skos:prefLabel xml:lang="de">schreiben Satzanfänge, Eigennamen und prototypische Kerne von Nominalgruppen groß,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/c3319518-2c59-4ec4-88f5-36fb1e171bab -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/c3319518-2c59-4ec4-88f5-36fb1e171bab">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/50b9a421-b5f5-4b6e-bff5-fe69cdc165fc"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.4.1</skos:notation>
+        <skos:prefLabel xml:lang="de">sammeln Ideen, ordnen Informationen und fertigen eine Gliederung an, z. B. numerische Gliederung, Cluster, Mindmap,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/c367dcd6-4c05-49dc-b71f-9437aa164112 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/c367dcd6-4c05-49dc-b71f-9437aa164112">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/23ff64ec-87ac-43f5-a194-896ce0d61e1e"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.1,1</skos:notation>
+        <skos:prefLabel xml:lang="de">schreiben Texte (handschriftlich leserlich und mithilfe digitaler Schreibwerkzeuge) in einem der Situation angemessenen Tempo, z. B. persönliche Notiz vs. handschriftlicher Brief,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/c3dad891-691f-4864-8bbf-9ad52689cc01 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/c3dad891-691f-4864-8bbf-9ad52689cc01">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/0280da36-3f78-4d9a-9dd6-6bf2758a9151"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.2.1.6</skos:notation>
+        <skos:prefLabel xml:lang="de">unterscheiden zentrale grammatische Mittel hinsichtlich ihrer Struktur und ihrer Funktion im sprachlichen Handeln (z. B. Tempus, Modus, Genus verbi; Genus, Numerus, Kasus; Komparation).</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/c4e6462b-0905-4af1-bc19-c9f3be62e835 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/c4e6462b-0905-4af1-bc19-c9f3be62e835">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c5276f76-7440-496d-a034-17301994bc9f"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler verfügen über ein Orientierungswissen zu Texten unterschiedlicher medialer Form, Textsorten und Gattungen.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/a7a3fc99-927e-440f-99ab-b4f5b8ec8810"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/be720c28-1318-47ba-9393-20b4418dbf28"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/cf632e13-80a4-4bba-b8ce-637dfbad76f3"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/e3b26682-3d7a-4af0-a51e-efef1ea6d6d9"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/ea95bb02-f116-42fb-941f-7af12e7f2050"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/0dd90e69-c705-4c72-a4ec-2b314f6986db"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/17d39522-cc98-4cbf-b0cf-6d593caa7874"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/2019e64d-e5b5-40bc-8659-3b2b306c7a67"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/72805a24-fe05-4adb-a722-45ed5be23775"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/99d9b73a-ab71-48dc-bcaa-8b428ad5c79d"/>
+        <skos:notation>4.1</skos:notation>
+        <skos:prefLabel xml:lang="de">Über Textwissen verfügen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/c5276f76-7440-496d-a034-17301994bc9f -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/c5276f76-7440-496d-a034-17301994bc9f">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler verfügen über ein Grundlagenwissen zu Texten und anderen Medien. Sie können sich selbstständig im Medienangebot orientieren, ihren eigenen Lese- und Medieninteressen nachgehen, aus Texten lernen und die eigene Mediennutzung sowie die Medien selbst kritisch reflektieren und bewerten. Auch digitale Texte und Medien schätzen sie in Hinblick auf ihre Aussagekraft, ihre Intentionen und ihren Sachgehalt angemessen ein. Die Beschäftigung mit literarischen und medienästhetischen Sinnangeboten bietet ihnen Möglichkeiten, sich – auch in interkultureller Perspektive – mit individuellen, sozialen und gesellschaftlichen Grundfragen auseinanderzusetzen und Unvertrautes und Vertrautes aufeinander zu beziehen. So trägt der kompetente Umgang mit Texten in unterschiedlicher medialer Form wesentlich zur Entwicklung von Selbst- und Fremdverstehen bei. Er fördert die persönliche Entwicklung und eröffnet Möglichkeiten gesellschaftlicher Teilhabe.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c4e6462b-0905-4af1-bc19-c9f3be62e835"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/d5558e46-feb6-4a89-ba94-75b51b546baa"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f1002003-0d2f-4a99-9814-3bdc4ab22a3f"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/222b2cf3-50cf-45e3-b3a0-da8a09744e4f"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/27f070fa-bb81-4a63-b008-fb9e532d3deb"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/35bc9b6e-0ac7-4b94-9a23-1952a225c9d3"/>
+        <skos:notation>4</skos:notation>
+        <skos:prefLabel xml:lang="de">Sich mit Texten und anderen Medien auseinandersetzen</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/cb5aca95-b389-4335-b99c-c0d8ecff93d2 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/cb5aca95-b389-4335-b99c-c0d8ecff93d2">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/734f2b48-e4ae-4375-b060-21cf29a4d5f1"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>3.1.2</skos:notation>
+        <skos:prefLabel xml:lang="de">verfügen über eine sichere Worterkennung (bei selteneren Wörtern mit Selbstkorrektur),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/cdd1239f-a7fd-4189-85b5-453a8d60c7b7 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/cdd1239f-a7fd-4189-85b5-453a8d60c7b7">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/27f070fa-bb81-4a63-b008-fb9e532d3deb"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.2.1</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen unterschiedliche Informationsangebote und Recherchemöglichkeiten (z. B. Kritiken, Bestenlisten und andere Empfehlungen; Internet, Zeitschriften, Zeitungen, Hörfunk, Fernsehen, Bücherei),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/ce6e22de-757f-458a-ad13-8cfc9df0d1c0 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/ce6e22de-757f-458a-ad13-8cfc9df0d1c0">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/35bc9b6e-0ac7-4b94-9a23-1952a225c9d3"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.6.3</skos:notation>
+        <skos:prefLabel xml:lang="de">unterscheiden Nutzungsformen digitaler Formate und Umgebungen und stellen Zusammenhänge zwischen Intentionen, Gestaltung und Wirkung her,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/cf632e13-80a4-4bba-b8ce-637dfbad76f3 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/cf632e13-80a4-4bba-b8ce-637dfbad76f3">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c4e6462b-0905-4af1-bc19-c9f3be62e835"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.1.9</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen typische auditive und audiovisuelle Medien für persönliche oder schulische Zwecke bedarfsgerecht (z. B. Hörspiel, Lesung, Hörbuch, Podcast, Wissenssendung, Erklärvideo, Tutorial, Webinar),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/d03380b1-5915-4059-b212-de73f3aa509a -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/d03380b1-5915-4059-b212-de73f3aa509a">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/54459a32-1634-47bf-8a7e-2b14e2c94a92"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.1.1.4</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen ausgewählte digitale Technologien zielgerichtet und reflektiert als Werkzeuge der Kommunikation und der Informationsgewinnung.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/d322cc0b-366b-4fa2-a1df-0c14e724b2e6 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/d322cc0b-366b-4fa2-a1df-0c14e724b2e6">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/402ce841-8da6-473d-8354-afb14b2432d5"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.2.2.4</skos:notation>
+        <skos:prefLabel xml:lang="de">zeigen Aufmerksamkeit für paraverbale (z. B. Stimmführung, Körpersprache) und nonverbale Äußerungen (z. B. Gestik, Körperhaltung),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/d3655150-d34d-4b13-b861-c40fcddcc317 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/d3655150-d34d-4b13-b861-c40fcddcc317">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/a96afc32-a9c3-485a-9225-7b300b8028a4"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.1.3.3</skos:notation>
+        <skos:prefLabel xml:lang="de">erklären,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/d5558e46-feb6-4a89-ba94-75b51b546baa -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/d5558e46-feb6-4a89-ba94-75b51b546baa">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c5276f76-7440-496d-a034-17301994bc9f"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/a4bc1616-8611-40e6-8417-a26e2407fc35"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/abd3140e-7d61-4deb-bb5b-3933ca08e3f5"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/02c90fb5-5bb0-4afb-84ea-2627759b8b69"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/2bd9d693-6231-48b4-8df2-a4d486a91a9f"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/36c643df-74d1-4e85-ac75-2895fb4777a3"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/500c9e73-2679-4241-affb-8caf6aec766d"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/87b00bf2-e98e-46bf-b17e-83b44c9a9b11"/>
+        <skos:notation>4.5</skos:notation>
+        <skos:prefLabel xml:lang="de">Pragmatische Texte in unterschiedlicher Medialität</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/d9b92698-9e6e-4894-b9e8-bfc69d8f4685 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/d9b92698-9e6e-4894-b9e8-bfc69d8f4685">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/75cd0302-4b52-4cf3-8770-c84268188354"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.1.2</skos:notation>
+        <skos:prefLabel xml:lang="de">verfügen über einen angemessenen Wortschatz,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/d9babf0c-7822-4da9-9772-effdfc564454 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/d9babf0c-7822-4da9-9772-effdfc564454">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/35bc9b6e-0ac7-4b94-9a23-1952a225c9d3"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.6.5</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen digitale Werkzeuge zielgerichtet und reflektiert für die Gestaltung eigener medialer Produkte, z. B. für Präsentationen.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/db83727a-5a4b-438f-8bae-ec2e6166ab01 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/db83727a-5a4b-438f-8bae-ec2e6166ab01">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/5c52638a-8d37-429f-88ea-cbf5a98bbbce"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/efe25f2a-bc29-4b2b-97c5-e17a26b61026"/>
+        <skos:notation>5.2.4</skos:notation>
+        <skos:prefLabel xml:lang="de">Aussprache</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/ddb5279f-186f-4690-817f-3e34ba81d40f -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/ddb5279f-186f-4690-817f-3e34ba81d40f">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/4d84ead8-2aba-4f85-ba3d-81abfb43fbdf"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.6.5</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen bei der Textüberarbeitung digitale Schreibwerkzeuge (auch kooperativ), z. B. Umstellen und Modifizieren von Textbausteinen und Medienobjekten und reflektieren diese, </skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/ddb62fc0-70e7-4474-830c-4a24c1a939b6 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/ddb62fc0-70e7-4474-830c-4a24c1a939b6">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/35bc9b6e-0ac7-4b94-9a23-1952a225c9d3"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.6.2</skos:notation>
+        <skos:prefLabel xml:lang="de">unterscheiden digitale Angebote in Bezug auf ihre Funktion und Wirkung (u. a. informierend, unterhaltend, appellierend),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/de51f849-0e82-4002-871c-1dc9e81c5aab -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/de51f849-0e82-4002-871c-1dc9e81c5aab">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/6017320d-36a0-4ef9-9648-e048ba82ffdf"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>3.4.2</skos:notation>
+        <skos:prefLabel xml:lang="de">lesen Texte organisierend (u. a. für das Leseziel wichtige Aussagen markieren, unbekannte Wörter unterstreichen und nachschlagen), elaborierend (u. a. Annahmen zur Textaussage formulieren, über den Text hinausdenken, assoziieren) und reflektierend (das Textverstehen prüfen, Verstehensschwierigkeiten erkennen und beheben sowie den Strategieeinsatz selbst reflektieren),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/e14d64c2-a0a7-48e6-a7c6-954960023d08 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/e14d64c2-a0a7-48e6-a7c6-954960023d08">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/23e368b0-9822-445d-98da-473f9edc37c5"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.2.5.1</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen Wörterbücher, Grammatiken, digitale Rechtschreibhilfen und Informationsangebote zum Deutschen (z. B. OWID, grammis) für das Nachschlagen von Schreibungen, grammatischen Verwendungsweisen und Verwendungskontexten.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/e2779e2c-fc84-4a72-844f-f105d37ddf89 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/e2779e2c-fc84-4a72-844f-f105d37ddf89">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/3327c908-bd5c-4458-8e7a-091c6297fdf6"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.2.3.2</skos:notation>
+        <skos:prefLabel xml:lang="de">tauschen sich über die Schreibung von Wörtern und Sätzen, auch über orthografische Zweifelsfälle und die Interpunktion aus (z. B. Rechtschreibgespräch, Interpunktionsgespräch).</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/e28e83e4-09d7-4b8c-81b7-18b912e6e764 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/e28e83e4-09d7-4b8c-81b7-18b912e6e764">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/21b9e2a9-e0f5-463d-8ace-af56ac97f58b"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.2.3</skos:notation>
+        <skos:prefLabel xml:lang="de">schreiben häufige Wörter, auch häufige Fachbegriffe und Fremdwörter, richtig,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/e2f12623-4fb0-4e41-a59a-be7a210bc145 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/e2f12623-4fb0-4e41-a59a-be7a210bc145">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/2b5c702b-0d9c-4ea8-b436-ed92fbb5d2e7"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>3.3.3</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen bei digitalen Texten Navigationsstrukturen (u. a. Hyperlinks) zur Gewinnung von Textinformationen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/e35da71c-cf4f-47a7-bf19-aaa29ec5aa77 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/e35da71c-cf4f-47a7-bf19-aaa29ec5aa77">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f1002003-0d2f-4a99-9814-3bdc4ab22a3f"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.4.2</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen wichtige Fachbegriffe bei der Erschließung (u. a. Autor, Erzähler, Erzählperspektive, Figur, Monolog, Dialog; Reim, Vers, Sprecher/lyrischer Sprecher; Kameraperspektive, Einstellungsgröße),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/e3b26682-3d7a-4af0-a51e-efef1ea6d6d9 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/e3b26682-3d7a-4af0-a51e-efef1ea6d6d9">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c4e6462b-0905-4af1-bc19-c9f3be62e835"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.1.1</skos:notation>
+        <skos:prefLabel xml:lang="de">kennen Werke bedeutender Autorinnen und Autoren und berichten über ausgewählte Texte und ihre Leseerfahrungen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/e3faaa63-7c45-4a80-9344-86acf4f7254a -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/e3faaa63-7c45-4a80-9344-86acf4f7254a">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f1002003-0d2f-4a99-9814-3bdc4ab22a3f"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.4.12</skos:notation>
+        <skos:prefLabel xml:lang="de">tragen literarische Texte (z. B. Gedicht, Erzählung, Szene) nach Vorbereitung sinngestaltend vor.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/e4f81ed1-98d2-4cd7-8923-b1681f78d8e3 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/e4f81ed1-98d2-4cd7-8923-b1681f78d8e3">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/734f2b48-e4ae-4375-b060-21cf29a4d5f1"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>3.1.4</skos:notation>
+        <skos:prefLabel xml:lang="de">lesen in angemessenem Tempo.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/e65ed8c4-0160-406b-b2bb-4c2994af4a6a -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/e65ed8c4-0160-406b-b2bb-4c2994af4a6a">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f1002003-0d2f-4a99-9814-3bdc4ab22a3f"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.4.3</skos:notation>
+        <skos:prefLabel xml:lang="de">formulieren eigene Deutungen von Texten und belegen diese,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/e7e6ceff-6404-41db-b5a4-44de7611ec6c -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/e7e6ceff-6404-41db-b5a4-44de7611ec6c">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/4d84ead8-2aba-4f85-ba3d-81abfb43fbdf"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.6.2</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen ausgewählte textsortenspezifische Kriterien für die Textüberprüfung und -überarbeitung,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/e7f276b4-93b7-4e5f-8b9f-2c58e77de5f6 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/e7f276b4-93b7-4e5f-8b9f-2c58e77de5f6">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/a96afc32-a9c3-485a-9225-7b300b8028a4"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.1.3.5</skos:notation>
+        <skos:prefLabel xml:lang="de">argumentieren, erörtern,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/e97dd2d5-b8ce-4a6e-949c-833df6a8a823 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/e97dd2d5-b8ce-4a6e-949c-833df6a8a823">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:definition xml:lang="de">Sprache und Sprachgebrauch bilden den zentralen Gegenstand des Deutschunterrichts. Die Schülerinnen und Schüler sind sich der Leistungen von Sprache als Kommunikationsmedium sowie der Bedingungen ihrer situations-, adressaten- und intentionsangemessenen Verwendung bewusst. Sie untersuchen an ausgewählten Beispielen das komplexe Erscheinungsbild sprachlichen Handelns – des eigenen und fremden – sowie die Bedingungen, unter denen es zustande kommt. Sie verfügen über Grundkenntnisse zum Sprachsystem. Die erworbenen Einsichten tragen zur Vertiefung ihrer Sprachbewusstheit und zur eigenen Sprachentwicklung bei. Im Sinne von „Sprache im Gebrauch“ setzen sie sich dabei mit dem umfassenden Bereich menschlicher Verständigung, sprachlicher Variation und Mehrsprachigkeit auseinander. Sie untersuchen Texte, Gespräche und Formen digitaler Kommunikation unter funktionalen Aspekten und in Hinblick auf die Angemessenheit ihrer sprachlichen Gestaltung. Im Sinne von „Sprache als System“ nehmen sie strukturelle Erscheinungen (Sätze, Wörter) wie auch deren Leistungen in den Blick und nutzen diese für die Produktion und Überarbeitung eigener Texte sowie für die Planung und Gestaltung von Gesprächsbeiträgen und Präsentationen. Sie erweitern ihre Fähigkeiten zur Nutzung von Fachbegriffen für die systematische Beschreibung sprachlicher Formen und ihrer Funktionen sowie für die Analyse von Texten, Gesprächen und Formen digitaler Kommunikation. Für die Entwicklung orthographischen Wissens, das für das Lesen und Schreiben grundlegend ist, liefert die Reflexion über Sprache relevante sprachsystematische Grundlagen; für das Sprechen und Zuhören liefert sie die Kenntnis der Konventionen der gesprochenen Standardsprache, für die Auseinandersetzung mit Texten und Medien wichtige Kategorien der Sprachbetrachtung. Die Schülerinnen und Schüler können ihr Wissen über Sprache im eigenen Sprachhandeln nutzen: In den mündlichen Äußerungen beachten die Schülerinnen und Schüler wichtige Regeln der Aussprache, in den schriftlichen die der Orthografie und Zeichensetzung. Sie wählen das jeweils angemessene sprachliche Register. Der Aufbau von Kompetenzen für den reflektierten Umgang mit digitalen Ressourcen zur deutschen Sprache bildet eine wichtige Grundlage für die Weiterentwicklung der Sprachbewusstheit, für die Produktion, Erschließung und Analyse von Texten und Medien und für die Planung mündlicher Präsentationen.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/29be5b1f-f84f-4cab-9ad8-96ed55e6aaf8"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/5c52638a-8d37-429f-88ea-cbf5a98bbbce"/>
+        <skos:notation>5</skos:notation>
+        <skos:prefLabel xml:lang="de">Sprache und Sprachgebrauch untersuchen</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/ea95bb02-f116-42fb-941f-7af12e7f2050 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/ea95bb02-f116-42fb-941f-7af12e7f2050">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c4e6462b-0905-4af1-bc19-c9f3be62e835"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.1.10</skos:notation>
+        <skos:prefLabel xml:lang="de">kennen typische Formen digitaler Textstrukturierung (u. a. Hyperlinks, multimodale Textgestaltung) und nutzen sie zielorientiert (u. a. bei Recherchen und Präsentationen).</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/ec20ea82-620a-4728-bbba-2384c849c045 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/ec20ea82-620a-4728-bbba-2384c849c045">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/7a928de1-6257-48ea-9e37-23e0752d8ba8"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.3.2</skos:notation>
+        <skos:prefLabel xml:lang="de">beachten gemeinsam entwickelte oder für öffentliche Kommunikation prototypische Gesprächsregeln; gestalten eine wertschätzende Gesprächsatmosphä¬re,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/efe25f2a-bc29-4b2b-97c5-e17a26b61026 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/efe25f2a-bc29-4b2b-97c5-e17a26b61026">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/db83727a-5a4b-438f-8bae-ec2e6166ab01"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.2.4.1</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen die Konventionen der gesprochenen Standardsprache für die Gestaltung ihrer Äußerungen.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/f07f0ba9-b5b1-4d78-a446-23375f96f398 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/f07f0ba9-b5b1-4d78-a446-23375f96f398">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f1002003-0d2f-4a99-9814-3bdc4ab22a3f"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.4.7</skos:notation>
+        <skos:prefLabel xml:lang="de">überprüfen eigene Annahmen zu Textaussagen und vorgegebene Deutungshypothesen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/f0e7b014-6514-449b-b61f-b279e68bbf95 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/f0e7b014-6514-449b-b61f-b279e68bbf95">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/7a928de1-6257-48ea-9e37-23e0752d8ba8"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.3.3</skos:notation>
+        <skos:prefLabel xml:lang="de">formulieren in vertrauten und unvertrauten Situationen angemessen; gehen auf die Gesprächspartnerin bzw. den Gesprächspartner und die jeweilige Situation ein,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/f0f4294d-68d6-4f1c-937e-2bcbbe2fdf32 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/f0f4294d-68d6-4f1c-937e-2bcbbe2fdf32">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/75cd0302-4b52-4cf3-8770-c84268188354"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.1.1</skos:notation>
+        <skos:prefLabel xml:lang="de">äußern sich verständlich und situationsadäquat auch in der gesprochenen Standardsprache,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/f1002003-0d2f-4a99-9814-3bdc4ab22a3f -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/f1002003-0d2f-4a99-9814-3bdc4ab22a3f">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c5276f76-7440-496d-a034-17301994bc9f"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/e35da71c-cf4f-47a7-bf19-aaa29ec5aa77"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/e3faaa63-7c45-4a80-9344-86acf4f7254a"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/e65ed8c4-0160-406b-b2bb-4c2994af4a6a"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f07f0ba9-b5b1-4d78-a446-23375f96f398"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/13afc739-bf35-415c-a36a-4be460c45b4d"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/24da74be-a6d2-4b8f-8e73-d5e1c3016dc2"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/3a036be4-0eaf-4818-899d-28c6ea24b062"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/486af035-8c97-4b17-a658-c9c96711f626"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/660f9f0b-81aa-48cc-b81f-5f178eb6ac93"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/88113829-61bc-4e43-90ba-e40b3c8c8a70"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/9d918410-929a-4163-8160-22c665cfd5c2"/>
+        <skos:notation>4.4</skos:notation>
+        <skos:prefLabel xml:lang="de">Literatur in unterschiedlicher Medialität</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/f3136ad6-8044-4ec4-8ca8-b03ed674f368 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/f3136ad6-8044-4ec4-8ca8-b03ed674f368">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/109af016-0593-47c2-844f-3a184cddf78a"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler verfügen über Techniken zur Orientierung in und zwischen Texten.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/5fedea0e-1e34-4b19-820a-5a9e14344980"/>
+        <skos:notation>3.2</skos:notation>
+        <skos:prefLabel xml:lang="de">Lesefertigkeiten: Über Lesetechniken verfügen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/f48bb92c-661d-442a-aa11-5a1e7e31aa97 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/f48bb92c-661d-442a-aa11-5a1e7e31aa97">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/0280da36-3f78-4d9a-9dd6-6bf2758a9151"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.2.1.4</skos:notation>
+        <skos:prefLabel xml:lang="de">untersuchen an ausgewählten Beispielen Satzstrukturen, insbesondere: Prädikat, Satzglieder, Attribute, Satz- und Nebensatztypen (z. B. Satzklammer, Felderstruktur),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/f4afcfa6-af16-49c2-b2dc-4099e8374cf1 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/f4afcfa6-af16-49c2-b2dc-4099e8374cf1">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b40314f0-b078-4b3b-b52a-05f733eb4311"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.5.3.4</skos:notation>
+        <skos:prefLabel xml:lang="de">Darstellen von Textbearbeitungen: Inhaltsangabe, Ergebnisdarstellung einer Textuntersuchung entsprechend den Anforderungen des Erschließens von Texten und Medien</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/f84c0c30-e889-4f14-be60-1363f756deb0 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/f84c0c30-e889-4f14-be60-1363f756deb0">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/38bf2d37-1b37-417a-900c-f8ebfe669634"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.5.1</skos:notation>
+        <skos:prefLabel xml:lang="de">formulieren Texte gedanklich geordnet, verständlich, kohärenzstiftend und strukturiert sowie sprachlich angemessen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/f90dc6f7-e8cf-4699-8910-33d5d90ee554 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/f90dc6f7-e8cf-4699-8910-33d5d90ee554">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/a96afc32-a9c3-485a-9225-7b300b8028a4"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.1.3.2</skos:notation>
+        <skos:prefLabel xml:lang="de">informieren: berichten, beschreiben,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/fb1c8c4b-61c9-4f50-b68b-0222c626af46 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/fb1c8c4b-61c9-4f50-b68b-0222c626af46">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/75cd0302-4b52-4cf3-8770-c84268188354"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.1.6</skos:notation>
+        <skos:prefLabel xml:lang="de">berücksichtigen typische Wirkungen der Redeweise situations- und adressatengerecht: Lautstärke, Betonung, Sprechtempo, Pausen, Körpersprache (Gestik/Mimik/Körperhaltung),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/fef80bf6-6888-4095-98de-9512b1e42dac -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/fef80bf6-6888-4095-98de-9512b1e42dac">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/3327c908-bd5c-4458-8e7a-091c6297fdf6"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.2.3.1</skos:notation>
+        <skos:prefLabel xml:lang="de">untersuchen Schreibweise von Wörtern, Wortgruppen und Sätzen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/0bc7d2e0-d0a1-44c5-bdf8-11ac3d06153d -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/0bc7d2e0-d0a1-44c5-bdf8-11ac3d06153d">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/2b5c702b-0d9c-4ea8-b436-ed92fbb5d2e7"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>3.3.4</skos:notation>
+        <skos:prefLabel xml:lang="de">verknüpfen Textinformationen, ziehen auch unter Nutzung ihres Vorwissens Schlussfolgerungen und konstruieren ein Gesamtverständnis.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/0dd90e69-c705-4c72-a4ec-2b314f6986db -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/0dd90e69-c705-4c72-a4ec-2b314f6986db">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c4e6462b-0905-4af1-bc19-c9f3be62e835"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.1.7</skos:notation>
+        <skos:prefLabel xml:lang="de">unterscheiden pragmatische Textsorten und deren zentrale Funktionen (u. a. Bericht, Nachricht, Feature, Reportage [informierend]; Anleitung, Erklärvideo [instruierend]; Schulordnung [regulierend]; Kommentar, Buchkritik [überzeugend, argumentierend]),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/00cc868e-cbe4-4f14-ae87-c391c4f393f0 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/00cc868e-cbe4-4f14-ae87-c391c4f393f0">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/75cd0302-4b52-4cf3-8770-c84268188354"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.1.8</skos:notation>
+        <skos:prefLabel xml:lang="de">geben in vertrauten und unvertrauten Situationen nach vorgegebenen Kriterien gezielt Feedback zu Redebeiträgen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/02c90fb5-5bb0-4afb-84ea-2627759b8b69 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/02c90fb5-5bb0-4afb-84ea-2627759b8b69">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/d5558e46-feb6-4a89-ba94-75b51b546baa"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.5.7</skos:notation>
+        <skos:prefLabel xml:lang="de">ermitteln an ausgewählten Beispielen die Wirkungsabsichten von Texten und beurteilen diese.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/0280da36-3f78-4d9a-9dd6-6bf2758a9151 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/0280da36-3f78-4d9a-9dd6-6bf2758a9151">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/5c52638a-8d37-429f-88ea-cbf5a98bbbce"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c3dad891-691f-4864-8bbf-9ad52689cc01"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f48bb92c-661d-442a-aa11-5a1e7e31aa97"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/3f0630d4-bdb8-4ec9-83bd-cb4f1fbc70b2"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/714814ab-2e62-4c54-8a78-cfb70818bd6b"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/76dcc44f-1a27-4991-bb4f-1dcd5bf52421"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/8105e21f-5abe-405a-9e59-9eaddfdbb1ba"/>
+        <skos:notation>5.2.1</skos:notation>
+        <skos:prefLabel xml:lang="de">Wörter und Sätze</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/0375eafd-ab6a-4028-9f75-acd017af63d1 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/0375eafd-ab6a-4028-9f75-acd017af63d1">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/38bf2d37-1b37-417a-900c-f8ebfe669634"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.5.5</skos:notation>
+        <skos:prefLabel xml:lang="de">kennen und nutzen die Möglichkeiten digitaler Schreibwerkzeuge zur Formulierung und (formalen) Gestaltung von Texten, z. B. Schrift‐ und Textformatierung, Arrangieren und Re‐Arrangieren von Textbausteinen und Medienobjekten,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/0509e872-a2c5-40e7-b0dc-2ca26f05ca49 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/0509e872-a2c5-40e7-b0dc-2ca26f05ca49">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/58035696-91f5-4b10-a524-bfc474d06fd6"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.1.3.3</skos:notation>
+        <skos:prefLabel xml:lang="de">untersuchen ausgewählte Erscheinungen des Sprachwandels (z. B. Bedeutungswandel, Entlehnungen aus anderen Sprachen, Sprachwandel durch digitale Kommunikation),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/1a777240-6fb6-4834-934e-162c86d6dcd7 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/1a777240-6fb6-4834-934e-162c86d6dcd7">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/75cd0302-4b52-4cf3-8770-c84268188354"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.1.7</skos:notation>
+        <skos:prefLabel xml:lang="de">wählen geeignete (multimodale) Medien mit Unterstützung sinnvoll aus und setzen diese gezielt ein, um den Inhalt und die Wirkung eigener Sprechbeiträge zu unterstützen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/1cc6fdb3-c357-4ebe-b79c-882920c0a9d8 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/1cc6fdb3-c357-4ebe-b79c-882920c0a9d8">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/23ff64ec-87ac-43f5-a194-896ce0d61e1e"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.1.1</skos:notation>
+        <skos:prefLabel xml:lang="de">schreiben Wörter, Wortgruppen und Sätze flüssig, d. h. schnell, sicher und korrekt (automatisiert), und formulieren ihre Gedanken weitgehend flüssig,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/1fb75d0a-b86b-4794-9c30-40bf9f7f4d4e -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/1fb75d0a-b86b-4794-9c30-40bf9f7f4d4e">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/2b5c702b-0d9c-4ea8-b436-ed92fbb5d2e7"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>3.3.2</skos:notation>
+        <skos:prefLabel xml:lang="de">stellen bei multimodalen Texten einfache Bezüge zwischen Text, Bild und Ton her,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/10095a51-967e-4876-8ee9-32eb708abe6e -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/10095a51-967e-4876-8ee9-32eb708abe6e">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/7a928de1-6257-48ea-9e37-23e0752d8ba8"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.3.4</skos:notation>
+        <skos:prefLabel xml:lang="de">nehmen in Gesprächen verschiedene Rollen (z. B. Diskutantin bzw. Diskutant) ein,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/109af016-0593-47c2-844f-3a184cddf78a -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/109af016-0593-47c2-844f-3a184cddf78a">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:definition xml:lang="de">Lesen ist ein eigenaktiver Prozess der Sinnkonstruktion. Lesen zu können bildet sowohl die Basis dafür, eigenständig zum Vergnügen zu lesen und Leseinteresse und Lesefreude zu entwickeln, als auch dafür, aus Büchern und Texten zu lernen und sich mit ihrer Hilfe mit der Welt auseinanderzusetzen. Der Leseerwerb ist mit der Grundschulzeit nicht abgeschlossen, vielmehr müssen die Lesefertigkeiten und Lesefähigkeiten in der Sekundarstufe I weiterentwickelt und differenziert werden. Ziel ist es, dass die Schülerinnen und Schüler über grundlegende Verfahren für das Verstehen von literarischen Texten sowie Sach- und Gebrauchstexten, auch in digitaler und multimodaler Form, verfügen. Sie entnehmen selbstständig Informationen aus Texten, verknüpfen sie miteinander und verbinden sie mit ihrem Vorwissen. Dafür nutzen sie verschiedene Lesetechniken und setzen Lesestrategien gezielt ein. Die Förderung des Lesens zielt stets auch darauf, das Leseinteresse und die Lesebereitschaft der Schülerinnen und Schüler zu entwickeln und zu pflegen.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f3136ad6-8044-4ec4-8ca8-b03ed674f368"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/2b5c702b-0d9c-4ea8-b436-ed92fbb5d2e7"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/6017320d-36a0-4ef9-9648-e048ba82ffdf"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/734f2b48-e4ae-4375-b060-21cf29a4d5f1"/>
+        <skos:notation>3</skos:notation>
+        <skos:prefLabel xml:lang="de">Lesen</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/122e73a2-7114-4c66-ab72-d91310970967 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/122e73a2-7114-4c66-ab72-d91310970967">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/38bf2d37-1b37-417a-900c-f8ebfe669634"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.5.7</skos:notation>
+        <skos:prefLabel xml:lang="de">nehmen Gedanken und deutlich markierte Positionen anderer in den eigenen Text auf und positionieren sich zu ihnen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/13afc739-bf35-415c-a36a-4be460c45b4d -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/13afc739-bf35-415c-a36a-4be460c45b4d">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f1002003-0d2f-4a99-9814-3bdc4ab22a3f"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.4.1</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen zentrale Informationen zu Figuren, zu Raum- und Zeitdarstellung, Handlungs- und Konfliktverlauf sowie Atmosphäre zum Aufbau von Textverständnis und -deutung,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/16f5c5a3-e5db-4b96-bc1b-dd2f884e8e32 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/16f5c5a3-e5db-4b96-bc1b-dd2f884e8e32">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/38bf2d37-1b37-417a-900c-f8ebfe669634"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.5.10</skos:notation>
+        <skos:prefLabel xml:lang="de">kennen Formulierungsstrategien und wenden diese (auch kooperativ) an. Sie reflektieren ihren Strategieeinsatz.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/161fd7aa-41d2-4c28-b43a-aee961435408 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/161fd7aa-41d2-4c28-b43a-aee961435408">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/5c52638a-8d37-429f-88ea-cbf5a98bbbce"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/31b113f5-60d9-4eb8-80ec-ad1d79cef4a1"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/6a351609-53af-45aa-8fd9-f5287d31544c"/>
+        <skos:notation>5.2.2</skos:notation>
+        <skos:prefLabel xml:lang="de">Texte und Gespräche</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/17d39522-cc98-4cbf-b0cf-6d593caa7874 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/17d39522-cc98-4cbf-b0cf-6d593caa7874">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c4e6462b-0905-4af1-bc19-c9f3be62e835"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.1.2</skos:notation>
+        <skos:prefLabel xml:lang="de">unterscheiden epische, lyrische und dramatische Texte, insbesondere epische Kleinformen (z. B. Fabel, Kurzgeschichte), Erzählung, (Jugend-)Roman, Gedichte, Drama,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/187942fd-28f7-4e90-96dd-b333ff5d0d6b -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/187942fd-28f7-4e90-96dd-b333ff5d0d6b">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/6158d616-bbe8-49ad-b26c-3c9ff248dad7"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.6.3.4</skos:notation>
+        <skos:prefLabel xml:lang="de">unbekannte, unterschiedliche Adressaten,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/2b5c702b-0d9c-4ea8-b436-ed92fbb5d2e7 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/2b5c702b-0d9c-4ea8-b436-ed92fbb5d2e7">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/109af016-0593-47c2-844f-3a184cddf78a"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler lesen Texte mittlerer Komplexität sinnverstehend.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/e2f12623-4fb0-4e41-a59a-be7a210bc145"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/0bc7d2e0-d0a1-44c5-bdf8-11ac3d06153d"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/1fb75d0a-b86b-4794-9c30-40bf9f7f4d4e"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/6140d957-476e-4bc8-a2f1-981007595af9"/>
+        <skos:notation>3.3</skos:notation>
+        <skos:prefLabel xml:lang="de">Lesefähigkeiten: Leseverstehen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/2bd9d693-6231-48b4-8df2-a4d486a91a9f -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/2bd9d693-6231-48b4-8df2-a4d486a91a9f">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/d5558e46-feb6-4a89-ba94-75b51b546baa"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.5.5</skos:notation>
+        <skos:prefLabel xml:lang="de">stellen an ausgewählten Beispielen Zusammenhänge zwischen Intentionen, Textmerkmalen, sprachlichen Gestaltungsmitteln und Wirkungen her,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/2c39e20f-9eef-4c55-9cf3-d2993abede9a -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/2c39e20f-9eef-4c55-9cf3-d2993abede9a">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/4d84ead8-2aba-4f85-ba3d-81abfb43fbdf"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.6.6</skos:notation>
+        <skos:prefLabel xml:lang="de">kennen sowohl allgemeine als auch textsortenspezifische Überarbeitungsstrategien und wenden diese (auch kooperativ) an. Sie reflektieren sowohl ihren Überarbeitungsprozess als auch den Strategieeinsatz.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/2c7ee16e-2da3-4892-99ed-9c56992fc3d3 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/2c7ee16e-2da3-4892-99ed-9c56992fc3d3">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/35bc9b6e-0ac7-4b94-9a23-1952a225c9d3"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.6.1</skos:notation>
+        <skos:prefLabel xml:lang="de">kennen medienspezifische Gestaltungsmittel und beschreiben an ausgewählten Beispielen ihre Wirkung,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/2d5e280d-6627-4036-909e-636a8515cf21 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/2d5e280d-6627-4036-909e-636a8515cf21">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/6017320d-36a0-4ef9-9648-e048ba82ffdf"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>3.4.3</skos:notation>
+        <skos:prefLabel xml:lang="de">bereiten das Lesen nach (u. a. zentrale Textaussagen wiedergeben, wertende Einschätzung zum Text abgeben, anfängliche Erwartungen und Annahmen zur Textaussage prüfen und ggf. korrigieren, eigenen Wissenszuwachs prüfen).</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/2f86e89e-41de-4e6a-9939-61a99b8ab9a8 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/2f86e89e-41de-4e6a-9939-61a99b8ab9a8">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/68660d81-9d90-42ee-a2e7-bdb1764d4686"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.2.1.3</skos:notation>
+        <skos:prefLabel xml:lang="de">prägen sich Merkwörter ein (z. B. Eigennamen, Ausnahmeschreibungen), </skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/20bc80e3-b8d6-400c-a272-a56c43306f2f -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/20bc80e3-b8d6-400c-a272-a56c43306f2f">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b40314f0-b078-4b3b-b52a-05f733eb4311"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.5.3.5</skos:notation>
+        <skos:prefLabel xml:lang="de">Appellieren: Auffordern, Bitten, Wünschen, Begründen (Argumentieren), Erörtern, Überzeugen, z. B. in den Textsorten: Aufruf, Werbeanzeige, Stellungnahme, Antrag, Bewerbungsanschreiben, Buch-, Spiel- oder Filmkritik,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/2019e64d-e5b5-40bc-8659-3b2b306c7a67 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/2019e64d-e5b5-40bc-8659-3b2b306c7a67">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c4e6462b-0905-4af1-bc19-c9f3be62e835"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.1.6</skos:notation>
+        <skos:prefLabel xml:lang="de">unterscheiden zentrale Textmuster (Erzählen, Berichten, Beschreiben, Argumentieren),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/21b9e2a9-e0f5-463d-8ace-af56ac97f58b -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/21b9e2a9-e0f5-463d-8ace-af56ac97f58b">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b912ae89-9eff-46d6-bea8-d372ae33bc01"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler schreiben häufig vorkommende Wörter wie auch häufige Fach- und Fremdwörter richtig, sie beachten die Zeichensetzung, entwickeln ihre Fehleraufmerksamkeit weiter, kennen Rechtschreibstrategien und Rechtschreibhilfen und wenden diese zur Klärung fraglicher Schreibungen an. Sie nutzen selbstständig Übungsformen und überprüfen und korrigieren Texte auf ihre orthografische Richtigkeit</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b170a110-fe7d-4273-a139-3113cab6c17a"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c29026f8-a942-4726-890d-a952cb7bd486"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/e28e83e4-09d7-4b8c-81b7-18b912e6e764"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/482365ed-8a23-4c11-80dd-777d4b8aade4"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/68660d81-9d90-42ee-a2e7-bdb1764d4686"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/759d5a59-947f-436e-b940-50da863e7cb6"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/8e58bbc2-c9dc-408a-b913-09f74c02b0bd"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/82d4b8e3-2649-4837-998b-d72ae9bfa419"/>
+        <skos:notation>2.2</skos:notation>
+        <skos:prefLabel xml:lang="de">Orthografisch schreiben</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/22c7b269-b3ef-4dd6-8397-ad9d6fc12014 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/22c7b269-b3ef-4dd6-8397-ad9d6fc12014">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/29be5b1f-f84f-4cab-9ad8-96ed55e6aaf8"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/a76b29cb-c0a7-476e-bd20-14f15a9f582a"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/5ef786f2-8308-4151-b5de-daa241ff7dfb"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/5701bce3-62b9-459e-8497-82d0e7b3f4d8"/>
+        <skos:notation>5.1.2</skos:notation>
+        <skos:prefLabel xml:lang="de">Mündliche und schriftliche Kommunikation</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/222b2cf3-50cf-45e3-b3a0-da8a09744e4f -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/222b2cf3-50cf-45e3-b3a0-da8a09744e4f">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c5276f76-7440-496d-a034-17301994bc9f"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler erschließen sich Texte unterschiedlicher medialer Form – auch als Grundlage für die mündliche und schriftliche Anschlusskommunikation.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.3</skos:notation>
+        <skos:prefLabel xml:lang="de">Texte in unterschiedlicher medialer Form erschließen und nutzen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/23e368b0-9822-445d-98da-473f9edc37c5 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/23e368b0-9822-445d-98da-473f9edc37c5">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/5c52638a-8d37-429f-88ea-cbf5a98bbbce"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/e14d64c2-a0a7-48e6-a7c6-954960023d08"/>
+        <skos:notation>5.2.5</skos:notation>
+        <skos:prefLabel xml:lang="de">Ressourcen zur deutschen Sprache</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/23ff64ec-87ac-43f5-a194-896ce0d61e1e -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/23ff64ec-87ac-43f5-a194-896ce0d61e1e">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b912ae89-9eff-46d6-bea8-d372ae33bc01"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler schreiben flüssig; eigene Gedanken formulieren sie weitgehend flüssig. Sie schreiben in einer leserlichen Handschrift und mithilfe digitaler Schreibwerkzeuge in einem der Situation angemessenen Tempo und gestalten ihre Texte zweckmäßig und übersichtlich sowie sinnvoll strukturiert.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c367dcd6-4c05-49dc-b71f-9437aa164112"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/1cc6fdb3-c357-4ebe-b79c-882920c0a9d8"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/8f1d5ba1-ff00-45b0-a122-5cd2a390c386"/>
+        <skos:notation>2.1</skos:notation>
+        <skos:prefLabel xml:lang="de">Über Schreibfertigkeiten verfügen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/24da74be-a6d2-4b8f-8e73-d5e1c3016dc2 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/24da74be-a6d2-4b8f-8e73-d5e1c3016dc2">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f1002003-0d2f-4a99-9814-3bdc4ab22a3f"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.4.11</skos:notation>
+        <skos:prefLabel xml:lang="de">gestalten Texte unterschiedlicher medialer Form szenisch,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/27f070fa-bb81-4a63-b008-fb9e532d3deb -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/27f070fa-bb81-4a63-b008-fb9e532d3deb">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c5276f76-7440-496d-a034-17301994bc9f"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler nutzen das Medienangebot zur Entwicklung und Pflege eigener Interessen, zur Erweiterung ihrer Wissensbasis und Urteilsfähigkeit und als Anlass zum Austausch mit anderen.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/cdd1239f-a7fd-4189-85b5-453a8d60c7b7"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/780818e3-1245-4ded-a298-ef2aeff075ab"/>
+        <skos:notation>4.2</skos:notation>
+        <skos:prefLabel xml:lang="de">Sich im Medienangebot orientieren</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/29be5b1f-f84f-4cab-9ad8-96ed55e6aaf8 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/29be5b1f-f84f-4cab-9ad8-96ed55e6aaf8">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/e97dd2d5-b8ce-4a6e-949c-833df6a8a823"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler untersuchen sprachliche Verständigung und sprachliche Variation in Texten, Gesprächen und Formen digitaler Kommunikation und beschreiben Unterschiede zwischen Mündlichkeit und Schriftlichkeit. Sie nutzen ihre Einsichten für das eigene Sprachhandeln.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/22c7b269-b3ef-4dd6-8397-ad9d6fc12014"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/54459a32-1634-47bf-8a7e-2b14e2c94a92"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/58035696-91f5-4b10-a524-bfc474d06fd6"/>
+        <skos:notation>5.1</skos:notation>
+        <skos:prefLabel xml:lang="de">Sprachliche Verständigung und sprachliche Vielfalt untersuchen </skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/29d2f2e4-9e70-4db3-9abc-0ec65ffdec63 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/29d2f2e4-9e70-4db3-9abc-0ec65ffdec63">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/50b9a421-b5f5-4b6e-bff5-fe69cdc165fc"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.4.2</skos:notation>
+        <skos:prefLabel xml:lang="de">sammeln sprachliche und gestalterische Mittel: Wörter und Wortfelder, Formulierungen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/3a036be4-0eaf-4818-899d-28c6ea24b062 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/3a036be4-0eaf-4818-899d-28c6ea24b062">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f1002003-0d2f-4a99-9814-3bdc4ab22a3f"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.4.10</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen handlungs- und produktionsorientierte Verfahren, um ihre Deutung zu entwickeln und darzustellen und um Strukturen literarischer Texte nachzuvollziehen (z. B. innerer Monolog, Standbild, Parallelgedicht; Clip, Storyboard/ Fotostory),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/3a70fbfb-85d1-4a92-a0d0-1bfda5ab7ae1 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/3a70fbfb-85d1-4a92-a0d0-1bfda5ab7ae1">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/58035696-91f5-4b10-a524-bfc474d06fd6"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.1.3.4</skos:notation>
+        <skos:prefLabel xml:lang="de">vergleichen an ausgewählten Beispielen sprachliche Phänomene in verschiedenen Sprachen (u. a. Herkunftssprachen, Fremdsprachen), auch im Hinblick auf individuelle und gesellschaftliche Mehrsprachigkeit.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/3c342f81-e94b-4ede-8c0c-b30c51ee1388 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/3c342f81-e94b-4ede-8c0c-b30c51ee1388">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/38bf2d37-1b37-417a-900c-f8ebfe669634"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.5.4</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen unterschiedliche Schreibformen: kooperative (z. B. Schreibkonferenzen), produktive (z. B. Umschreiben, Weiterschreiben) und kreative (z. B. Schreiben zu Bildern),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/3f0630d4-bdb8-4ec9-83bd-cb4f1fbc70b2 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/3f0630d4-bdb8-4ec9-83bd-cb4f1fbc70b2">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/0280da36-3f78-4d9a-9dd6-6bf2758a9151"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.2.1.5</skos:notation>
+        <skos:prefLabel xml:lang="de">ermitteln an ausgewählten Beispielen den funktionalen Beitrag von Wörtern verschiedener Wortarten zum Aufbau von Sätzen, </skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/31b113f5-60d9-4eb8-80ec-ad1d79cef4a1 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/31b113f5-60d9-4eb8-80ec-ad1d79cef4a1">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/161fd7aa-41d2-4c28-b43a-aee961435408"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.2.2.1</skos:notation>
+        <skos:prefLabel xml:lang="de">beschreiben und vergleichen den Aufbau von Texten und Gesprächen strukturell und funktional unter Anwendung von Fachbegriffen (s. Übersicht: Grundlegende sprachliche Struktureinheiten) und ermitteln Gemeinsamkeiten und Unterschiede,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/31f51aec-df13-4df3-b1f0-4477e6b5697c -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/31f51aec-df13-4df3-b1f0-4477e6b5697c">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/58035696-91f5-4b10-a524-bfc474d06fd6"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.1.3.1</skos:notation>
+        <skos:prefLabel xml:lang="de">unterscheiden angeleitet und an ausgewählten Beispielen Ausprägungen von Sprache und Sprachvariation (z. B. Standardsprache – Alltagssprache, Fachsprache, Dialekt, Regionalsprache; Mehrsprachigkeit; Sprache in der digitalen Kommunikation; Deutsche Gebärdensprache) und reflektieren Verwendungsweisen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/313db9bf-4b46-45dc-9a00-e1af3f43a23b -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/313db9bf-4b46-45dc-9a00-e1af3f43a23b">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/6158d616-bbe8-49ad-b26c-3c9ff248dad7"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.6.3.1</skos:notation>
+        <skos:prefLabel xml:lang="de">die Aufgabenstellung (Schreibsituation, Schreibanlass, Textfunktion und Textsorte) Aufbau, Inhalt und Formulierungen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/3327c908-bd5c-4458-8e7a-091c6297fdf6 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/3327c908-bd5c-4458-8e7a-091c6297fdf6">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/5c52638a-8d37-429f-88ea-cbf5a98bbbce"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/e2779e2c-fc84-4a72-844f-f105d37ddf89"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/fef80bf6-6888-4095-98de-9512b1e42dac"/>
+        <skos:notation>5.2.3</skos:notation>
+        <skos:prefLabel xml:lang="de">Rechtschreibung</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/34734e40-0e14-407c-9557-d6703a04908d -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/34734e40-0e14-407c-9557-d6703a04908d">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b5604218-e8e1-4d64-af8b-06e1b1dc7049"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.2.1.2</skos:notation>
+        <skos:prefLabel xml:lang="de">Verstehen und Nicht-Verstehen zum Ausdruck bringen, z. B. durch Nachfragen, durch Kommentare, </skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/35bc9b6e-0ac7-4b94-9a23-1952a225c9d3 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/35bc9b6e-0ac7-4b94-9a23-1952a225c9d3">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c5276f76-7440-496d-a034-17301994bc9f"/>
+        <skos:definition xml:lang="de">(Formate: z. B. Chats, Videoclips, Computerspiele, Podcasts; Umgebungen: z. B. soziale Netzwerke, Online-Portale, Lernplattformen, Suchmaschinen)</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/ce6e22de-757f-458a-ad13-8cfc9df0d1c0"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/d9babf0c-7822-4da9-9772-effdfc564454"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/ddb62fc0-70e7-4474-830c-4a24c1a939b6"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/2c7ee16e-2da3-4892-99ed-9c56992fc3d3"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/38d7ce27-1508-4244-94dc-087874acb0bb"/>
+        <skos:notation>4.6</skos:notation>
+        <skos:prefLabel xml:lang="de">Digitale Formate und Umgebungen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/36c643df-74d1-4e85-ac75-2895fb4777a3 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/36c643df-74d1-4e85-ac75-2895fb4777a3">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/d5558e46-feb6-4a89-ba94-75b51b546baa"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.5.1</skos:notation>
+        <skos:prefLabel xml:lang="de">erschließen aus einem oder mehreren klar strukturierten Texten zielgerichtet relevante Informationen, ordnen, selegieren und vergleichen diese und prüfen ihren Sachgehalt,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/366b4de3-aaec-427b-b3f9-805ee5143ec5 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/366b4de3-aaec-427b-b3f9-805ee5143ec5">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/54459a32-1634-47bf-8a7e-2b14e2c94a92"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.1.1.1</skos:notation>
+        <skos:prefLabel xml:lang="de">kennen Grundbedingungen gelingender Kommunikation und unterscheiden die Handlungs-, Inhalts- und Beziehungsebene,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/37dc681d-5dd9-45bb-9e0e-0df84bb33674 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/37dc681d-5dd9-45bb-9e0e-0df84bb33674">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/50b9a421-b5f5-4b6e-bff5-fe69cdc165fc"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.4.6</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen Informationsquellen gezielt und angemessen, insbesondere Bibliotheken, Nachschlagewerke, Zeitungen, Newsportale, digitale Suchdienste und (digitale) Ressourcen zur deutschen Sprache,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/38bf2d37-1b37-417a-900c-f8ebfe669634 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/38bf2d37-1b37-417a-900c-f8ebfe669634">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b912ae89-9eff-46d6-bea8-d372ae33bc01"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler beherrschen grundlegende Schreibfunktionen, sie können Texte zu unterschiedlichen Textsorten und Funktionen für sich, für auch unbekannte und unterschiedliche Adressaten verständlich und angemessen formulieren (selbstständig und kooperativ). Sie nutzen digitale Schreibumgebungen und wenden Schreibstrategien an.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b40314f0-b078-4b3b-b52a-05f733eb4311"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f84c0c30-e889-4f14-be60-1363f756deb0"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/0375eafd-ab6a-4028-9f75-acd017af63d1"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/122e73a2-7114-4c66-ab72-d91310970967"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/16f5c5a3-e5db-4b96-bc1b-dd2f884e8e32"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/3c342f81-e94b-4ede-8c0c-b30c51ee1388"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/52eb0d23-cd08-4667-89f8-c4bd3b6f7b59"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/55e05f94-2cde-4c85-ba40-9547bfc5c294"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/58cbd646-d58c-417b-8cfa-17cb61e01b24"/>
+        <skos:notation>2.5</skos:notation>
+        <skos:prefLabel xml:lang="de">Texte formulieren</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/38d7ce27-1508-4244-94dc-087874acb0bb -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/38d7ce27-1508-4244-94dc-087874acb0bb">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/35bc9b6e-0ac7-4b94-9a23-1952a225c9d3"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.6.4</skos:notation>
+        <skos:prefLabel xml:lang="de">untersuchen am Beispiel den Zusammenhang von digitalen Nutzerprofilen, Algorithmen, Gestaltung und Wirkung digitaler Angebote und bewerten ihn,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/39f03fee-4419-43a7-a9b4-312509623896 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/39f03fee-4419-43a7-a9b4-312509623896">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b5604218-e8e1-4d64-af8b-06e1b1dc7049"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.2.1.1</skos:notation>
+        <skos:prefLabel xml:lang="de">Gesprächsprozesse verfolgen, verstehen und Inhalte für die Kommunikation nutzen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/4d84ead8-2aba-4f85-ba3d-81abfb43fbdf -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/4d84ead8-2aba-4f85-ba3d-81abfb43fbdf">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b912ae89-9eff-46d6-bea8-d372ae33bc01"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler nutzen Kriterien für die Textüberprüfung und ‐überarbeitung. Im Rahmen von Feedbackprozessen identifizieren sie den Überarbeitungsbedarf eigener und fremder Texte. Sie können Texte insbesondere hinsichtlich ihrer Angemessenheit und Verständlichkeit inhaltlich, sprachlich und auf Textkohärenz bezogen überarbeiten und dabei Überarbeitungsstrategien reflektiert anwenden.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/ddb5279f-186f-4690-817f-3e34ba81d40f"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/e7e6ceff-6404-41db-b5a4-44de7611ec6c"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/2c39e20f-9eef-4c55-9cf3-d2993abede9a"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/4eccfd15-43c6-458c-9dc9-1d418d198d59"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/6158d616-bbe8-49ad-b26c-3c9ff248dad7"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/89e0f3e4-8133-4cc5-a3e6-8548a291134d"/>
+        <skos:notation>2.6</skos:notation>
+        <skos:prefLabel xml:lang="de">Texte überarbeiten</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/4e723264-3c2e-4b28-bdc6-42dc40a400f9 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/4e723264-3c2e-4b28-bdc6-42dc40a400f9">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/75cd0302-4b52-4cf3-8770-c84268188354"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.1.4</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen ihre Vorbereitungen (z. B. Notizen) für die sach- und situationsgerechte Gestaltung vertrauter und unvertrauter Situationen, z. B. Bewerbungsgespräch, Diskussion, Präsentation,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/4eccfd15-43c6-458c-9dc9-1d418d198d59 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/4eccfd15-43c6-458c-9dc9-1d418d198d59">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/4d84ead8-2aba-4f85-ba3d-81abfb43fbdf"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.6.1</skos:notation>
+        <skos:prefLabel xml:lang="de">erkennen anhand vorgegebener Kriterienkataloge den Überarbeitungsbedarf von Texten, überlegen Schritte zur Textüberarbeitung und setzen diese um, </skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/402ce841-8da6-473d-8354-afb14b2432d5 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/402ce841-8da6-473d-8354-afb14b2432d5">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/8d07cde9-e806-410d-832e-792b1a55fe25"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/be4232cf-23ab-4475-88a8-0d636241ddf6"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/d322cc0b-366b-4fa2-a1df-0c14e724b2e6"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/52f8db60-09f3-4ad6-9c0f-d5af81169361"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/9977f7ba-efc0-4e8a-90e5-16c638107ae5"/>
+        <skos:notation>1.2.2</skos:notation>
+        <skos:prefLabel xml:lang="de">hören in vertrauten und unvertrauten Situationen sinnverstehend zu,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/46e49922-b3c3-4075-8a39-03cc89a15e72 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/46e49922-b3c3-4075-8a39-03cc89a15e72">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:definition xml:lang="de">Die gesprochene Sprache ist ein zentrales Mittel schulischer und außerschulischer Kommunikation. Dabei ist gesprochene Sprache immer auch soziales Handeln. Die Schülerinnen und Schüler lernen, wichtige kommunikative Situationen in persönlichen, schulischen und öffentlichen Zusammenhängen angemessen und adressatengerecht zu bewältigen. Dabei nutzen sie sprachliche Werkzeuge auch im digitalen Kontext. Die Schülerinnen und Schüler verfügen über eine demokratische Gesprächskultur, die von aufmerksamem Zuhören und respektvollem Gesprächsverhalten geprägt ist. Sie nutzen die Standardsprache. Sie achten auf gelingende Kommunikation und damit auch auf die Wirkung ihres sprachlichen Handelns. Sie führen und moderieren Gespräche und realisieren kommunikative Funktionen wie erzählen, informieren und argumentieren. Sie diskutieren, gestalten ihr Sprechen bewusst und leisten konstruktive gesprochene Beiträge zum Unterricht. Im Kompetenzbereich „Sprechen und Zuhören“ sind die kommunikativen Anforderungen von besonderer Bedeutung. In den Kernbereichen Zu anderen sprechen und Verstehend zuhören sind deswegen grundlegende und situationsübergreifende Standards des Vor anderen Sprechens und Mit anderen Sprechens dargestellt. Der Kernbereich Mit anderen sprechen bezieht sich dementsprechend durchweg auf Situationen, in denen Schülerinnen und Schüler aufeinander Bezug nehmen. Der Kernbereich Vor anderen sprechen umfasst Standards zu solchen Situationen, in denen die Schülerinnen und Schüler eine Zeit lang das Rederecht wahrnehmen, z. B. Präsentationen, Reden. Die Beiträge können dabei jeweils vorbereitet oder unvorbereitet sein. In kommunikativen Situationen können die Schülerinnen und Schüler mit Blick auf die kommunikativen Ziele und die Gesprächspartnerinnen und -partner bewusst das Register wechseln, z. B. Standardsprache, Alltagssprache, Bildungssprache, Fachsprache.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/7a928de1-6257-48ea-9e37-23e0752d8ba8"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/75cd0302-4b52-4cf3-8770-c84268188354"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/8d07cde9-e806-410d-832e-792b1a55fe25"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/837374d8-d20c-4c8c-9469-10239cb22b79"/>
+        <skos:notation>1</skos:notation>
+        <skos:prefLabel xml:lang="de">Sprechen und Zuhören</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/482365ed-8a23-4c11-80dd-777d4b8aade4 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/482365ed-8a23-4c11-80dd-777d4b8aade4">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/21b9e2a9-e0f5-463d-8ace-af56ac97f58b"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.2.5</skos:notation>
+        <skos:prefLabel xml:lang="de">kennen und nutzen die Interpunktionszeichen: Punkt, Komma, Fragezeichen, Ausrufezeichen, Anführungszeichen, Semikolon, Doppelpunkt, Auslassungspunkte, Gedankenstrich, Klammern,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/486af035-8c97-4b17-a658-c9c96711f626 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/486af035-8c97-4b17-a658-c9c96711f626">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f1002003-0d2f-4a99-9814-3bdc4ab22a3f"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.4.5</skos:notation>
+        <skos:prefLabel xml:lang="de">vergleichen Texte in Hinblick auf Themen und Gestaltung und nehmen begründete Wertungen vor (auch intermedial, z. B. Buch und Film),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/49c649ab-fd6d-4058-8958-24132ebaa4f7 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/49c649ab-fd6d-4058-8958-24132ebaa4f7">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/6158d616-bbe8-49ad-b26c-3c9ff248dad7"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.6.3.3</skos:notation>
+        <skos:prefLabel xml:lang="de">Kohärenz und Verständlichkeit,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/5c52638a-8d37-429f-88ea-cbf5a98bbbce -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/5c52638a-8d37-429f-88ea-cbf5a98bbbce">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/e97dd2d5-b8ce-4a6e-949c-833df6a8a823"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler können an ausgewählten Beispielen sprachliche Strukturen in Texten und Gesprächen, in gesprochener und geschriebener Sprache – auch unter Nutzung von Ressourcen zur deutschen Sprache (z. B. Wörterbücher, Grammatiken) – beschreiben und nutzen.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/db83727a-5a4b-438f-8bae-ec2e6166ab01"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/0280da36-3f78-4d9a-9dd6-6bf2758a9151"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/161fd7aa-41d2-4c28-b43a-aee961435408"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/23e368b0-9822-445d-98da-473f9edc37c5"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/3327c908-bd5c-4458-8e7a-091c6297fdf6"/>
+        <skos:notation>5.2</skos:notation>
+        <skos:prefLabel xml:lang="de">Sprachliche Strukturen untersuchen und nutzen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/5caa8223-ddcd-498f-b702-708f9428a6b7 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/5caa8223-ddcd-498f-b702-708f9428a6b7">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/7a928de1-6257-48ea-9e37-23e0752d8ba8"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.3.7</skos:notation>
+        <skos:prefLabel xml:lang="de">sprechen über das sprachliche und literarische Lernen sowie über Lernerfahrungen: geben Beobachtungen wieder, beschreiben Sachverhalte, geben Erklärungen und Begründungen, reflektieren.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/5ddc5b5a-4fa3-45f8-b340-dd18b3b275b0 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/5ddc5b5a-4fa3-45f8-b340-dd18b3b275b0">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/a96afc32-a9c3-485a-9225-7b300b8028a4"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.1.3.4</skos:notation>
+        <skos:prefLabel xml:lang="de">erläutern,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/5ef786f2-8308-4151-b5de-daa241ff7dfb -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/5ef786f2-8308-4151-b5de-daa241ff7dfb">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/22c7b269-b3ef-4dd6-8397-ad9d6fc12014"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.1.2.2</skos:notation>
+        <skos:prefLabel xml:lang="de">untersuchen die Anforderungen an die Rollen von Sprecher/Schreiber – Hörer/Leser im Hinblick auf gelingende Kommunikation und werden diesen im eigenen sprachlichen Handeln gerecht,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/5fedea0e-1e34-4b19-820a-5a9e14344980 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/5fedea0e-1e34-4b19-820a-5a9e14344980">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f3136ad6-8044-4ec4-8ca8-b03ed674f368"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>3.2.1</skos:notation>
+        <skos:prefLabel xml:lang="de">orientieren sich in und zwischen Texten unterschiedlicher Komplexität und verschaffen sich auch mithilfe textueller Lesehilfen (u. a. Überschriften, Zwischenüberschriften, Absätze, Abbildungen, Illustrationen) einen Überblick: überfliegendes, selegierendes, navigierendes Lesen.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/50b9a421-b5f5-4b6e-bff5-fe69cdc165fc -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/50b9a421-b5f5-4b6e-bff5-fe69cdc165fc">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b912ae89-9eff-46d6-bea8-d372ae33bc01"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler können ihre Schreibumgebung (Arbeitsplatz mit Blatt oder Heft und Stift bzw. digitalen Schreibumgebungen) organisieren und Planungsschritte individuell und kooperativ mithilfe von Planungsstrategien durchführen.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b3392947-b2af-49df-b5fc-6967431083f7"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b6784760-a816-4092-9ad7-1461aa255b14"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/bf2f3ac3-d450-4914-8040-7fa834e40f76"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c3319518-2c59-4ec4-88f5-36fb1e171bab"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/29d2f2e4-9e70-4db3-9abc-0ec65ffdec63"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/37dc681d-5dd9-45bb-9e0e-0df84bb33674"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/648c177c-9c53-40f1-9efb-5c17cdb5daf0"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/70d79fbd-d094-4aa7-99da-377c830b1cd3"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/8bf21d6f-5c33-4345-a6eb-f4e0da0dd8c3"/>
+        <skos:notation>2.4</skos:notation>
+        <skos:prefLabel xml:lang="de">Texte planen und strukturieren</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/500c9e73-2679-4241-affb-8caf6aec766d -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/500c9e73-2679-4241-affb-8caf6aec766d">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/d5558e46-feb6-4a89-ba94-75b51b546baa"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.5.4</skos:notation>
+        <skos:prefLabel xml:lang="de">unterscheiden informierende, erzählende und appellierende Elemente in Texten,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/52eb0d23-cd08-4667-89f8-c4bd3b6f7b59 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/52eb0d23-cd08-4667-89f8-c4bd3b6f7b59">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/38bf2d37-1b37-417a-900c-f8ebfe669634"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.5.2</skos:notation>
+        <skos:prefLabel xml:lang="de">formulieren Texte auch für unbekannte und unterschiedliche Adressaten angemessen, </skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/52f8db60-09f3-4ad6-9c0f-d5af81169361 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/52f8db60-09f3-4ad6-9c0f-d5af81169361">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/402ce841-8da6-473d-8354-afb14b2432d5"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.2.2.3</skos:notation>
+        <skos:prefLabel xml:lang="de">beurteilen Aussagen zum Gehörten begründet,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/54459a32-1634-47bf-8a7e-2b14e2c94a92 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/54459a32-1634-47bf-8a7e-2b14e2c94a92">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/29be5b1f-f84f-4cab-9ad8-96ed55e6aaf8"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c0935610-c645-4d19-909c-f43d60383e84"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/d03380b1-5915-4059-b212-de73f3aa509a"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/366b4de3-aaec-427b-b3f9-805ee5143ec5"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/7f50ad0b-c68e-4607-9e7c-2a035ad71382"/>
+        <skos:notation>5.1.1</skos:notation>
+        <skos:prefLabel xml:lang="de">Sprachliche Verständigung als Form des Handelns</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/55e05f94-2cde-4c85-ba40-9547bfc5c294 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/55e05f94-2cde-4c85-ba40-9547bfc5c294">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/38bf2d37-1b37-417a-900c-f8ebfe669634"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.5.8</skos:notation>
+        <skos:prefLabel xml:lang="de">formulieren eigene Positionen und begründen diese</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/5701bce3-62b9-459e-8497-82d0e7b3f4d8 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/5701bce3-62b9-459e-8497-82d0e7b3f4d8">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/22c7b269-b3ef-4dd6-8397-ad9d6fc12014"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.1.2.1</skos:notation>
+        <skos:prefLabel xml:lang="de">untersuchen monologische (z. B. Texte, Podcasts) und interaktionale Formen des Sprechens und des Schreibens (z. B. Gespräche, Chats) hinsichtlich ihrer Struktur und Organisation (ausgewählte Aspekte),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/571bdb3d-5715-4f41-a25c-d5f740556a57 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/571bdb3d-5715-4f41-a25c-d5f740556a57">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/837374d8-d20c-4c8c-9469-10239cb22b79"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.4.4</skos:notation>
+        <skos:prefLabel xml:lang="de">planen und gestalten Formen des szenischen Sprechens und Spielens, z. B. szenische Lesung, Szene, Aufführung, Hörspiel, Videoclip, Standbild, Improvisation.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/574a72fe-53f3-47bc-8787-771c3e980def -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/574a72fe-53f3-47bc-8787-771c3e980def">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b912ae89-9eff-46d6-bea8-d372ae33bc01"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler beachten bei der Planung und Strukturierung, beim Formulieren und beim Überarbeiten von Texten allgemeine Textmerkmale, Adressaten, den Schreibanlass, Schreibfunktion und Textsorte, Formen des Schreibens und den Einsatz digitaler Schreibwerkzeuge, den Umgang mit Quellen beim Belegen und Zitieren und die Anwendung von Schreibstrategien.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.3</skos:notation>
+        <skos:prefLabel xml:lang="de">Texte verfassen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/58cbd646-d58c-417b-8cfa-17cb61e01b24 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/58cbd646-d58c-417b-8cfa-17cb61e01b24">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/38bf2d37-1b37-417a-900c-f8ebfe669634"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.5.9</skos:notation>
+        <skos:prefLabel xml:lang="de">integrieren Textbelege und andere Quellen formal richtig in den eigenen Text (zitieren),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/58035696-91f5-4b10-a524-bfc474d06fd6 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/58035696-91f5-4b10-a524-bfc474d06fd6">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/29be5b1f-f84f-4cab-9ad8-96ed55e6aaf8"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/0509e872-a2c5-40e7-b0dc-2ca26f05ca49"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/3a70fbfb-85d1-4a92-a0d0-1bfda5ab7ae1"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/31f51aec-df13-4df3-b1f0-4477e6b5697c"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/7117c7b1-6fbe-4a9b-9ec4-0fb71e7733fb"/>
+        <skos:notation>5.1.3</skos:notation>
+        <skos:prefLabel xml:lang="de">Ausprägungen und Bedingungen sprachlicher Variation und Vielfalt</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/6a351609-53af-45aa-8fd9-f5287d31544c -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/6a351609-53af-45aa-8fd9-f5287d31544c">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/161fd7aa-41d2-4c28-b43a-aee961435408"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.2.2.2</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen ihr Wissen zu sprachlichen Gestaltungsmitteln für die Beschreibung und Untersuchung von (auch literarischen) Texten, Reden, Gesprächen und Formen digitaler Kommunikation.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/6b6818ff-2fb9-4f82-8803-f00cecd26ef4 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/6b6818ff-2fb9-4f82-8803-f00cecd26ef4">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/8d07cde9-e806-410d-832e-792b1a55fe25"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.2.3</skos:notation>
+        <skos:prefLabel xml:lang="de">wählen aus grundlegenden kognitiven und metakognitiven Strategien aus, die sie vor, während und nach dem Zuhören einsetzen, z. B. die Erwartungshaltung zielorientiert steuern, Aufmerksamkeit steuern, Informationen sichern und zusammenfassen: Notizen, Protokoll.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/6c87ea0f-f367-4e5a-b5fc-b3be7d4ddd77 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/6c87ea0f-f367-4e5a-b5fc-b3be7d4ddd77">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/a96afc32-a9c3-485a-9225-7b300b8028a4"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.1.3.6</skos:notation>
+        <skos:prefLabel xml:lang="de">appellieren,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/6f7a58e5-03e7-4ec2-95b9-9ca817cf1a9e -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/6f7a58e5-03e7-4ec2-95b9-9ca817cf1a9e">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/837374d8-d20c-4c8c-9469-10239cb22b79"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.4.2</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen typische Werkzeuge für das Sprechen vor anderen, z. B. Tafel, Plakat, Moderationskarten, Präsentationssoftware, Whiteboard,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/6017320d-36a0-4ef9-9648-e048ba82ffdf -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/6017320d-36a0-4ef9-9648-e048ba82ffdf">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/109af016-0593-47c2-844f-3a184cddf78a"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler verfügen über kognitive und metakognitive Lesestrategien zum Einsatz vor dem Lesen, während des Lesens und nach dem Lesen. Sie können die Strategien beim Lesen eines unbekannten oder schwierigen Textes oder beim vergleichenden Lesen mehrerer Texte den Anforderungen der Texte und dem Leseziel entsprechend auswählen und ausführen. Sie reflektieren sowohl ihr Verstehen als auch ihren Einsatz von Lesestrategien.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/de51f849-0e82-4002-871c-1dc9e81c5aab"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/2d5e280d-6627-4036-909e-636a8515cf21"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/93637534-243a-42d3-9251-6d6ffd90a7f7"/>
+        <skos:notation>3.4</skos:notation>
+        <skos:prefLabel xml:lang="de">Lesefähigkeiten: Über Strategien zum Leseverstehen verfügen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/60359b06-253d-4105-9241-ee1c3772c840 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/60359b06-253d-4105-9241-ee1c3772c840">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/75cd0302-4b52-4cf3-8770-c84268188354"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.1.5</skos:notation>
+        <skos:prefLabel xml:lang="de">bauen Redebeiträge in vertrauten und unvertrauten Situationen für andere nachvollziehbar und sinnvoll auf,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/6140d957-476e-4bc8-a2f1-981007595af9 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/6140d957-476e-4bc8-a2f1-981007595af9">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/2b5c702b-0d9c-4ea8-b436-ed92fbb5d2e7"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>3.3.1</skos:notation>
+        <skos:prefLabel xml:lang="de">ermitteln explizite oder durch einfaches Schließen zu gewinnende Textinformationen auf lokaler Ebene und beachten dabei auch sprachliche Mittel zur Sicherung des Textzusammenhangs,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/6158d616-bbe8-49ad-b26c-3c9ff248dad7 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/6158d616-bbe8-49ad-b26c-3c9ff248dad7">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/4d84ead8-2aba-4f85-ba3d-81abfb43fbdf"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/187942fd-28f7-4e90-96dd-b333ff5d0d6b"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/313db9bf-4b46-45dc-9a00-e1af3f43a23b"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/49c649ab-fd6d-4058-8958-24132ebaa4f7"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/6964703b-4791-43d3-a24f-5beae2d3b15a"/>
+        <skos:notation>2.6.3</skos:notation>
+        <skos:prefLabel xml:lang="de">überprüfen eigene und fremde Texte kriteriengeleitet auf der Basis von Rückmeldungen und überarbeiten diese (auch kooperativ) im Hinblick auf:</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/648c177c-9c53-40f1-9efb-5c17cdb5daf0 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/648c177c-9c53-40f1-9efb-5c17cdb5daf0">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/50b9a421-b5f5-4b6e-bff5-fe69cdc165fc"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.4.4</skos:notation>
+        <skos:prefLabel xml:lang="de">klären entsprechend dem Schreibziel die Schreibabsicht, Schreibsituation und Textfunktion,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/65013396-a4c7-4246-9357-ff8596f41b1a -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/65013396-a4c7-4246-9357-ff8596f41b1a">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/7a928de1-6257-48ea-9e37-23e0752d8ba8"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.3.5</skos:notation>
+        <skos:prefLabel xml:lang="de">praktizieren ausgewählte Gesprächs- und Lernformen, z. B. literarische Gespräche, Rollenspiele, Vorstellungsgespräche, Diskussionen, videogestützte Gespräche, Interviews,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/65511534-3b94-4a37-8931-0d6840f5989d -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/65511534-3b94-4a37-8931-0d6840f5989d">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/837374d8-d20c-4c8c-9469-10239cb22b79"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.4.1</skos:notation>
+        <skos:prefLabel xml:lang="de">leisten längere, auch freie Beiträge adressatenorientiert und mit Hilfe eines Stichwortzettels/einer Gliederung/von Notizen/eines Textes, z. B. Referat, Präsentation, Rede, Gedicht,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/660f9f0b-81aa-48cc-b81f-5f178eb6ac93 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/660f9f0b-81aa-48cc-b81f-5f178eb6ac93">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f1002003-0d2f-4a99-9814-3bdc4ab22a3f"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.4.4</skos:notation>
+        <skos:prefLabel xml:lang="de">formulieren Wertungen von Texten und begründen sie,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/68660d81-9d90-42ee-a2e7-bdb1764d4686 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/68660d81-9d90-42ee-a2e7-bdb1764d4686">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/21b9e2a9-e0f5-463d-8ace-af56ac97f58b"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/a40eff8f-ad77-4a60-b16b-db9ac9fbe1d6"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b5ebaf04-23bd-4af0-a3e9-aa168df7f904"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/2f86e89e-41de-4e6a-9939-61a99b8ab9a8"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/8abc2d4a-1a9d-4b50-913c-6becb4cff913"/>
+        <skos:notation>2.2.1</skos:notation>
+        <skos:prefLabel xml:lang="de">kennen wort- und satzbezogene Rechtschreibstrategien und wenden diese an</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/6964703b-4791-43d3-a24f-5beae2d3b15a -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/6964703b-4791-43d3-a24f-5beae2d3b15a">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/6158d616-bbe8-49ad-b26c-3c9ff248dad7"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.6.3.2</skos:notation>
+        <skos:prefLabel xml:lang="de">Angemessenheit sprachlicher Gestaltungsmittel, Rechtschreibung und Grammatik,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/7a928de1-6257-48ea-9e37-23e0752d8ba8 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/7a928de1-6257-48ea-9e37-23e0752d8ba8">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/46e49922-b3c3-4075-8a39-03cc89a15e72"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler können in vertrauten und unvertrauten Situationen mit mehreren Teilnehmerinnen und Teilnehmern aufeinander Bezug nehmen, um kommunikative Ziele zu verfolgen.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/ec20ea82-620a-4728-bbba-2384c849c045"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f0e7b014-6514-449b-b61f-b279e68bbf95"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/10095a51-967e-4876-8ee9-32eb708abe6e"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/5caa8223-ddcd-498f-b702-708f9428a6b7"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/65013396-a4c7-4246-9357-ff8596f41b1a"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/8197e8bf-54d8-4e84-bbd2-2e94e7ddc149"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/894965fa-8f06-4250-9714-18275aa61669"/>
+        <skos:notation>1.3</skos:notation>
+        <skos:prefLabel xml:lang="de">Mit anderen sprechen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/7f50ad0b-c68e-4607-9e7c-2a035ad71382 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/7f50ad0b-c68e-4607-9e7c-2a035ad71382">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/54459a32-1634-47bf-8a7e-2b14e2c94a92"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.1.1.3</skos:notation>
+        <skos:prefLabel xml:lang="de">untersuchen an ausgewählten Beispielen Normen demokratischer Gesprächs- und Kommunikationskultur und sprachlicher Höflichkeit (auch in digitalen Umgebungen) und nutzen diese für die sprachliche Gestaltung eigener Äußerungen sowie für den Umgang mit den sprachlichen Äußerungen anderer,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/70d79fbd-d094-4aa7-99da-377c830b1cd3 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/70d79fbd-d094-4aa7-99da-377c830b1cd3">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/50b9a421-b5f5-4b6e-bff5-fe69cdc165fc"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.4.8</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen die Möglichkeiten digitaler Schreibwerkzeuge zur Vorbereitung der Textproduktion, z. B. Anfertigen von Notizen und Skizzen, Anlegen von Stoffsammlungen, Exzerpieren aus digitalen Informationsressourcen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/7117c7b1-6fbe-4a9b-9ec4-0fb71e7733fb -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/7117c7b1-6fbe-4a9b-9ec4-0fb71e7733fb">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/58035696-91f5-4b10-a524-bfc474d06fd6"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.1.3.2</skos:notation>
+        <skos:prefLabel xml:lang="de">unterscheiden informelle und elaborierte Mündlichkeit/Schriftlichkeit und können an konkreten Beispielen Wirkungen einschätzen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/714814ab-2e62-4c54-8a78-cfb70818bd6b -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/714814ab-2e62-4c54-8a78-cfb70818bd6b">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/0280da36-3f78-4d9a-9dd6-6bf2758a9151"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.2.1.2</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen Wörter, Wendungen und Formulierungsmuster funktional und erweitern ihren Wortschatz,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/720f3b4f-a62a-40be-96e8-314ed3819cd7 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/720f3b4f-a62a-40be-96e8-314ed3819cd7">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b40314f0-b078-4b3b-b52a-05f733eb4311"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.5.3.3</skos:notation>
+        <skos:prefLabel xml:lang="de">Darstellen: Informieren auf Basis klar strukturierter Material- und Textquellen (informierend materialgestützt schreiben)</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/72805a24-fe05-4adb-a722-45ed5be23775 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/72805a24-fe05-4adb-a722-45ed5be23775">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c4e6462b-0905-4af1-bc19-c9f3be62e835"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.1.8</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen Angaben zum Wirklichkeitsbezug von Texten als Rezeptionshinweise (z. B. Gattungs-/Genrebezeichnungen: Roman, Satire, Krimi, Biopic, Dokumentation, Doku-Drama),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/734f2b48-e4ae-4375-b060-21cf29a4d5f1 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/734f2b48-e4ae-4375-b060-21cf29a4d5f1">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/109af016-0593-47c2-844f-3a184cddf78a"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler lesen leise und laut, automatisiert, genau, sinngestaltend und zügig.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/a6405631-c41c-49cd-b9a8-6bbf7da3fe9f"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/cb5aca95-b389-4335-b99c-c0d8ecff93d2"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/e4f81ed1-98d2-4cd7-8923-b1681f78d8e3"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/995a361a-3523-4a89-b7d8-5d1cd2d73129"/>
+        <skos:notation>3.1</skos:notation>
+        <skos:prefLabel xml:lang="de">Lesefertigkeit: Flüssig lesen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/75cd0302-4b52-4cf3-8770-c84268188354 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/75cd0302-4b52-4cf3-8770-c84268188354">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/46e49922-b3c3-4075-8a39-03cc89a15e72"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler können in vertrauten und unvertrauten Situationen des vor und mit anderen Sprechens angemessen und adressatengerecht kommunizieren, z. B. in Gesprächen, bei Präsentationen.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/a96afc32-a9c3-485a-9225-7b300b8028a4"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/ad390051-6481-42c3-a585-b9ba73ff9d95"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/d9b92698-9e6e-4894-b9e8-bfc69d8f4685"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f0f4294d-68d6-4f1c-937e-2bcbbe2fdf32"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/fb1c8c4b-61c9-4f50-b68b-0222c626af46"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/00cc868e-cbe4-4f14-ae87-c391c4f393f0"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/1a777240-6fb6-4834-934e-162c86d6dcd7"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/4e723264-3c2e-4b28-bdc6-42dc40a400f9"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/60359b06-253d-4105-9241-ee1c3772c840"/>
+        <skos:notation>1.1</skos:notation>
+        <skos:prefLabel xml:lang="de">Zu anderen sprechen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/759d5a59-947f-436e-b940-50da863e7cb6 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/759d5a59-947f-436e-b940-50da863e7cb6">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/21b9e2a9-e0f5-463d-8ace-af56ac97f58b"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.2.2</skos:notation>
+        <skos:prefLabel xml:lang="de">schreiben Kernwörter richtig (Inhalts- und Funktionswörter)</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/76dcc44f-1a27-4991-bb4f-1dcd5bf52421 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/76dcc44f-1a27-4991-bb4f-1dcd5bf52421">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/0280da36-3f78-4d9a-9dd6-6bf2758a9151"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.2.1.3</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen grammatische Operationen und Fachbegriffe für die Untersuchung sprachlicher Struktureinheiten (s. Übersicht: Verzeichnis grundlegender grammatischer Fachausdrücke),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/780818e3-1245-4ded-a298-ef2aeff075ab -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/780818e3-1245-4ded-a298-ef2aeff075ab">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/27f070fa-bb81-4a63-b008-fb9e532d3deb"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.2.2</skos:notation>
+        <skos:prefLabel xml:lang="de">bewerten Rechercheergebnisse (insbes. Internet) im Hinblick auf ihre thematische Relevanz und Verlässlichkeit (Informationsangebote vergleichen, Quellenangaben und -qualität prüfen, Informationen zu Autorinnen und Autoren recherchieren, mögliche Textfunktionen beachten).</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/8abc2d4a-1a9d-4b50-913c-6becb4cff913 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/8abc2d4a-1a9d-4b50-913c-6becb4cff913">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/68660d81-9d90-42ee-a2e7-bdb1764d4686"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.2.1.2</skos:notation>
+        <skos:prefLabel xml:lang="de">erschließen sich die Struktur von Kernwörtern, z. B. gliedern in Silben und Wortbestandteile, verlängern, flektieren, ableiten, erweitern, </skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/8bf21d6f-5c33-4345-a6eb-f4e0da0dd8c3 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/8bf21d6f-5c33-4345-a6eb-f4e0da0dd8c3">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/50b9a421-b5f5-4b6e-bff5-fe69cdc165fc"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.4.7</skos:notation>
+        <skos:prefLabel xml:lang="de">planen Texte kooperativ und strukturieren diese: z. B. Textbaupläne,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/8d07cde9-e806-410d-832e-792b1a55fe25 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/8d07cde9-e806-410d-832e-792b1a55fe25">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/46e49922-b3c3-4075-8a39-03cc89a15e72"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler können die Aufmerksamkeit auf die Beiträge anderer richten und ihr Verstehen in vertrauten und unvertrauten Situationen zum Ausdruck bringen.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b5604218-e8e1-4d64-af8b-06e1b1dc7049"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/402ce841-8da6-473d-8354-afb14b2432d5"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/6b6818ff-2fb9-4f82-8803-f00cecd26ef4"/>
+        <skos:notation>1.2</skos:notation>
+        <skos:prefLabel xml:lang="de">Verstehend zuhören</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/8e29b4f0-8940-47db-a63e-7f6da724956e -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/8e29b4f0-8940-47db-a63e-7f6da724956e">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/a96afc32-a9c3-485a-9225-7b300b8028a4"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.1.3.1</skos:notation>
+        <skos:prefLabel xml:lang="de">erzählen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/8e58bbc2-c9dc-408a-b913-09f74c02b0bd -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/8e58bbc2-c9dc-408a-b913-09f74c02b0bd">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/21b9e2a9-e0f5-463d-8ace-af56ac97f58b"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.2.8</skos:notation>
+        <skos:prefLabel xml:lang="de">überprüfen und korrigieren Texte auf orthografische Richtigkeit.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/8f1d5ba1-ff00-45b0-a122-5cd2a390c386 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/8f1d5ba1-ff00-45b0-a122-5cd2a390c386">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/23ff64ec-87ac-43f5-a194-896ce0d61e1e"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.1.3</skos:notation>
+        <skos:prefLabel xml:lang="de">gestalten Texte (handschriftlich und mithilfe digitaler Schreibwerkzeuge) übersichtlich und zielorientiert, bauen sie sinnvoll auf und strukturieren diese: z. B. Blattaufteilung, Seitenränder, Absatzstrukturen, Textformatierung und Layout.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/8105e21f-5abe-405a-9e59-9eaddfdbb1ba -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/8105e21f-5abe-405a-9e59-9eaddfdbb1ba">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/0280da36-3f78-4d9a-9dd6-6bf2758a9151"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>5.2.1.1</skos:notation>
+        <skos:prefLabel xml:lang="de">untersuchen Wörter und Wendungen in ihrer Struktur und hinsichtlich ihrer Verwendungsbedingungen, ihrer Bedeutung und ihrer Beziehungen zu anderen Wörtern,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/8197e8bf-54d8-4e84-bbd2-2e94e7ddc149 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/8197e8bf-54d8-4e84-bbd2-2e94e7ddc149">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/7a928de1-6257-48ea-9e37-23e0752d8ba8"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.3.6</skos:notation>
+        <skos:prefLabel xml:lang="de">wenden allgemeine und für Gesprächs- und Lernformen spezifische Strategien an, z. B. Gespräche steuern (Diskussionen), zielführende Rückmeldungen geben (Feedback),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/82d4b8e3-2649-4837-998b-d72ae9bfa419 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/82d4b8e3-2649-4837-998b-d72ae9bfa419">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/21b9e2a9-e0f5-463d-8ace-af56ac97f58b"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.2.7</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen Rechtschreibhilfen (Wörterbuch und digitale Rechtschreibhilfe),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/837374d8-d20c-4c8c-9469-10239cb22b79 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/837374d8-d20c-4c8c-9469-10239cb22b79">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/46e49922-b3c3-4075-8a39-03cc89a15e72"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler können über einen begrenzten Zeitraum (vorbereitet und durch Medien gestützt) sprechen und eigene kommunikative Ziele verfolgen (Ausdrucks-, Darstellungs- und Appellfunktion).</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/a5a5bf92-5143-4cc2-b525-6d958dd29fff"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/571bdb3d-5715-4f41-a25c-d5f740556a57"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/6f7a58e5-03e7-4ec2-95b9-9ca817cf1a9e"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/65511534-3b94-4a37-8931-0d6840f5989d"/>
+        <skos:notation>1.4</skos:notation>
+        <skos:prefLabel xml:lang="de">Vor anderen sprechen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/87b00bf2-e98e-46bf-b17e-83b44c9a9b11 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/87b00bf2-e98e-46bf-b17e-83b44c9a9b11">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/d5558e46-feb6-4a89-ba94-75b51b546baa"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.5.6</skos:notation>
+        <skos:prefLabel xml:lang="de">beziehen an ausgewählten Beispielen Textaussagen auf eigene Welt- und Wertvorstellungen und überprüfen diese,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/88113829-61bc-4e43-90ba-e40b3c8c8a70 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/88113829-61bc-4e43-90ba-e40b3c8c8a70">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f1002003-0d2f-4a99-9814-3bdc4ab22a3f"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.4.9</skos:notation>
+        <skos:prefLabel xml:lang="de">tauschen sich mit anderen zu Text- bzw. Medienwahrnehmungen, -deutungen und -wertungen aus (u. a. literarisches Gespräch),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/89e0f3e4-8133-4cc5-a3e6-8548a291134d -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/89e0f3e4-8133-4cc5-a3e6-8548a291134d">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/4d84ead8-2aba-4f85-ba3d-81abfb43fbdf"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.6.4</skos:notation>
+        <skos:prefLabel xml:lang="de">holen Text-Feedback ein und formulieren selbst auch Feedback zu Texten anderer, </skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/894965fa-8f06-4250-9714-18275aa61669 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/894965fa-8f06-4250-9714-18275aa61669">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/7a928de1-6257-48ea-9e37-23e0752d8ba8"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.3.1</skos:notation>
+        <skos:prefLabel xml:lang="de">beteiligen sich in vertrauten und unvertrauten Gesprächssituationen mit verständlichen, zuhörerbezogenen, themenbezogenen und konstruktiven Beiträgen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/89748323-eb92-4da6-ac5e-4dc90a0a7b8e -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/89748323-eb92-4da6-ac5e-4dc90a0a7b8e">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/b40314f0-b078-4b3b-b52a-05f733eb4311"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>2.5.3.6</skos:notation>
+        <skos:prefLabel xml:lang="de">Appellieren: Argumentieren auf Basis klar strukturierter Material- und Textquellen (argumentierend materialgestützt schreiben)</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/9d918410-929a-4163-8160-22c665cfd5c2 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/9d918410-929a-4163-8160-22c665cfd5c2">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/f1002003-0d2f-4a99-9814-3bdc4ab22a3f"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.4.6</skos:notation>
+        <skos:prefLabel xml:lang="de">vergleichen Handlungen und Handlungsmotive von Figuren anhand ausgewählter Kriterien mit vertrauten Handlungen und Handlungsmotiven und nehmen begründete Wertungen vor,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/93637534-243a-42d3-9251-6d6ffd90a7f7 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/93637534-243a-42d3-9251-6d6ffd90a7f7">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/6017320d-36a0-4ef9-9648-e048ba82ffdf"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>3.4.1</skos:notation>
+        <skos:prefLabel xml:lang="de">bereiten das Lesen vor (u. a. Leseziel formulieren, Vorwissen aktivieren, Erwartungen an den Text formulieren, nach Möglichkeit die Textsorte klären), </skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/99d9b73a-ab71-48dc-bcaa-8b428ad5c79d -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/99d9b73a-ab71-48dc-bcaa-8b428ad5c79d">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/c4e6462b-0905-4af1-bc19-c9f3be62e835"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>4.1.5</skos:notation>
+        <skos:prefLabel xml:lang="de">kennen häufig verwendete sprachliche Gestaltungsmittel (u. a. Wortwahl, Wiederholung, sprachliche Bilder, Vergleich) und beschreiben an ausgewählten Beispielen ihre Wirkung,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/995a361a-3523-4a89-b7d8-5d1cd2d73129 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/995a361a-3523-4a89-b7d8-5d1cd2d73129">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/734f2b48-e4ae-4375-b060-21cf29a4d5f1"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>3.1.1</skos:notation>
+        <skos:prefLabel xml:lang="de">nutzen die schriftsprachlichen Informationen (u. a. Silbe, Morphem, Komma, Punkt, Fragezeichen, Großschreibung) beim Lesen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22des1/stdESA/9977f7ba-efc0-4e8a-90e5-16c638107ae5 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22des1/stdESA/9977f7ba-efc0-4e8a-90e5-16c638107ae5">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/402ce841-8da6-473d-8354-afb14b2432d5"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/stdESA/"/>
+        <skos:notation>1.2.2.1</skos:notation>
+        <skos:prefLabel xml:lang="de">geben Informationen wieder und ziehen einfache Schlussfolgerungen,</skos:prefLabel>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

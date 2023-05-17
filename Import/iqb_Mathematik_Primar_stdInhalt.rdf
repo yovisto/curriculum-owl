@@ -1,0 +1,987 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broader -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#hasTopConcept -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#narrower -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#notation -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#topConceptOf -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
+
+    <Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/ -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <dct:creator xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</dct:creator>
+        <dct:description xml:lang="de">Die inhaltsbezogenen Kompetenzen orientieren sich an fünf mathematischen Leitideen, die für den gesamten Mathematikunterricht – für den Primarbereich und für das weiterführende Lernen – bedeutsam sind und einen stringenten Aufbau der Inhalte über die Schulstufen hinweg ermöglichen.Abbildung 3: Grafische Darstellung des Zusammenwirkens von prozessbezogenen und inhaltsbezogenen Kompetenzen mit Fokussierung auf die Inhaltsbezogenen Kompetenzen. Die Leitidee „Muster, Strukturen und funktionaler Zusammenhang“ nimmt eine besondere Rolle unter den Leitideen ein. Sie greift den Wesenskern der Mathematik auf, grundlegende Regel- und Gesetzmäßigkeiten inhaltlich zu erfassen, zu erklären und zur Problemlösung zu nutzen. Zugleich hat das Erkennen von Mustern, Strukturen und funktionalen Zusammenhängen eine übergeordnete Bedeutung für die Leitideen „Zahl und Operation“, „Raum und Form“, „Größen und Messen“ sowie „Daten und Zufall“, denn Mathematik wird in der aktiven Erkundung von vielschichtigen Beziehungen in unterschiedlichen inhaltsbezogenen Bereichen gelernt. Muster, Strukturen und funktionale Zusammenhänge stehen deshalb beim Erwerb aller inhaltsbezogenen Kompetenzen regelmäßig im Mittelpunkt der Auseinandersetzung mit den Inhalten. Innerhalb der Leitideen „Zahl und Operation“, „Raum und Form“, „Größen und Messen“ sowie „Daten und Zufall“ werden deshalb inhaltsbezogene Kompetenzen mit einem engen Bezug zur Leitidee „Muster, Strukturen und funktionaler Zusammenhang“ im Folgenden explizit ausgewiesen (gelbe Schattierung). Am Ende von Jahrgangsstufe 4 sollen die Schülerinnen und Schüler über folgende inhaltsbezogene mathematische Kompetenzen verfügen (die Reihenfolge der Auflistung gibt keine Gewichtung vor):</dct:description>
+        <dct:title xml:lang="de">Mathematik Primar_Inhaltsbezogene Kompetenzen</dct:title>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e37317dc-8999-4b3d-b3fd-9703c4511fdd"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/fd3e0d10-6673-46ac-bf2a-ea589f91c484"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/33b83f7d-d316-4eaf-a345-c756cc08a924"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/697eea7d-1a0c-457b-9727-aa4e2c57a73d"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/89e5b347-60b3-4bfa-987b-025913ac43b5"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e37317dc-8999-4b3d-b3fd-9703c4511fdd"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/fd3e0d10-6673-46ac-bf2a-ea589f91c484"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/33b83f7d-d316-4eaf-a345-c756cc08a924"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/697eea7d-1a0c-457b-9727-aa4e2c57a73d"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/89e5b347-60b3-4bfa-987b-025913ac43b5"/>
+        <skos:prefLabel xml:lang="de">Inhaltsbezogene Kompetenzen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/a0f6a90e-039e-4316-8182-84fd1c772bc4 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/a0f6a90e-039e-4316-8182-84fd1c772bc4">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/c9955b6d-8383-4095-b5d1-c5b863c465cd"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>5.1.1</skos:notation>
+        <skos:prefLabel xml:lang="de">planen  einfache Befragungen und erfassen und strukturieren bei Beobachtungen, Untersuchungen und einfachen Experimenten Daten,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/a62b2461-f7ea-4518-b82b-553efc6da5bc -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/a62b2461-f7ea-4518-b82b-553efc6da5bc">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/5188bb26-d308-4592-bdc8-4872745231e3"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>3.1.2</skos:notation>
+        <skos:prefLabel xml:lang="de">erkennen und beschreiben Strukturen in geometrischen und arithmetischen Mustern (z. B. Zahlenfolgen, Pentominos) und nutzen diese in mathematischen Kontexten (z. B. Verschlüsselungen),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/a91b8d24-c9f3-42d9-b8a0-7822687a0d98 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/a91b8d24-c9f3-42d9-b8a0-7822687a0d98">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/8898f7ca-eaed-4d50-b92d-5d63902d918a"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>2.3.1</skos:notation>
+        <skos:prefLabel xml:lang="de">schätzen Größen sachadäquat und mit Bezug zu geeigneten Repräsentanten,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/a990a980-2377-47a9-a111-f6d828f1d983 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/a990a980-2377-47a9-a111-f6d828f1d983">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/4487e44d-148f-4b9c-8ef2-f34cfef1878d"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>1.3.2</skos:notation>
+        <skos:prefLabel xml:lang="de">runden und überschlagen sachadäquat.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/aab02e57-fff7-4548-af3c-f895499be858 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/aab02e57-fff7-4548-af3c-f895499be858">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/57b18910-51bc-4d3f-9d11-46a3d6ee5285"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>1.2.6</skos:notation>
+        <skos:prefLabel xml:lang="de">erkennen, erklären und nutzen Rechengesetze (z. B. Kommutativgesetz: Tauschaufgaben), </skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/b3a6ab7f-de7b-4618-b387-ece7fcde3ac3 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/b3a6ab7f-de7b-4618-b387-ece7fcde3ac3">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/57b18910-51bc-4d3f-9d11-46a3d6ee5285"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>1.2.7</skos:notation>
+        <skos:prefLabel xml:lang="de">verstehen schriftliche Verfahren der Addition, Subtraktion und Multiplikation, beschreiben den Algorithmus, führen diesen geläufig aus und wenden ihn bei geeigneten Aufgaben an,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/bb547a30-cf72-4d49-a210-0484d6b10ce2 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/bb547a30-cf72-4d49-a210-0484d6b10ce2">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/c9955b6d-8383-4095-b5d1-c5b863c465cd"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>5.1.4</skos:notation>
+        <skos:prefLabel xml:lang="de">lösen einfache kombinatorische Fragestellungen durch systematisches Vorgehen (z. B. systematisches Probieren) oder mit Hilfe von heuristischen Hilfsmitteln (z. B. Skizze, Baumdiagramm, Tabelle).</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/bbe49f49-f802-4971-a0a7-fb3fcb501892 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/bbe49f49-f802-4971-a0a7-fb3fcb501892">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/8898f7ca-eaed-4d50-b92d-5d63902d918a"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>2.3.2</skos:notation>
+        <skos:prefLabel xml:lang="de">rechnen in Sachsituationen angemessen mit Näherungswerten und prüfen Ergebnisse auf Plausibilität,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/bc140f4d-df12-4e11-8f3d-079e1589f500 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/bc140f4d-df12-4e11-8f3d-079e1589f500">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/263c0baa-8e08-4b95-81ab-98f68726ec5c"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>3.2.2</skos:notation>
+        <skos:prefLabel xml:lang="de">erkennen, beschreiben und stellen funktionale Beziehungen in Tabellen dar,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/c1750cc8-9247-4713-b2ca-7540699f4a09 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/c1750cc8-9247-4713-b2ca-7540699f4a09">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/697eea7d-1a0c-457b-9727-aa4e2c57a73d"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/f6182632-80e2-46cf-a837-e99d501f17a3"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/56925f00-1eb2-48af-b6b2-c753a67832cb"/>
+        <skos:notation>5.2</skos:notation>
+        <skos:prefLabel xml:lang="de">Ereignisse bei Zufallsexperimenten untersuchen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/c2bff55c-ef27-495b-9ce7-21d00d56466b -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/c2bff55c-ef27-495b-9ce7-21d00d56466b">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/fe94a6a2-c9c9-4faa-9d1e-e316def27092"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>2.2.1</skos:notation>
+        <skos:prefLabel xml:lang="de">verstehen und nutzen (u. a. Flächeninhalte durch Auslegen mit Einheitsquadraten, Rauminhalte durch Messen mit Einheitswürfeln) das Grundprinzip des Messens (nicht-standardisierte und standardisierte Einheitsmaße auswählen, wiederholt nutzen und ggf. in Beziehung zu Untereinheiten setzen),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/c3d75a12-4dcb-4f59-9f36-e8cbc03141ca -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/c3d75a12-4dcb-4f59-9f36-e8cbc03141ca">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/8898f7ca-eaed-4d50-b92d-5d63902d918a"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>2.3.3</skos:notation>
+        <skos:prefLabel xml:lang="de">lösen Sachaufgaben mit Größen.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/c42b702e-eebd-4b18-97d0-5931dd63b590 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/c42b702e-eebd-4b18-97d0-5931dd63b590">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/7c916dfd-b823-42f5-844b-24c37846e328"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>4.3.2</skos:notation>
+        <skos:prefLabel xml:lang="de">erkennen und beschreiben Eigenschaften der Achsensymmetrie und setzen diese mit der Achsenspiegelung in Beziehung,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/c86bd8f1-8bb1-4323-a062-bcdb0c0c36d7 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/c86bd8f1-8bb1-4323-a062-bcdb0c0c36d7">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/57b18910-51bc-4d3f-9d11-46a3d6ee5285"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>1.2.1</skos:notation>
+        <skos:prefLabel xml:lang="de">verfügen über ein Operationsverständnis zu den vier Grundrechenarten und erkennen und nutzen die Zusammenhänge zwischen den Operationen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/c9955b6d-8383-4095-b5d1-c5b863c465cd -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/c9955b6d-8383-4095-b5d1-c5b863c465cd">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/697eea7d-1a0c-457b-9727-aa4e2c57a73d"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/a0f6a90e-039e-4316-8182-84fd1c772bc4"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/bb547a30-cf72-4d49-a210-0484d6b10ce2"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e36a53a0-b411-4a7d-b48f-60f6828b71a2"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/5cc2d5d2-d9fd-419a-95ec-39e53fb4e2df"/>
+        <skos:notation>5.1</skos:notation>
+        <skos:prefLabel xml:lang="de">Mit Daten umgehen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/cbeaca03-5899-4438-b451-2ab843879017 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/cbeaca03-5899-4438-b451-2ab843879017">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/fe94a6a2-c9c9-4faa-9d1e-e316def27092"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>2.2.3</skos:notation>
+        <skos:prefLabel xml:lang="de">benennen Größenangaben mit verschiedenen Einheiten und stellen diese in unterschiedlichen Schreibweisen (z. B. 2,5 km | 2500 m | 2 km 500 m) dar.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/ce795aea-2592-4b5e-a041-d3c6d7a82da4 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/ce795aea-2592-4b5e-a041-d3c6d7a82da4">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/fe94a6a2-c9c9-4faa-9d1e-e316def27092"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>2.2.2</skos:notation>
+        <skos:prefLabel xml:lang="de">messen Längen, Zeitspannen, Massen und Hohlmaße mit geeigneten Einheiten und unterschiedlichen Messgeräten sachgerecht,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/cf801bcd-a760-404e-840b-3f9eb5160c3b -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/cf801bcd-a760-404e-840b-3f9eb5160c3b">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e19264d5-ade4-4c20-9a93-937fcddf59c2"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>2.1.1</skos:notation>
+        <skos:prefLabel xml:lang="de">vergleichen und ordnen Größen (Geldwerte, Längen, Zeitspannen, Massen, Flächeninhalte und Volumina),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/dcde6f10-8b62-49a3-ac4c-47eb510f8463 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/dcde6f10-8b62-49a3-ac4c-47eb510f8463">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/910a1f78-091e-4510-bbdf-71374b213502"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>4.1.2</skos:notation>
+        <skos:prefLabel xml:lang="de">erkennen, beschreiben und nutzen (z. B. zwei- und dreidimensionale Darstellungen zueinander in Beziehung setzen, wie Bauplan und Bauwerk, Körper und Netz) räumliche Beziehungen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/df2bc2cb-a531-4e3c-99bb-4fb40218bfc3 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/df2bc2cb-a531-4e3c-99bb-4fb40218bfc3">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/57b18910-51bc-4d3f-9d11-46a3d6ee5285"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>1.2.8</skos:notation>
+        <skos:prefLabel xml:lang="de">kontrollieren Lösungen durch geeignete Vorgehensweisen (z. B. Überschlagsrechnung, Umkehroperation).</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/e19264d5-ade4-4c20-9a93-937fcddf59c2 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/e19264d5-ade4-4c20-9a93-937fcddf59c2">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/33b83f7d-d316-4eaf-a345-c756cc08a924"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/cf801bcd-a760-404e-840b-3f9eb5160c3b"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/16fd4e82-9534-4ab3-9351-363a252e0663"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/466c39cd-b4a9-4b84-b0d5-576c965f06a3"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/67bc3a29-0230-4f3f-a0d8-ef29c5665ca2"/>
+        <skos:notation>2.1</skos:notation>
+        <skos:prefLabel xml:lang="de">Über Größenvorstellungen verfügen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/e30bc8c9-def3-4da7-811b-282140662390 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/e30bc8c9-def3-4da7-811b-282140662390">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e37317dc-8999-4b3d-b3fd-9703c4511fdd"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e341194f-7715-4500-af91-bbf6334fec63"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e8b47e6b-6b61-4e5f-ab4e-19d6092a21f4"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/095ca3d2-35c8-441c-b220-4ee007fb412b"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/2af36dea-2d3d-41b8-9b35-eead2b0d1e80"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/68fce65b-4595-43ee-87b0-21f433d6f2eb"/>
+        <skos:notation>4.2</skos:notation>
+        <skos:prefLabel xml:lang="de">Geometrische Figuren erkennen, benennen und darstellen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/e341194f-7715-4500-af91-bbf6334fec63 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/e341194f-7715-4500-af91-bbf6334fec63">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e30bc8c9-def3-4da7-811b-282140662390"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>4.2.1</skos:notation>
+        <skos:prefLabel xml:lang="de">klassifizieren Körper und ebene Figuren nach Eigenschaften, ordnen Fachbegriffe zu und beschreiben Beziehungen zwischen geometrischen Figuren (z. B. Quadrat und Rechteck),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/e36a53a0-b411-4a7d-b48f-60f6828b71a2 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/e36a53a0-b411-4a7d-b48f-60f6828b71a2">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/c9955b6d-8383-4095-b5d1-c5b863c465cd"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>5.1.2</skos:notation>
+        <skos:prefLabel xml:lang="de">stellen Daten in Tabellen, Schaubildern und Diagrammen dar, auch unter Nutzung digitaler Werkzeuge, und entnehmen Informationen aus Tabellen, Schaubildern und Diagrammen,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/e37317dc-8999-4b3d-b3fd-9703c4511fdd -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/e37317dc-8999-4b3d-b3fd-9703c4511fdd">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:definition xml:lang="de">Diese Leitidee ist auf die Entwicklung des räumlichen Vorstellungsvermögens gerichtet und beinhaltet den Umgang mit Objekten in Ebene und Raum sowie darauf bezogene Prozesse wie das geometrische Abbilden. Konkrete Handlungserfahrungen werden vertieft, systematisch geordnet, genutzt und spiralcurricular erweitert. Übergreifend spielen dabei das Begriffsverständnis und das geometrische Zeichnen eine Rolle, indem Eigenschaften und Beziehungen in den Mittelpunkt rücken und geometrische Objekte mit geeigneten Medien (einschließlich digitaler Mathematikwerkzeuge) dargestellt werden.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e30bc8c9-def3-4da7-811b-282140662390"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/7c916dfd-b823-42f5-844b-24c37846e328"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/910a1f78-091e-4510-bbdf-71374b213502"/>
+        <skos:notation>4</skos:notation>
+        <skos:prefLabel xml:lang="de">Leitidee Raum und Form</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/e4aec197-39b2-4242-a33b-f0e10c4ef0a2 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/e4aec197-39b2-4242-a33b-f0e10c4ef0a2">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/5188bb26-d308-4592-bdc8-4872745231e3"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>3.1.3</skos:notation>
+        <skos:prefLabel xml:lang="de">erkennen, stellen Gleichheit von mathematischen Ausdrücken dar und nutzen diese (z. B. Zahlen durch verschiedene Terme ausdrücken, Terme vergleichen).</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/e8b47e6b-6b61-4e5f-ab4e-19d6092a21f4 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/e8b47e6b-6b61-4e5f-ab4e-19d6092a21f4">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e30bc8c9-def3-4da7-811b-282140662390"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>4.2.4</skos:notation>
+        <skos:prefLabel xml:lang="de">untersuchen und vergleichen ebene Figuren und Körper untersuchen und vergleichen (ebene Figuren auch hinsichtlich des Umfangs und Flächeninhalts, Körper auch hinsichtlich des Rauminhalts),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/ef897aca-3d68-4ca3-89ac-75b1f4776a30 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/ef897aca-3d68-4ca3-89ac-75b1f4776a30">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/015c95e2-4aed-4184-a641-13a892a4d5d9"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>1.1.2</skos:notation>
+        <skos:prefLabel xml:lang="de">stellen Zahlen bis 1 000 000 auf verschiedene Weise dar (z. B. Anschauungsmittel, Stufenschrift, Stellenwerttabelle, Zifferndarstellung) und setzen diese zueinander in Beziehung,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/f3e6449f-de54-4c34-85a5-3fb7b9aac272 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/f3e6449f-de54-4c34-85a5-3fb7b9aac272">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/57b18910-51bc-4d3f-9d11-46a3d6ee5285"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>1.2.4</skos:notation>
+        <skos:prefLabel xml:lang="de">verstehen mündliche und halbschriftliche Rechenstrategien zu den vier Grundrechenarten und setzen diese flexibel ein,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/f6182632-80e2-46cf-a837-e99d501f17a3 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/f6182632-80e2-46cf-a837-e99d501f17a3">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/c1750cc8-9247-4713-b2ca-7540699f4a09"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>5.2.2</skos:notation>
+        <skos:prefLabel xml:lang="de">schätzen Chancen für das Eintreten von Ereignissen bei alltäglichen Phänomenen oder einfachen Zufallsexperimenten ein und vergleichen (z. B. ist wahrscheinlicher als, hat größere Chancen als) diese datenbasiert.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/fd3e0d10-6673-46ac-bf2a-ea589f91c484 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/fd3e0d10-6673-46ac-bf2a-ea589f91c484">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:definition xml:lang="de">Die Leitidee zielt in besonderer Weise auf die fachlich fundierte Erkundung von mathematischen Beziehungen und Gesetzmäßigkeiten zwischen Zahlen, Formen und Größen sowie deren Darstellungen und Eigenschaften. Ein Muster gleicht dabei eher einem Phänomen, in dem man eine Struktur – den Kern eines mathematischen Beziehungsgefüges – erkennen kann. Bei der Auseinandersetzung mit mathematischen Mustern und Darstellungen werden mathematisch relevante Strukturen (z. B. funktionale Beziehungen, Sortierungen, Ordnungen) erfasst und beschrieben, die dann wiederum in verschiedenen mathematischen Kontexten genutzt werden können.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/263c0baa-8e08-4b95-81ab-98f68726ec5c"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/5188bb26-d308-4592-bdc8-4872745231e3"/>
+        <skos:notation>3</skos:notation>
+        <skos:prefLabel xml:lang="de">Leitidee Muster, Strukturen und funktionaler Zusammenhang</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/fe94a6a2-c9c9-4faa-9d1e-e316def27092 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/fe94a6a2-c9c9-4faa-9d1e-e316def27092">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/33b83f7d-d316-4eaf-a345-c756cc08a924"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/c2bff55c-ef27-495b-9ce7-21d00d56466b"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/cbeaca03-5899-4438-b451-2ab843879017"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/ce795aea-2592-4b5e-a041-d3c6d7a82da4"/>
+        <skos:notation>2.2</skos:notation>
+        <skos:prefLabel xml:lang="de">Größen messen und Maßangaben bestimmen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/015c95e2-4aed-4184-a641-13a892a4d5d9 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/015c95e2-4aed-4184-a641-13a892a4d5d9">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/89e5b347-60b3-4bfa-987b-025913ac43b5"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/ef897aca-3d68-4ca3-89ac-75b1f4776a30"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/19ab6818-944c-42f0-bf9d-16f8ebad9e53"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/3b9ea385-b376-4af6-aab6-fe0a34a8802d"/>
+        <skos:notation>1.1</skos:notation>
+        <skos:prefLabel xml:lang="de">Zahldarstellungen und Zahlbeziehungen verstehen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/09fad8ff-7fdd-4703-9a42-4d4974d92df6 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/09fad8ff-7fdd-4703-9a42-4d4974d92df6">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/7c916dfd-b823-42f5-844b-24c37846e328"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>4.3.1</skos:notation>
+        <skos:prefLabel xml:lang="de">bilden ebene Figuren geometrisch ab (verkleinern, vergrößern und spiegeln),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/095ca3d2-35c8-441c-b220-4ee007fb412b -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/095ca3d2-35c8-441c-b220-4ee007fb412b">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e30bc8c9-def3-4da7-811b-282140662390"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>4.2.2</skos:notation>
+        <skos:prefLabel xml:lang="de">erkennen Körper und ebene Figuren in der Umwelt wieder,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/15ead2fa-5ab0-409d-a263-a5e4bdb3a086 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/15ead2fa-5ab0-409d-a263-a5e4bdb3a086">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/7c916dfd-b823-42f5-844b-24c37846e328"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>4.3.3</skos:notation>
+        <skos:prefLabel xml:lang="de">erkennen und beschreiben geometrische Abbildungen in der Umwelt oder in Mustern (z. B. in Bandornamenten).</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/16fd4e82-9534-4ab3-9351-363a252e0663 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/16fd4e82-9534-4ab3-9351-363a252e0663">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e19264d5-ade4-4c20-9a93-937fcddf59c2"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>2.1.3</skos:notation>
+        <skos:prefLabel xml:lang="de">entwickeln und nutzen Vorstellungen über Repräsentanten für Standardeinheiten und im Alltag bedeutsame Größen (z. B. Höhe der Tür, Dauer der Schulstunde),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/19ab6818-944c-42f0-bf9d-16f8ebad9e53 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/19ab6818-944c-42f0-bf9d-16f8ebad9e53">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/015c95e2-4aed-4184-a641-13a892a4d5d9"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>1.1.1</skos:notation>
+        <skos:prefLabel xml:lang="de">erkennen, erklären und nutzen den Aufbau des dezimalen Stellenwertsystems (z. B. Bündelungsprinzip, Stellenwertprinzip),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/2af36dea-2d3d-41b8-9b35-eead2b0d1e80 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/2af36dea-2d3d-41b8-9b35-eead2b0d1e80">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e30bc8c9-def3-4da7-811b-282140662390"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>4.2.3</skos:notation>
+        <skos:prefLabel xml:lang="de">stellen Modelle von Körpern (Vollmodelle, Flächenmodelle, Kantenmodelle) und ebenen Figuren her und untersuchen (z. B. bauen, legen, zerlegen, zusammenfügen, ausschneiden, falten) diese, auch unter Nutzung digitaler Werkzeuge,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/2e467032-d4b6-4f28-8d2b-200efde701d2 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/2e467032-d4b6-4f28-8d2b-200efde701d2">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/263c0baa-8e08-4b95-81ab-98f68726ec5c"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>3.2.3</skos:notation>
+        <skos:prefLabel xml:lang="de">lösen Sachaufgaben zu funktionalen Zusammenhängen (z. B. Proportionalität).</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/263c0baa-8e08-4b95-81ab-98f68726ec5c -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/263c0baa-8e08-4b95-81ab-98f68726ec5c">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/fd3e0d10-6673-46ac-bf2a-ea589f91c484"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/bc140f4d-df12-4e11-8f3d-079e1589f500"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/2e467032-d4b6-4f28-8d2b-200efde701d2"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/97c515e4-73cf-47f0-beaa-32a8c3e7cb37"/>
+        <skos:notation>3.2</skos:notation>
+        <skos:prefLabel xml:lang="de">Funktionale Beziehungen erkennen, beschreiben und darstellen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/3b9ea385-b376-4af6-aab6-fe0a34a8802d -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/3b9ea385-b376-4af6-aab6-fe0a34a8802d">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/015c95e2-4aed-4184-a641-13a892a4d5d9"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>1.1.3</skos:notation>
+        <skos:prefLabel xml:lang="de">orientieren sich im Zahlenraum bis 1 000 000 (z. B. Zahlen der Größe nach ordnen, Nachbarzahlen bestimmen).</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/33b83f7d-d316-4eaf-a345-c756cc08a924 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/33b83f7d-d316-4eaf-a345-c756cc08a924">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:definition xml:lang="de">Diese Leitidee fokussiert den sinnstiftenden mathematischen Umgang mit Größen basierend auf tragfähigen Größenvorstellungen. Sie umfasst den Verständniserwerb des Grundprinzips des Messens, das Bestimmen und Vergleichen von Größen und die sachadäquate Anwendung der erworbenen Kompetenzen zu Größen in Kontexten. Dabei spielen neben den in der Primarstufe bedeutsamen Größen Geldwerte, Längen, Zeitspannen und Massen weitere Größen wie Flächeninhalte und Volumina (Rauminhalte und Hohlmaße) eine Rolle.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e19264d5-ade4-4c20-9a93-937fcddf59c2"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/fe94a6a2-c9c9-4faa-9d1e-e316def27092"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/8898f7ca-eaed-4d50-b92d-5d63902d918a"/>
+        <skos:notation>2</skos:notation>
+        <skos:prefLabel xml:lang="de">Leitidee Größen und Messen</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/4487e44d-148f-4b9c-8ef2-f34cfef1878d -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/4487e44d-148f-4b9c-8ef2-f34cfef1878d">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/89e5b347-60b3-4bfa-987b-025913ac43b5"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/a990a980-2377-47a9-a111-f6d828f1d983"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/5e523d03-708e-41ca-97fe-44ad38ef7cfc"/>
+        <skos:notation>1.3</skos:notation>
+        <skos:prefLabel xml:lang="de">Rechenoperationen in Kontexten anwenden</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/466c39cd-b4a9-4b84-b0d5-576c965f06a3 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/466c39cd-b4a9-4b84-b0d5-576c965f06a3">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e19264d5-ade4-4c20-9a93-937fcddf59c2"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>2.1.2</skos:notation>
+        <skos:prefLabel xml:lang="de">kennen Standardeinheiten (zu Geldwerten, Längen, Zeitspannen, Hohlmaßen und zur Masse) und setzen diese im jeweiligen Größenbereich zueinander in Beziehung,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/5cc2d5d2-d9fd-419a-95ec-39e53fb4e2df -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/5cc2d5d2-d9fd-419a-95ec-39e53fb4e2df">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/c9955b6d-8383-4095-b5d1-c5b863c465cd"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>5.1.3</skos:notation>
+        <skos:prefLabel xml:lang="de">interpretieren  Darstellungen von Daten und reflektieren diese kritisch, </skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/5e523d03-708e-41ca-97fe-44ad38ef7cfc -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/5e523d03-708e-41ca-97fe-44ad38ef7cfc">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/4487e44d-148f-4b9c-8ef2-f34cfef1878d"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>1.3.1</skos:notation>
+        <skos:prefLabel xml:lang="de">wenden bei Sachaufgaben Rechenoperationen an und beschreiben die Beziehungen zwischen der Sache und den einzelnen Lösungsschritten,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/5188bb26-d308-4592-bdc8-4872745231e3 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/5188bb26-d308-4592-bdc8-4872745231e3">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/fd3e0d10-6673-46ac-bf2a-ea589f91c484"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/a62b2461-f7ea-4518-b82b-553efc6da5bc"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e4aec197-39b2-4242-a33b-f0e10c4ef0a2"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/56339df0-ccad-43ce-9530-2657e964e976"/>
+        <skos:notation>3.1</skos:notation>
+        <skos:prefLabel xml:lang="de">Gesetzmäßigkeiten erkennen, beschreiben und darstellen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/56339df0-ccad-43ce-9530-2657e964e976 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/56339df0-ccad-43ce-9530-2657e964e976">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/5188bb26-d308-4592-bdc8-4872745231e3"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>3.1.1</skos:notation>
+        <skos:prefLabel xml:lang="de">verstehen und nutzen Strukturen in arithmetischen und geometrischen Darstellungen (z. B. in Zahldarstellungen, Anschauungsmitteln) verstehen und nutzen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/56925f00-1eb2-48af-b6b2-c753a67832cb -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/56925f00-1eb2-48af-b6b2-c753a67832cb">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/c1750cc8-9247-4713-b2ca-7540699f4a09"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>5.2.1</skos:notation>
+        <skos:prefLabel xml:lang="de">kennen und nutzen Grundbegriffe zur Beschreibung von Zufallsereignissen (sicher, möglich, unmöglich),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/57b18910-51bc-4d3f-9d11-46a3d6ee5285 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/57b18910-51bc-4d3f-9d11-46a3d6ee5285">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/89e5b347-60b3-4bfa-987b-025913ac43b5"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/aab02e57-fff7-4548-af3c-f895499be858"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/b3a6ab7f-de7b-4618-b387-ece7fcde3ac3"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/c86bd8f1-8bb1-4323-a062-bcdb0c0c36d7"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/df2bc2cb-a531-4e3c-99bb-4fb40218bfc3"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/f3e6449f-de54-4c34-85a5-3fb7b9aac272"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/60976efc-c684-4981-9fe6-e3b01355d3b5"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/698fb5ce-fe6a-4f9f-a715-7447930649a5"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/756a88d8-5e8c-4dae-b652-415c4af64ae9"/>
+        <skos:notation>1.2</skos:notation>
+        <skos:prefLabel xml:lang="de">Rechenoperationen verstehen und beherrschen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/60976efc-c684-4981-9fe6-e3b01355d3b5 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/60976efc-c684-4981-9fe6-e3b01355d3b5">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/57b18910-51bc-4d3f-9d11-46a3d6ee5285"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>1.2.2</skos:notation>
+        <skos:prefLabel xml:lang="de">beherrschen die Grundaufgaben des Kopfrechnens (u. a. Zahlzerlegungen, Eins-pluseins, Einmaleins) gedächtnismäßig und leiten deren Umkehrungen sicher ab,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/64d50921-8f31-4c54-858e-82c37d921526 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/64d50921-8f31-4c54-858e-82c37d921526">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/910a1f78-091e-4510-bbdf-71374b213502"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>4.1.1</skos:notation>
+        <skos:prefLabel xml:lang="de">orientieren sich im Raum (z. B. Wege, Pläne, Ansichten),</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/67bc3a29-0230-4f3f-a0d8-ef29c5665ca2 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/67bc3a29-0230-4f3f-a0d8-ef29c5665ca2">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e19264d5-ade4-4c20-9a93-937fcddf59c2"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>2.1.4</skos:notation>
+        <skos:prefLabel xml:lang="de">kennen und verstehen im Alltag gebräuchliche einfache Brüche im Zusammenhang mit Größen (z. B. 1/2 m, Dreiviertelstunde, 1/4 l).</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/68fce65b-4595-43ee-87b0-21f433d6f2eb -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/68fce65b-4595-43ee-87b0-21f433d6f2eb">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e30bc8c9-def3-4da7-811b-282140662390"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>4.2.5</skos:notation>
+        <skos:prefLabel xml:lang="de">fertigen Zeichnungen geometrischer Figuren mit und ohne Hilfsmittel an, auch unter Nutzung digitaler Werkzeuge.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/697eea7d-1a0c-457b-9727-aa4e2c57a73d -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/697eea7d-1a0c-457b-9727-aa4e2c57a73d">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:definition xml:lang="de">Diese Leitidee umfasst die Erfassung, Ermittlung, systematische Betrachtung und Interpretation von Daten sowie die datenbasierte Erkundung von Zufallserscheinungen im Alltag und von Experimenten. Daten aus unterschiedlichen Größenbereichen und Sachzusammenhängen sind die Grundlage für eine systematische Betrachtung von Ereignissen und deren Auftreten in der Lebenswirklichkeit. Die quantitative Ermittlung von Häufigkeiten (Wie oft?) spielt hierbei eine zentrale Rolle. Häufigkeiten stehen wiederum in engem Zusammenhang mit kombinatorischen Überlegungen (Wie viele Möglichkeiten?) und der Einschätzung dazu, wie wahrscheinlich es sein könnte, dass ein Ereignis eintritt (Wie viele Möglichkeiten für ein Ereignis im Vergleich zu einem anderen? und Schlussfolgerungen daraus: Wie sind die Gewinnchancen?). Hierbei stellt die kritische Reflexion von Darstellungen eine Voraussetzung für einen mündigen Umgang mit Daten dar.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/c1750cc8-9247-4713-b2ca-7540699f4a09"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/c9955b6d-8383-4095-b5d1-c5b863c465cd"/>
+        <skos:notation>5</skos:notation>
+        <skos:prefLabel xml:lang="de">Leitidee Daten und Zufall</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/698fb5ce-fe6a-4f9f-a715-7447930649a5 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/698fb5ce-fe6a-4f9f-a715-7447930649a5">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/57b18910-51bc-4d3f-9d11-46a3d6ee5285"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>1.2.5</skos:notation>
+        <skos:prefLabel xml:lang="de">beschreiben, vergleichen und bewerten verschiedene Rechenwege; finden, erklären und berichtigen Rechenfehler,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/7c916dfd-b823-42f5-844b-24c37846e328 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/7c916dfd-b823-42f5-844b-24c37846e328">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e37317dc-8999-4b3d-b3fd-9703c4511fdd"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/c42b702e-eebd-4b18-97d0-5931dd63b590"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/09fad8ff-7fdd-4703-9a42-4d4974d92df6"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/15ead2fa-5ab0-409d-a263-a5e4bdb3a086"/>
+        <skos:notation>4.3</skos:notation>
+        <skos:prefLabel xml:lang="de">Geometrische Abbildungen erkennen, benennen und darstellen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/756a88d8-5e8c-4dae-b652-415c4af64ae9 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/756a88d8-5e8c-4dae-b652-415c4af64ae9">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/57b18910-51bc-4d3f-9d11-46a3d6ee5285"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>1.2.3</skos:notation>
+        <skos:prefLabel xml:lang="de">übertragen die Grundaufgaben des Kopfrechnens auf analoge Aufgaben im Zahlenraum bis zur Million,</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/85eea800-7e3a-4d7b-ba9e-220edee54c68 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/85eea800-7e3a-4d7b-ba9e-220edee54c68">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/910a1f78-091e-4510-bbdf-71374b213502"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>4.1.3</skos:notation>
+        <skos:prefLabel xml:lang="de">operieren (z. B. zerlegen, falten, drehen, spiegeln, bauen) mit geometrischen Objekten gedanklich.</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/8898f7ca-eaed-4d50-b92d-5d63902d918a -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/8898f7ca-eaed-4d50-b92d-5d63902d918a">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/33b83f7d-d316-4eaf-a345-c756cc08a924"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/a91b8d24-c9f3-42d9-b8a0-7822687a0d98"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/bbe49f49-f802-4971-a0a7-fb3fcb501892"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/c3d75a12-4dcb-4f59-9f36-e8cbc03141ca"/>
+        <skos:notation>2.3</skos:notation>
+        <skos:prefLabel xml:lang="de">Mit Größen in Kontexten umgehen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/89e5b347-60b3-4bfa-987b-025913ac43b5 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/89e5b347-60b3-4bfa-987b-025913ac43b5">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:definition xml:lang="de">Diese Leitidee umfasst den Aufbau von und den verständnisorientierten Umgang mit Vorstellungen zu Zahlen und Operationen sowie deren Beziehungen zueinander ebenso wie das sichere Addieren, Subtrahieren, Multiplizieren und Dividieren unter sinntragender und flexibler Nutzung von Rechenstrategien, Rechengesetzen und Kontrollverfahren. Dazu gehört auch das sichere Verständnis der für die Primarstufe zentralen schriftlichen Algorithmen wie auch das sachgerechte Rechnen in und mit Kontexten.</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/015c95e2-4aed-4184-a641-13a892a4d5d9"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/4487e44d-148f-4b9c-8ef2-f34cfef1878d"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/57b18910-51bc-4d3f-9d11-46a3d6ee5285"/>
+        <skos:notation>1</skos:notation>
+        <skos:prefLabel xml:lang="de">Leitidee Zahl und Operation</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/910a1f78-091e-4510-bbdf-71374b213502 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/910a1f78-091e-4510-bbdf-71374b213502">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/e37317dc-8999-4b3d-b3fd-9703c4511fdd"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/dcde6f10-8b62-49a3-ac4c-47eb510f8463"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/64d50921-8f31-4c54-858e-82c37d921526"/>
+        <skos:narrower rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/85eea800-7e3a-4d7b-ba9e-220edee54c68"/>
+        <skos:notation>4.1</skos:notation>
+        <skos:prefLabel xml:lang="de">Über räumliches Vorstellungsvermögen verfügen</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/iqb/bista22map/stdInhalt/97c515e4-73cf-47f0-beaa-32a8c3e7cb37 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/iqb/bista22map/stdInhalt/97c515e4-73cf-47f0-beaa-32a8c3e7cb37">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/263c0baa-8e08-4b95-81ab-98f68726ec5c"/>
+        <skos:inScheme rdf:resource="https://w3id.org/iqb/bista22map/stdInhalt/"/>
+        <skos:notation>3.2.1</skos:notation>
+        <skos:prefLabel xml:lang="de">erkennen und beschreiben funktionale Beziehungen in Sachsituationen (z. B. Menge - Preis), </skos:prefLabel>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
