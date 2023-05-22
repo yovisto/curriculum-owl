@@ -1,0 +1,50 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex:    <http://www.example.org/#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix sdo: <https://schema.org/> .
+@prefix dini: <https://w3id.org/dini/dini-ns/> .
+@prefix dini2: <https://dini-ag-kim.github.io/modell_lehrplaene#> .
+
+dini:CurriculumShape
+    a sh:NodeShape ;
+    sh:targetClass dini:Curriculum ; 
+    sh:property [              
+        sh:path sdo:publisher ;       
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class sdo:Organization ;
+    ] ;    
+    sh:property [              
+        sh:path sdo:creator ;      
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class sdo:Organization ;
+    ] ;
+    sh:property [              
+        sh:path sdo:educationalLevel ;      
+        sh:minCount 1 ;
+        sh:maxCount 1 ;                 
+        sh:class dini2:EducationalLevel ;
+    ] ;
+    sh:property [              
+        sh:path dini:educationalStandard ;      
+        sh:minCount 1 ;
+        sh:maxCount 1 ;                 
+        sh:class dini2:Bildungsstandard ;
+    ] ;
+    .
+
+dini:CurriculumItemShape
+    a sh:NodeShape ;
+    sh:targetClass dini:CurriculumItem ; 
+    sh:property [              
+        sh:path dini:educationalStandard ;      
+        sh:minCount 1 ;
+        sh:maxCount 1 ;                 
+        sh:class dini2:Bildungsstandard ;
+    ] ;
+    .
+ ###### add SHACL vocabulary ###### 

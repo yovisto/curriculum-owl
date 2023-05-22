@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://example.com/isb/mathe/"
+     xml:base="https://example.com/isb/mathe/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:sdo="https://schema.org/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dini="https://w3id.org/dini/dini-ns/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broader -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#narrower -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- https://schema.org/about -->
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/about"/>
+    
+
+
+    <!-- https://schema.org/creator -->
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/creator"/>
+        
+
+
+    <!-- https://schema.org/keywords -->
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/keywords"/>
+    
+
+
+    <!-- https://schema.org/license -->
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/license"/>
+    
+
+
+    <!-- https://schema.org/name -->
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/name"/>
+    
+
+
+    <!-- https://schema.org/publisher -->
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/publisher"/>
+    
+
+
+    <!-- https://schema.org/timeRequired -->
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/timeRequired"/>
+    
+
+
+    <!-- https://schema.org/url -->
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/url"/>
+    
+
+
+    <!-- https://schema.org/version -->
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/version"/>
+    
+
+
+    <!-- https://w3id.org/dini/dini-ns/assessedBy -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/dini/dini-ns/assessedBy"/>
+    
+   
+    <!-- https://w3id.org/dini/dini-ns/taughtBy -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/dini/dini-ns/taughtBy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+     
+    <!-- https://schema.org/educationalLevel -->
+    
+    <owl:ObjectProperty rdf:about="https://schema.org/educationalLevel"/>
+    
+    
+    <!-- https://w3id.org/dini/dini-ns/educationalStandard -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dini/dini-ns/educationalStandard"/>
+     
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+   
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://schema.org/Organization -->
+
+    <owl:Class rdf:about="https://schema.org/Organization"/>
+    
+
+
+    <!-- https://w3id.org/dini/dini-ns/Curriculum -->
+
+    <owl:Class rdf:about="https://w3id.org/dini/dini-ns/Curriculum"/>
+    
+
+
+    <!-- https://w3id.org/dini/dini-ns/CurriculumItem -->
+
+    <owl:Class rdf:about="https://w3id.org/dini/dini-ns/CurriculumItem"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://example.com/isb/mathe/creator -->
+
+    <owl:NamedIndividual rdf:about="https://example.com/isb/mathe/creator">
+        <rdf:type rdf:resource="https://schema.org/Organization"/>
+        <sdo:name xml:lang="de">Staatsinstitut für Schulqualität und Bildungsforschung</sdo:name>
+        <sdo:url rdf:resource="https://www.isb.bayern.de/"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://example.com/isb/mathe/matheBY7 -->
+
+    <owl:NamedIndividual rdf:about="https://example.com/isb/mathe/matheBY7">
+        <rdf:type rdf:resource="https://w3id.org/dini/dini-ns/Curriculum"/>
+        <skos:closeMatch rdf:resource="https://example.com/isb/mathe/matheBaWue7"/>
+        <skos:definition xml:lang="de">Der Lehrplan für das Fach Mathematik der siebten Jahrgangsstufe in Bayern</skos:definition>
+        <skos:narrower rdf:resource="https://example.com/isb/mathe/matheM71"/>
+        <skos:prefLabel xml:lang="de">Lehrplan Mathematik 7. Klasse Bayern</skos:prefLabel>
+        <sdo:about rdf:resource="https://w3id.org/kim/schulfaecher/s1017"/>
+        <sdo:creator rdf:resource="https://example.com/isb/mathe/creator"/>
+        <sdo:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+        <sdo:keywords xml:lang="de">Bayern</sdo:keywords>
+        <sdo:keywords xml:lang="de">Lehrplan</sdo:keywords>
+        <sdo:keywords xml:lang="de">Mathematik</sdo:keywords>
+        <sdo:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+        <sdo:publisher rdf:resource="https://example.com/isb/mathe/publisher"/>
+        <sdo:timeRequired rdf:datatype="http://www.w3.org/2001/XMLSchema#Literal">P6M</sdo:timeRequired>
+        <sdo:version>1.0</sdo:version>
+        <dini:educationalStandard rdf:resource="https://w3id.org/iqb/bista22mas1/ab/24faf10b-6907-4610-91f9-f399d108beb9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://example.com/isb/mathe/matheM71 -->
+
+    <owl:NamedIndividual rdf:about="https://example.com/isb/mathe/matheM71">
+        <rdf:type rdf:resource="https://w3id.org/dini/dini-ns/CurriculumItem"/>
+        <skos:broader rdf:resource="https://example.com/isb/mathe/matheBY7"/>
+        <skos:closeMatch rdf:resource="https://example.com/isb/mathe/matheBaWue71"/>
+        <skos:definition xml:lang="de"></skos:definition>
+        <skos:narrower rdf:resource="https://example.com/isb/mathe/matheM711"/>
+        <skos:narrower rdf:resource="https://example.com/isb/mathe/matheM712"/>
+        <skos:prefLabel xml:lang="de">Terme mit Variablen</skos:prefLabel>
+        <sdo:keywords xml:lang="de">Terme</sdo:keywords>
+        <sdo:keywords xml:lang="de">Variablen</sdo:keywords>
+        <sdo:timeRequired rdf:datatype="http://www.w3.org/2001/XMLSchema#Literal">PT37H</sdo:timeRequired>
+        <dini:assessedBy rdf:resource="https://www.iqb.hu-berlin.de/vera/aufgaben"/>
+        <dini:educationalStandard rdf:resource="https://w3id.org/iqb/bista22mas1/ab/24faf10b-6907-4610-91f9-f399d108beb9"/>
+        <dini:taughtBy rdf:resource="https://de.serlo.org/mathe/1841/termumformung-mit-variablen?contentOnly"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://example.com/isb/mathe/matheM711 -->
+
+    <owl:NamedIndividual rdf:about="https://example.com/isb/mathe/matheM711">
+        <rdf:type rdf:resource="https://w3id.org/dini/dini-ns/CurriculumItem"/>
+        <skos:broader rdf:resource="https://example.com/isb/mathe/matheM71"/>
+        <skos:closeMatch rdf:resource="https://example.com/isb/mathe/matheBaWue7"/>
+        <skos:definition xml:lang="de">Die Schülerinnen und Schüler verstehen Variablen als wichtiges Hilfsmittel, um mathematische Zusammenhänge kurz und prägnant zu formulieren. Sie strukturieren und abstrahieren unterschiedlich (z. B. sprachlich, numerisch, bildhaft) dargestellte inner- und außermathematische Zusammenhänge mithilfe von Termen mit einer oder mehreren Variablen und interpretieren vorgegebene Terme in derartigen Zusammenhängen.</skos:definition>
+        <skos:prefLabel xml:lang="de">Aufstellen und Interpretieren von Termen</skos:prefLabel>
+        <sdo:keywords xml:lang="de">Terme</sdo:keywords>
+        <sdo:keywords xml:lang="de">Variablen</sdo:keywords>
+        <sdo:timeRequired rdf:datatype="http://www.w3.org/2001/XMLSchema#Literal">PT13H</sdo:timeRequired>
+        <dini:educationalStandard rdf:resource="https://w3id.org/iqb/bista22mas1/ab/24faf10b-6907-4610-91f9-f399d108beb9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://example.com/isb/mathe/publisher -->
+
+    <owl:NamedIndividual rdf:about="https://example.com/isb/mathe/publisher">
+        <rdf:type rdf:resource="https://schema.org/Organization"/>
+        <sdo:name xml:lang="de">Staatsinstitut für Schulqualität und Bildungsforschung</sdo:name>
+        <sdo:url rdf:resource="https://www.isb.bayern.de/"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
