@@ -19,14 +19,7 @@
     // Annotation properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#broader -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+     -->   
     
 
 
@@ -89,7 +82,6 @@
     <owl:AnnotationProperty rdf:about="https://schema.org/publisher"/>
     
 
-
     <!-- https://schema.org/timeRequired -->
 
     <owl:AnnotationProperty rdf:about="https://schema.org/timeRequired"/>
@@ -107,18 +99,6 @@
     <owl:AnnotationProperty rdf:about="https://schema.org/version"/>
     
 
-
-    <!-- https://w3id.org/dini/dini-ns/assessedBy -->
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/dini/dini-ns/assessedBy"/>
-    
-   
-    <!-- https://w3id.org/dini/dini-ns/taughtBy -->
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/dini/dini-ns/taughtBy"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -126,6 +106,23 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
+     
+    <!-- http://www.w3.org/2004/02/skos/core#broader -->
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/> 
+
+    <!-- https://w3id.org/dini/dini-ns/assessedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dini/dini-ns/assessedBy">
+    	<owl:inverseOf rdf:resource="https://schema.org/assesses"/>
+    </owl:ObjectProperty>
+        
+   
+    <!-- https://w3id.org/dini/dini-ns/taughtBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dini/dini-ns/taughtBy">
+        <owl:inverseOf rdf:resource="https://schema.org/teaches"/>
+    </owl:ObjectProperty>
+ 
      
     <!-- https://schema.org/educationalLevel -->
     
@@ -136,16 +133,8 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/dini/dini-ns/educationalStandard"/>
      
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-   
-
+     
+     
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////

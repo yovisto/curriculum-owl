@@ -1,0 +1,1128 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:eafkey="http://example-perma-id/eaf-schlagwortverzeichnis-all/"
+     xmlns:eafsys="http://example-perma-id/eaf-sachgebietssystematik-all/">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#editorialNote -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#editorialNote"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#hasTopConcept -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#related -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#related"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#topConceptOf -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date 
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    -->
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
+
+    <Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/ -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dct:created>
+        <dct:creator>&lt;https://wirlernenonline.de&gt;</dct:creator>
+        <dct:description xml:lang="en">EAF thesaurus with extensions.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dct:issued>
+        <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dct:modified>
+        <dct:title xml:lang="en">Discipline</dct:title>
+        <dct:title xml:lang="de">Schulfächer</dct:title>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/niederdeutsch"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/oeh01"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/oeh04010"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/020"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/040"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/04001"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/04002"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/04003"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/04005"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/04006"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/04007"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/04009"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/04010"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/04011"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/04012"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/04013"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/04014"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/060"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/080"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/100"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/120"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/12002"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/160"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/20001"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/20002"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/20003"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/20004"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/20005"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/20006"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/20007"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/20008"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/20009"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/20041"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/20090"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/220"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/240"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/260"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/28002"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/28010"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/320"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/340"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/400"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/420"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/440"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/44006"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/44007"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/44099"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/450"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/460"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/46014"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/480"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/48005"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/50001"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/50005"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/510"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/520"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/560"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/600"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/640"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/64018"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/660"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/680"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/700"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/720"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/72001"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/900"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/999"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/niederdeutsch -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/niederdeutsch">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Platt</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Niederdeutsch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Platt German</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/oeh01 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/oeh01">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Arbeit, Ernährung, Soziales</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/oeh04010 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/oeh04010">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Mechatronik</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/04010"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/020 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/020">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Arbeit, Wirtschaft, Technik</skos:altLabel>
+        <skos:altLabel xml:lang="de">Polytechnik</skos:altLabel>
+        <skos:altLabel xml:lang="de">Polytechnischer Unterricht</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Arbeitslehre</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Career education</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/020"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/arbeitslehre"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/040 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/040">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Berufsausbildung</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Berufliche Bildung</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Vocational education</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/040"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/beruflichebildung"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/04001 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/04001">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Agrarwirtschaft</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Agricultural economics</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/04001"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/04002 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/04002">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Bautechnik</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Construction engineering</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/04002"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/04003 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/04003">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Chemie, Physik, Biologie</skos:altLabel>
+        <skos:altLabel xml:lang="en">Chemistry, Physics, Biology</skos:altLabel>
+        <skos:altLabel xml:lang="en">Natural Sciences</skos:altLabel>
+        <skos:altLabel xml:lang="de">Naturwissenschaften</skos:altLabel>
+        <skos:prefLabel xml:lang="de">MINT</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">MINT</skos:prefLabel>
+        <skos:related rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/080"/>
+        <skos:related rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/100"/>
+        <skos:related rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/320"/>
+        <skos:related rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/460"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/04005 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/04005">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Electrical engineering</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Elektrotechnik</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/04005"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/04006 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/04006">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Ernährung und Hauswirtschaft</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Nutrition and home economics</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/04006"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/04007 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/04007">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Raumgestaltung</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Color technology and interior design</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Farbtechnik und Raumgestaltung</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/04007"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/04009 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/04009">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Holztechnik</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Wood engineering</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/04009"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/04010 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/04010">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Body care</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Körperpflege</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/2600103"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/04011 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/04011">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Metal engineering</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Metalltechnik</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/04011"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/04012 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/04012">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Textile technology and clothing</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Textiltechnik und Bekleidung</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/04012"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/04013 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/04013">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Business and administration</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Wirtschaft und Verwaltung</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/04013"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/04014 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/04014">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Arbeitssicherheit</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Work safety</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/04014"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/060 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/060">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="en">Art</skos:altLabel>
+        <skos:altLabel xml:lang="de">Kunsterziehung</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Art education</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Kunst</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/060"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/bildendekunst"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/080 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/080">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Biologie</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Biology</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/080"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/biologie"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/100 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/100">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Chemie</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Chemistry</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/100"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/chemie"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/120 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/120">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="en">German</skos:altLabel>
+        <skos:altLabel xml:lang="de">Muttersprache</skos:altLabel>
+        <skos:altLabel xml:lang="en">german</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Deutsch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">German as mother tongue</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/120"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/deutsch"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/12002 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/12002">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Darstellendes Spiel</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Performing game</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/12002"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/160 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/160">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Ethics</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Ethik</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/160"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/ethik"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/20001 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/20001">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Englisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">English</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/20001"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/20002 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/20002">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Französisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">French</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/20002"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/20003 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/20003">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Alt-Griechisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Ancient Greek</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/20003"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/20004 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/20004">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Italian</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Italienisch</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/20004"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/20005 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/20005">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Latein</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Latin</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/20005"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/20006 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/20006">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Russian</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Russisch</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/20006"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/20007 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/20007">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Spanisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Spanish</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/20007"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/20008 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/20008">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Turkish</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Türkisch</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/20008"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/20009 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/20009">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Sorbian</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sorbisch</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/20009"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/20041 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/20041">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Chinese</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Chinesisch</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/20090 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/20090">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Esperanto</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Esperanto</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/20080"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/220 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/220">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Erdkunde</skos:altLabel>
+        <skos:altLabel xml:lang="de">Geographie</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Geografie</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Geography</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/220"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/geographie"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/240 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/240">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Geschichte</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">History</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/20002"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/geschichte"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/260 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/260">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Gesundheitserziehung</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Gesundheit</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Health education</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/260"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/gesundheit"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/28002 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/28002">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">DaF</skos:altLabel>
+        <skos:altLabel xml:lang="de">DaZ</skos:altLabel>
+        <skos:altLabel xml:lang="de">Deutsch als Fremdsprache</skos:altLabel>
+        <skos:altLabel xml:lang="de">Deutsch als Zweit- / Fremdsprache</skos:altLabel>
+        <skos:editorialNote xml:lang="de">Die momentane ID 28002 verweist in der EAF-Sachgebietssystematik auf einen falschen Eintrag. Es müsste 12005 sein.</skos:editorialNote>
+        <skos:prefLabel xml:lang="de">Deutsch als Zweitsprache</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">German as second language</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/12005"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/28010 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/28010">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Heimatunterricht</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Homeland lessons</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sachunterricht</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/28010"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/320 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/320">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="en">Computer Science</skos:altLabel>
+        <skos:altLabel xml:lang="de">Informations- und Kommunikationstechnologie</skos:altLabel>
+        <skos:prefLabel xml:lang="en">ICT</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Informatik</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/320"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/informationstechnischebildung"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/340 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/340">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Intercultural Education</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Interkulturelle Bildung</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/340"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/interkulturellebildung"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/380 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/380">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="en">Math</skos:altLabel>
+        <skos:altLabel xml:lang="de">Mathe</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Mathematics</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mathematik</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/380"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/mathematik"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/400 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/400">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Medienerziehung</skos:altLabel>
+        <skos:definition xml:lang="de">Mediendidaktik befasst sich mit der Erziehung durch Medien</skos:definition>
+        <skos:editorialNote xml:lang="de">Auf EAF-Sachgebietssystematik &apos;Medienpädagogik&apos;(400) gemapped.</skos:editorialNote>
+        <skos:prefLabel xml:lang="en">Media education</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mediendidaktik</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/400"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/medienpädagogik"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/420 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/420">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Music</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Musik</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/420"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/musik"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/440 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/440">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Erziehungswissenschaften</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Pedagogy</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Pädagogik</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/440"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/pädagogik"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/44006 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/44006">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Sonderpädagogik</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Special needs eduation</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/44007 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/44007">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Sozialkunde</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Social education</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sozialpädagogik</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/44099 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/44099">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">OER</skos:altLabel>
+        <skos:altLabel xml:lang="en">OER</skos:altLabel>
+        <skos:editorialNote xml:lang="de">Eingefügt von OEH. Nicht in AG-MUD Sachgebietssystematik vorhanden</skos:editorialNote>
+        <skos:prefLabel xml:lang="de">Open Educational Resources</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Open Educational Resources</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/450 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/450">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Philosophie</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Philosophy</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/450"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/460 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/460">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Physics</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Physik</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/460"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/physik"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/46014 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/46014">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="de">Astronomie</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Astronomy</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/46014"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/480 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/480">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Politische Bildung</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Politics</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Politik</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/480"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/politischebildung"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/48005 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/48005">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Gesellschaftspolitische Gegenwartsfragen</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Gesellschaftskunde</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">social studies</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/48005"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/50001 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/50001">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Verbraucherbildung</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Hauswirtschaft</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Home economics</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/50001"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/50005 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/50005">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Handicraft</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Werken</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/50005"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/510 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/510">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:editorialNote xml:lang="de">Keine Referenz zu EAFkey vorhanden</skos:editorialNote>
+        <skos:prefLabel xml:lang="de">Psychologie</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Psychology</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/510"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/520 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/520">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Religionsunterricht</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Religion</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Religious education</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/520"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/religion"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/560 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/560">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Sex education</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sexualerziehung</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/560"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/sexualerziehung"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/600 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/600">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Sportunterricht</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Physical education</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sport</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/600"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/sport"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/640 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/640">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Umwelterziehung</skos:altLabel>
+        <skos:altLabel xml:lang="de">Wirtschaft</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Environmental education</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Umweltgefährdung, Umweltschutz</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/640"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/umweltgefährdungumweltschutz"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/64018 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/64018">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:editorialNote xml:lang="de">Ergänzung durch OEH. Nicht in original EAF vorhanden</skos:editorialNote>
+        <skos:prefLabel xml:lang="de">Nachhaltigkeit</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Sustainability</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/660 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/660">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Road safety education</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Verkehrserziehung</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/660"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/680 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/680">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Further education</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Weiterbildung</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/680"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/700 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/700">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="en">Economy</skos:altLabel>
+        <skos:altLabel xml:lang="de">Wirtschaftswissenschaften</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Economics</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Wirtschaftskunde</skos:prefLabel>
+        <skos:related rdf:resource="http://example-perma-id/eaf-sachgebietssystematik-all/700"/>
+        <skos:related rdf:resource="http://example-perma-id/eaf-schlagwortverzeichnis-all/wirtschaftskunde"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/720 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/720">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="de">Sonstiges</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Allgemein</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Interdisciplinary media</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/72001 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/72001">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Modern education</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Zeitgemäße Bildung</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/900 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/900">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:editorialNote xml:lang="de">Überbegriff für Mediendidaktik und Medienerziehung</skos:editorialNote>
+        <skos:prefLabel xml:lang="de">Medienbildung</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">media education</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/openeduhub/vocabs/discipline/999 -->
+
+    <NamedIndividual rdf:about="http://w3id.org/openeduhub/vocabs/discipline/999">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:editorialNote xml:lang="de">Eingefügt von OEH. Nicht in AG-MUD Sachgebietssystematik vorhanden</skos:editorialNote>
+        <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sonstiges</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/"/>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
