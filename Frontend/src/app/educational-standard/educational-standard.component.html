@@ -1,0 +1,54 @@
+<h2 mat-dialog-title>Select Educational Standard</h2>
+<mat-dialog-content>
+    <mat-form-field class="mat-form-field">
+        <input matInput (keyup)="applyFilter($event.target)" placeholder="Filter">
+    </mat-form-field>
+
+    <div *ngIf="dataSource">
+        <mat-table #table [dataSource]="dataSource" class="mat-elevation-z8 table-pointer">
+
+            <!-- Position Column -->
+            <ng-container matColumnDef="id">
+                <mat-header-cell *matHeaderCellDef> id </mat-header-cell>
+                <mat-cell title={{element.id}} *matCellDef="let element"> {{element.id.substring(0, 50)}}...
+                </mat-cell>
+            </ng-container>
+
+            <!-- Name Column -->
+            <ng-container matColumnDef="prefLabel">
+                <mat-header-cell *matHeaderCellDef> prefLabel </mat-header-cell>
+                <mat-cell title={{element.prefLabel}} *matCellDef="let element"> {{element.prefLabel ?
+                    element.prefLabel.substring(0,
+                    50) : ""}}...
+                </mat-cell>
+            </ng-container>
+
+            <!-- Weight Column -->
+            <ng-container matColumnDef="definition">
+                <mat-header-cell *matHeaderCellDef> definition </mat-header-cell>
+                <mat-cell title={{element.definition}} *matCellDef="let element"> {{element.definition ?
+                    element.definition.substring(0,
+                    50) : ""}}... </mat-cell>
+            </ng-container>
+
+            <!-- Symbol Column -->
+            <ng-container matColumnDef="yearBuilt">
+                <mat-header-cell *matHeaderCellDef> yearBuilt </mat-header-cell>
+                <mat-cell *matCellDef="let element"> {{element.yearBuilt}} </mat-cell>
+            </ng-container>
+
+            <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+            <mat-row *matRowDef="let row; columns: displayedColumns;" (click)="onYesClick(row)"></mat-row>
+
+        </mat-table>
+        
+    </div>
+    <mat-toolbar>
+        <mat-toolbar-row>
+            <button (click)="onNoClick()">Cancel</button>
+            <mat-paginator #paginator [pageSize]="5" showFirstLastButtons>
+            </mat-paginator>
+        </mat-toolbar-row>
+    </mat-toolbar>
+
+</mat-dialog-content>

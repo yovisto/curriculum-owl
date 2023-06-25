@@ -1,0 +1,1308 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="/home/johann/Source/Yovisto/curriculum-owl/Import/iqb_Mathe_Sek_1_stdProzess.rdf"
+         xmlns="/home/johann/Source/Yovisto/curriculum-owl/Import/iqb_Mathe_Sek_1_stdProzess.rdf#"
+         xmlns:core="http://www.w3.org/2004/02/skos/core#"
+         xmlns:mode="https://dini-ag-kim.github.io/modell_lehrplaene#"
+         xmlns:sche="https://schema.org/"
+         xmlns:term="http://purl.org/dc/terms/">
+
+<owl:Ontology rdf:about="/home/johann/Source/Yovisto/curriculum-owl/Import/iqb_Mathe_Sek_1_stdProzess.rdf"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+
+<owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+
+<owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+
+<core:ConceptScheme rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/ae543f74-b3c1-4397-9b0e-dd3a1952b3fe"/>
+  <core:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/e77ca531-a949-466a-ac8b-6c3c8a138a6e"/>
+  <core:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/f2f5d9c5-4eeb-4678-825c-557a43273e75"/>
+  <core:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/5c3b886a-de51-4fee-83a4-a6bb14f25276"/>
+  <core:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/6def32ea-b474-4cba-9887-1e7ad9247be7"/>
+  <core:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/6edb6bcf-963d-4844-966e-080592bcb8a6"/>
+  <core:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/9373d623-2907-4bbd-94bf-42c08cf44716"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/ae543f74-b3c1-4397-9b0e-dd3a1952b3fe"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/e77ca531-a949-466a-ac8b-6c3c8a138a6e"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/f2f5d9c5-4eeb-4678-825c-557a43273e75"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/5c3b886a-de51-4fee-83a4-a6bb14f25276"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/6def32ea-b474-4cba-9887-1e7ad9247be7"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/6edb6bcf-963d-4844-966e-080592bcb8a6"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/9373d623-2907-4bbd-94bf-42c08cf44716"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <term:creator xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</term:creator>
+  <term:title xml:lang="de">Mathe Sek 1_Prozessbezogene Kompetenzen</term:title>
+  <core:prefLabel xml:lang="de">Prozessbezogene Kompetenzen</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:ConceptScheme>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/ae543f74-b3c1-4397-9b0e-dd3a1952b3fe">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/d174a1c9-3763-4a19-92d9-d178bd932112"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/3f85ff14-156b-43e7-88d7-ac305a5931e9"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/424bbdf3-7862-4c6d-b876-8951754ceeb6"/>
+  <core:topConceptOf rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:definition xml:lang="de">Mathematische Bildung in der digitalen Welt umfasst: Fachliche Kompetenzen digital zu fördern und digitale Kompetenzen fachlich zu fördern. Darüber hinaus sollte ein Beitrag geleistet werden zur digitalen personalen Bildung, um Mathematik für die kritische Rezeption von Alltagsmedien zu nutzen. Dazu gehört der Umgang analoger Medien (Schulbuch, Lineal, Körpermodell, Formelsammlung, Spielwürfel, ...) im Verbund mit digitalen Medien. Digitale Medien, die für das Lernen und Lehren von Mathematik relevant sind, umfassen mathematikspezifische sowie allgemeine Medien. Mathematikspezifisch sind insbesondere digitale Mathematikwerkzeuge als themenübergreifende Medien, aber auch themenspezifische mathematikhaltige Medien (z. B. Apps, interaktive Lernangebote). Allgemeine Medien (z. B. Videos, Textverarbeitung, Präsentationsmedien) spielen eine Rolle, da Sie erfordern, mathematikhaltige Informationen zu bündeln, zu präsentieren und nach mathematischen Kriterien zu beurteilen. Das Spektrum der Kompetenzen reicht von der Nutzung analoger Medien, der kritischen Prüfung von Informationen der digitalen Welt unter mathematischen Gesichtspunkten, der Verwendung digitaler Mathematikwerkzeuge (z. B. Tabellenkalkulation oder Geometriesoftware) und Lernumgebungen über die Erstellung und Gestaltung eigener allgemeiner Medien wie Videos und Präsentationen bis hin zur bewussten Verwendung, Entwicklung und Reflexion von Algorithmen mit Hilfe digitaler Medien.</core:definition>
+  <core:notation>7</core:notation>
+  <core:prefLabel xml:lang="de">Mit Medien mathematisch umgehen</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/e77ca531-a949-466a-ac8b-6c3c8a138a6e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/178489cf-ca94-4dfa-a312-e65712e35e27"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/3aa82aaa-5040-4ce0-93e4-e4ca455823f9"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/6fa0f785-1581-4aec-b54f-2210a84d636c"/>
+  <core:topConceptOf rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:definition xml:lang="de">Diese Kompetenz umfasst das Erzeugen und Vernetzen von sowie das Umgehen mit mathematischen Darstellungen - der grafisch-visuellen, algebraisch-formalen, numerisch-tabellarischen, verbal-sprachlichen Darstellung. Das Spektrum reicht von Anwenden, Interpretieren und Unterscheiden von Standarddarstellungen über den Wechsel geeigneter mathematischer Darstellungen bis hin zum Erstellen eigener Darstellungen, die dem Strukturieren und Dokumentieren individueller Überlegungen dienen.</core:definition>
+  <core:notation>5</core:notation>
+  <core:prefLabel xml:lang="de">Mathematisch darstellen</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/f2f5d9c5-4eeb-4678-825c-557a43273e75">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/a48f913f-0da5-4060-8865-d3e8b80c7f88"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/20445a07-0c54-4bb0-915b-42b0d96c1f51"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/76abdb99-d766-4527-ab97-3367afb5b1ed"/>
+  <core:topConceptOf rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:definition xml:lang="de">Beim mathematischen Modellieren geht es um das Lösen eines realen Problems mit Hilfe von Mathematik. Von besonderer Bedeutung dabei ist das Übersetzen zwischen Realsituationen und mathematischen Begriffen, Resultaten oder Methoden. Typische Teilschritte des Modellierens sind das Strukturieren und Vereinfachen gegebener Realsituationen, das Übersetzen realer Gegebenheiten in mathematische Modelle, das Arbeiten im mathematischen Modell, das Interpretieren mathematischer Ergebnisse in Bezug auf Realsituationen und das Überprüfen von Ergebnissen sowie des Modells im Hinblick auf Stimmigkeit und Angemessenheit bezogen auf die Realsituation. Das Spektrum reicht von Standardmodellen (z. B. proportionale Zuordnung) bis hin zu komplexeren Modellierungen (z. B. geometrische Konstruktionen, Sinusfunktion, Exponentialfunktion, Zufallsexperimente).</core:definition>
+  <core:notation>4</core:notation>
+  <core:prefLabel xml:lang="de">Mathematisch modellieren</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/5c3b886a-de51-4fee-83a4-a6bb14f25276">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/10365b37-53ff-45e6-8a9d-28a8f99ecff2"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/2bed221e-98d3-42fb-9883-d7dc95a828b6"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/9cbba21a-15a0-478d-927a-6772899c2efb"/>
+  <core:topConceptOf rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:definition xml:lang="de">Zu dieser Kompetenz gehören sowohl das Entnehmen von Informationen aus Texten, mündlichen Äußerungen oder sonstigen Quellen als auch das Darlegen von Überlegungen, Lösungswegen bzw. Ergebnissen in mündlicher und schriftlicher Form auch unter Verwendung einer adressatengerechten Fachsprache. Das Spektrum reicht von der direkten Informationsentnahme aus Texten des Alltagsgebrauchs bzw. vom Aufschreiben einfacher Lösungswege bis hin zum sinnentnehmenden Erfassen fachsprachlicher Texte bzw. vom Dokumentieren einfacher Lösungswege zum strukturierten Darlegen oder Präsentieren eigener Überlegungen, auch mit Hilfe geeigneter Medien.</core:definition>
+  <core:notation>2</core:notation>
+  <core:prefLabel xml:lang="de">Mathematisch kommunizieren</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/6def32ea-b474-4cba-9887-1e7ad9247be7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/a53a1fff-a156-4abe-9242-b137ca1fa839"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/25b3010f-928d-40a0-88d5-a2634c0f0cb2"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/9d2d5824-a3b3-47ad-a10d-826a0f68f6b8"/>
+  <core:topConceptOf rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:definition xml:lang="de">Diese Kompetenz beinhaltet das verständige Umgehen mit mathematischen Objekten wie Zahlen, Größen, Symbolen, Variablen, Termen, Formeln, Gleichungen und Funktionen sowie in der Geometrie Strecken, Winkeln und Kreisen mit und ohne Hilfsmittel. Das Spektrum reicht hier von einfachen, überschaubaren Routineverfahren bis hin zu komplexen Verfahren einschließlich deren reflektierender Bewertung. Diese Kompetenz beinhaltet auch Faktenwissen und Regelwissen für ein zielgerichtetes und effizientes Bearbeiten von mathematischen Aufgabenstellungen.</core:definition>
+  <core:notation>6</core:notation>
+  <core:prefLabel xml:lang="de">Mit mathematischen Objekten umgehen</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/6edb6bcf-963d-4844-966e-080592bcb8a6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/b361be91-f2ec-4e1c-954a-af8ae1d3b105"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/dbad7977-fb14-450e-b9c7-35f0f773abe3"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/6f9cc7ff-a8a3-4a31-83e6-b9f7ed4f726c"/>
+  <core:topConceptOf rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:definition xml:lang="de">Zu dieser Kompetenz gehören sowohl das Entwickeln eigenständiger, situationsangemessener mathematischer Argumentationen (wie Begründungen, Beweise), als auch das Erläutern, Prüfen und Begründen von Lösungswegen und das begründete Äußern von Vermutungen. Das Spektrum reicht dabei von einfachen Plausibilitätsargumenten über inhaltlich-anschauliche Begründungen bis hin zu Argumentationsketten.</core:definition>
+  <core:notation>1</core:notation>
+  <core:prefLabel xml:lang="de">Mathematisch argumentieren</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/9373d623-2907-4bbd-94bf-42c08cf44716">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/febb5e3a-8942-4582-ac5f-a18b9766ce66"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/4c537fdd-d095-48ef-9cc3-cecd1fa1576a"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/7bd6ddc1-d7f6-41ae-8fc2-2c11aeaaf3b4"/>
+  <core:topConceptOf rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:definition xml:lang="de">Diese Kompetenz beinhaltet, ausgehend vom Erkennen und Formulieren mathematischer Probleme, das Auswählen geeigneter Heurismen sowie das Entwickeln und Ausführen geeigneter Lösungswege. Das Spektrum reicht vom Bearbeiten vorgegebener und selbst formulierter Probleme auf der einen Seite bis hin zum Überprüfen der Plausibilität von Ergebnissen, dem Finden von Lösungsideen und dem Reflektieren von Lösungswegen auf der anderen Seite. Geeignete Heurismen (u. a. Skizzen erstellen, systematisch probieren, rückwärts arbeiten, zerlegen und ergänzen) zum Problemlösen werden ausgewählt und angewendet.</core:definition>
+  <core:notation>3</core:notation>
+  <core:prefLabel xml:lang="de">Probleme mathematisch lösen</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/a48f913f-0da5-4060-8865-d3e8b80c7f88">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/f2f5d9c5-4eeb-4678-825c-557a43273e75"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/bb44b912-0f32-47bc-bffa-750f62b40b0c"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/db099033-0fc4-4e76-ae90-49de6f2e1b21"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/10d943d1-ae7a-4f08-be35-04f0bf157edf"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/30610c3e-62c5-4875-8798-7a8f2ea8e4c9"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/62918c60-4ea9-4930-836c-bde91e5b7d15"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>4.2</core:notation>
+  <core:prefLabel xml:lang="de">Zusammenhänge  herstellen</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/bb44b912-0f32-47bc-bffa-750f62b40b0c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/a48f913f-0da5-4060-8865-d3e8b80c7f88"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>4.2.5</core:notation>
+  <core:prefLabel xml:lang="de">ordnen einem mathematischen Modell passende Situationen zu,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/db099033-0fc4-4e76-ae90-49de6f2e1b21">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/a48f913f-0da5-4060-8865-d3e8b80c7f88"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>4.2.1</core:notation>
+  <core:prefLabel xml:lang="de">wählen ein geeignetes mathematisches Modell aus,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/10d943d1-ae7a-4f08-be35-04f0bf157edf">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/a48f913f-0da5-4060-8865-d3e8b80c7f88"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>4.2.4</core:notation>
+  <core:prefLabel xml:lang="de">prüfen Ergebnisse einer Modellierung auf Plausibilität in Bezug auf die Ausgangssituation,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/30610c3e-62c5-4875-8798-7a8f2ea8e4c9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/a48f913f-0da5-4060-8865-d3e8b80c7f88"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>4.2.3</core:notation>
+  <core:prefLabel xml:lang="de">interpretieren Ergebnisse einer Modellierung,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/62918c60-4ea9-4930-836c-bde91e5b7d15">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/a48f913f-0da5-4060-8865-d3e8b80c7f88"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>4.2.2</core:notation>
+  <core:prefLabel xml:lang="de">nehmen Mathematisierungen vor, die mehrere Schritte erfordern,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/a4b3a222-4512-402f-af15-5221f4aa6223">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/9cbba21a-15a0-478d-927a-6772899c2efb"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>2.2.4</core:notation>
+  <core:prefLabel xml:lang="de">gehen fachbezogen auf Äußerungen von anderen zu mathematischen Inhalten ein (z. B. konstruktiver Umgang mit Fehlern, Weiterführen mathematischer Ideen),</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/9cbba21a-15a0-478d-927a-6772899c2efb">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/5c3b886a-de51-4fee-83a4-a6bb14f25276"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/a4b3a222-4512-402f-af15-5221f4aa6223"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/d0b72e76-6209-408e-9a4c-0def135d6310"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/8ef5ee05-2fee-43dc-b094-1dcb6512f62d"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/9b4580c3-4859-4f38-a0bd-c3d176cf5eed"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>2.2</core:notation>
+  <core:prefLabel xml:lang="de">Zusammenhänge  herstellen</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/a53a1fff-a156-4abe-9242-b137ca1fa839">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/6def32ea-b474-4cba-9887-1e7ad9247be7"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/5d4f747c-d1d0-4fa4-b162-4385b81e37a5"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/86d6e2a0-2473-4606-bc91-db312ce2e734"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>6.2</core:notation>
+  <core:prefLabel xml:lang="de">Zusammenhänge  herstellen</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/5d4f747c-d1d0-4fa4-b162-4385b81e37a5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/a53a1fff-a156-4abe-9242-b137ca1fa839"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>6.2.1</core:notation>
+  <core:prefLabel xml:lang="de">führen komplexere Lösungs- und Kontrollverfahren aus,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/86d6e2a0-2473-4606-bc91-db312ce2e734">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/a53a1fff-a156-4abe-9242-b137ca1fa839"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>6.2.2</core:notation>
+  <core:prefLabel xml:lang="de">beschreiben die innere Struktur mathematischer Objekte (z. B. von Termen) und gehen flexibel und sicher mit ihnen um,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/a5dbdb21-0cbd-450c-8084-429c238edd87">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/9d2d5824-a3b3-47ad-a10d-826a0f68f6b8"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>6.1.2</core:notation>
+  <core:prefLabel xml:lang="de">gehen mit vertrauten mathematischen Objekten (z. B. Strecken, Termen, Gleichungen) um,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/9d2d5824-a3b3-47ad-a10d-826a0f68f6b8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/6def32ea-b474-4cba-9887-1e7ad9247be7"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/a5dbdb21-0cbd-450c-8084-429c238edd87"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/077fc3d4-12f9-40c0-baf3-957b648d82e0"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>6.1</core:notation>
+  <core:prefLabel xml:lang="de">Reproduzieren</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/a7a65c39-c3c4-45d9-9081-25c25c76b0c1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/6f9cc7ff-a8a3-4a31-83e6-b9f7ed4f726c"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>1.3.2</core:notation>
+  <core:prefLabel xml:lang="de">bewerten verschiedene Argumentationen (z. B. in Texten und Darstellungen aus digitalen Medien),</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/6f9cc7ff-a8a3-4a31-83e6-b9f7ed4f726c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/6edb6bcf-963d-4844-966e-080592bcb8a6"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/a7a65c39-c3c4-45d9-9081-25c25c76b0c1"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/b1873611-0260-40e6-935a-d30fb9147cc4"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/8c3863aa-10a6-4852-9275-a1c983a7fb64"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>1.3</core:notation>
+  <core:prefLabel xml:lang="de">Verallgemeinern und Reflektieren</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/a8110d0f-da9f-4f83-8ea7-da2f832beec5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/4c537fdd-d095-48ef-9cc3-cecd1fa1576a"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>3.1.2</core:notation>
+  <core:prefLabel xml:lang="de">lösen einfache Probleme mit bekannten Heurismen (z. B. systematisches Probieren),</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/4c537fdd-d095-48ef-9cc3-cecd1fa1576a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/9373d623-2907-4bbd-94bf-42c08cf44716"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/a8110d0f-da9f-4f83-8ea7-da2f832beec5"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/0909b4ea-4969-40a6-a53d-149688645669"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>3.1</core:notation>
+  <core:prefLabel xml:lang="de">Reproduzieren</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/ac14da54-212f-4ad0-8c15-8cd5869d9048">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/dbad7977-fb14-450e-b9c7-35f0f773abe3"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>1.2.4</core:notation>
+  <core:prefLabel xml:lang="de">erläutern mathematische Zusammenhänge, Ordnungen und logische Strukturen,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/dbad7977-fb14-450e-b9c7-35f0f773abe3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/6edb6bcf-963d-4844-966e-080592bcb8a6"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/ac14da54-212f-4ad0-8c15-8cd5869d9048"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/eb2970e7-90d6-4d4a-9645-bf0896b83c4b"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/8c2fb80d-9a5b-4195-a4a2-338d2a63312c"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/848fba53-36fd-4785-83bf-df68c5de8122"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>1.2</core:notation>
+  <core:prefLabel xml:lang="de">Zusammenhänge  herstellen</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/d174a1c9-3763-4a19-92d9-d178bd932112">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/ae543f74-b3c1-4397-9b0e-dd3a1952b3fe"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/b7364fec-632a-47da-bf94-13090aa3f748"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/b9833b54-52f7-4493-99e3-412499ec2e73"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/bafb287a-6e2b-45bc-9a46-3df3e2f01f16"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/677e9f86-6169-4281-95fb-8d16cd89afc1"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/710cf2c3-46d8-4891-b5e2-913427d0c620"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>6.2</core:notation>
+  <core:prefLabel xml:lang="de">Zusammenhänge  herstellen</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/3f85ff14-156b-43e7-88d7-ac305a5931e9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/ae543f74-b3c1-4397-9b0e-dd3a1952b3fe"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/bb5c5408-b22a-4ef5-b031-e673803f048f"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/e1389c6c-a253-418e-9079-91cc5dc343b2"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/0a3863d2-b344-41f2-8fdf-425ec70681d2"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/0cdf4909-452e-41f6-976f-99ae1d785c00"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/11c4c015-ead1-4c7a-b8ef-1c8ef870c127"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/8ea24f6b-ff64-42ea-a7b3-8360944546dc"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>7.3</core:notation>
+  <core:prefLabel xml:lang="de">Verallgemeinern und Reflektieren</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/424bbdf3-7862-4c6d-b876-8951754ceeb6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/ae543f74-b3c1-4397-9b0e-dd3a1952b3fe"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/0b666977-4896-444d-a726-54c88f22501f"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/28ba1753-0f86-4322-b85f-60904e437e61"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/4f5b9c6e-e2e1-420e-be38-59f9e7244d09"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/47ebabfe-ffca-4157-b120-74d6cc336f66"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>7.1</core:notation>
+  <core:prefLabel xml:lang="de">Reproduzieren</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/b1873611-0260-40e6-935a-d30fb9147cc4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/6f9cc7ff-a8a3-4a31-83e6-b9f7ed4f726c"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>1.3.1</core:notation>
+  <core:prefLabel xml:lang="de">entwickeln und erläutern komplexe Argumentationen,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/b361be91-f2ec-4e1c-954a-af8ae1d3b105">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/6edb6bcf-963d-4844-966e-080592bcb8a6"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/e0c78362-3548-4ff0-9653-a3ac46928763"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/74e4626a-3e2a-46b8-87a8-18c4dc1188a0"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/9626f682-128c-46f1-91cb-b5aec8b424fb"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>1.1</core:notation>
+  <core:prefLabel xml:lang="de">Reproduzieren</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/e0c78362-3548-4ff0-9653-a3ac46928763">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/b361be91-f2ec-4e1c-954a-af8ae1d3b105"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>1.1.1</core:notation>
+  <core:prefLabel xml:lang="de">geben vertraute Argumentationen wieder (wie Rechnungen, Verfahren, Herleitungen, Sätze),</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/74e4626a-3e2a-46b8-87a8-18c4dc1188a0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/b361be91-f2ec-4e1c-954a-af8ae1d3b105"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>1.1.2</core:notation>
+  <core:prefLabel xml:lang="de">formulieren typische Fragen, die auf Argumentationen zielen („Wie verändert sich …?“, „Ist das immer so …?“),</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/9626f682-128c-46f1-91cb-b5aec8b424fb">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/b361be91-f2ec-4e1c-954a-af8ae1d3b105"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>1.1.3</core:notation>
+  <core:prefLabel xml:lang="de">begründen angemessen auf Basis von Alltagswissen,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/b7364fec-632a-47da-bf94-13090aa3f748">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/d174a1c9-3763-4a19-92d9-d178bd932112"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>7.2.5</core:notation>
+  <core:prefLabel xml:lang="de">wählen analoge und digitale Medien kriteriengeleitet je nach Zielsetzung bewusst aus,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/b9833b54-52f7-4493-99e3-412499ec2e73">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/d174a1c9-3763-4a19-92d9-d178bd932112"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>7.2.1</core:notation>
+  <core:prefLabel xml:lang="de">nutzen analoge und digitale Mathematikwerkzeuge (z. B. Geometriesoftware, Tabellenkalkulation, Computeralgebrasystem, Stochastiktool ) zum Problemlösen, Entdecken, Modellieren, Daten verarbeiten, Kontrollieren und Darstellungswechseln etc.,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/bafb287a-6e2b-45bc-9a46-3df3e2f01f16">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/d174a1c9-3763-4a19-92d9-d178bd932112"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>7.2.4</core:notation>
+  <core:prefLabel xml:lang="de">vergleichen mathematikhaltige Informationen und Darstellungen in Alltagsmedien unter mathematischen Gesichtspunkten,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/bb5c5408-b22a-4ef5-b031-e673803f048f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/3f85ff14-156b-43e7-88d7-ac305a5931e9"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>7.3.6</core:notation>
+  <core:prefLabel xml:lang="de">nutzen Algorithmen mit Hilfe digitaler Werkzeuge, um den jeweils zugrundeliegenden mathematischen Inhalt zu untersuchen.</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/c85ec8de-8373-4600-bc53-2f70c43c1671">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/3aa82aaa-5040-4ce0-93e4-e4ca455823f9"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>5.2.1</core:notation>
+  <core:prefLabel xml:lang="de">wählen eine Darstellung passend zur Problemstellung aus,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/3aa82aaa-5040-4ce0-93e4-e4ca455823f9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/e77ca531-a949-466a-ac8b-6c3c8a138a6e"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/c85ec8de-8373-4600-bc53-2f70c43c1671"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/e1d09147-551a-4040-a8b8-2231fda6b3c0"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/61994f9d-bcdd-46f5-8e30-b34f90da9eed"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>5.2</core:notation>
+  <core:prefLabel xml:lang="de">Zusammenhänge  herstellen</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/c9f46733-297d-4251-b750-eab4aa5901c0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/7bd6ddc1-d7f6-41ae-8fc2-2c11aeaaf3b4"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>3.2.3</core:notation>
+  <core:prefLabel xml:lang="de">überprüfen  die Plausibilität von Ergebnissen,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/7bd6ddc1-d7f6-41ae-8fc2-2c11aeaaf3b4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/9373d623-2907-4bbd-94bf-42c08cf44716"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/c9f46733-297d-4251-b750-eab4aa5901c0"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/124ffa0d-55bd-4ecc-a0ba-3833a1c12b82"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/92abcf48-4400-4f90-8ade-77a0d36351e5"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>3.2</core:notation>
+  <core:prefLabel xml:lang="de">Zusammenhänge  herstellen</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/d0b72e76-6209-408e-9a4c-0def135d6310">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/9cbba21a-15a0-478d-927a-6772899c2efb"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>2.2.1</core:notation>
+  <core:prefLabel xml:lang="de">stellen Überlegungen, Lösungswege bzw. Ergebnisse und Verfahren verständlich dar,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/677e9f86-6169-4281-95fb-8d16cd89afc1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/d174a1c9-3763-4a19-92d9-d178bd932112"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>7.2.3</core:notation>
+  <core:prefLabel xml:lang="de">nutzen bekannte Algorithmen mit digitalen Mathematikwerkzeugen,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/710cf2c3-46d8-4891-b5e2-913427d0c620">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/d174a1c9-3763-4a19-92d9-d178bd932112"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>7.2.2</core:notation>
+  <core:prefLabel xml:lang="de">nutzen weitere mathematikspezifische Medien (z. B. Apps zur Lernstandsbestimmung, Erklärvideos zum Verstehen, Programme zum Üben) zum selbstgesteuerten Lernen und Anwenden von Mathematik,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/d7fc2e6a-318b-46e1-9b1c-883fe457f076">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/10365b37-53ff-45e6-8a9d-28a8f99ecff2"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>2.1.3</core:notation>
+  <core:prefLabel xml:lang="de">reagieren  sach- und adressatengerecht auf Fragen und Kritik zu eigenen Lösungen,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/10365b37-53ff-45e6-8a9d-28a8f99ecff2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/5c3b886a-de51-4fee-83a4-a6bb14f25276"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/d7fc2e6a-318b-46e1-9b1c-883fe457f076"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/5d2dd1c0-6098-4122-8c5c-ee3153ef109c"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/83e3b8d3-4181-4af5-97d8-e2a15947d81f"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>2.1</core:notation>
+  <core:prefLabel xml:lang="de">Reproduzieren</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/eb2970e7-90d6-4d4a-9645-bf0896b83c4b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/dbad7977-fb14-450e-b9c7-35f0f773abe3"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>1.2.1</core:notation>
+  <core:prefLabel xml:lang="de">entwickeln und erläutern überschaubare mehrschrittige Argumentationen,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/8c2fb80d-9a5b-4195-a4a2-338d2a63312c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/dbad7977-fb14-450e-b9c7-35f0f773abe3"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>1.2.3</core:notation>
+  <core:prefLabel xml:lang="de">bewerten Ergebnisse und Aussagen auch bzgl. ihres Anwendungskontextes,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/848fba53-36fd-4785-83bf-df68c5de8122">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/dbad7977-fb14-450e-b9c7-35f0f773abe3"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>1.2.2</core:notation>
+  <core:prefLabel xml:lang="de">erläutern Lösungswege und prüfen sie u. a. auf Konsistenz,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/e1389c6c-a253-418e-9079-91cc5dc343b2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/3f85ff14-156b-43e7-88d7-ac305a5931e9"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>7.3.4</core:notation>
+  <core:prefLabel xml:lang="de">beurteilen mathematikhaltige Informationen und Darstellungen in Alltagsmedien unter mathematischen Gesichtspunkten,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/e1d09147-551a-4040-a8b8-2231fda6b3c0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/3aa82aaa-5040-4ce0-93e4-e4ca455823f9"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>5.2.3</core:notation>
+  <core:prefLabel xml:lang="de">übersetzen symbolische und formale Sprache in natürliche Sprache und umgekehrt,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/178489cf-ca94-4dfa-a312-e65712e35e27">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/e77ca531-a949-466a-ac8b-6c3c8a138a6e"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/0d19c9d4-17d7-477b-8d22-64208bf968f8"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/06819547-a8f0-4d3b-862d-725035b878d6"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/15e0f013-288e-4ea5-a4c1-862375f05b65"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>5.3</core:notation>
+  <core:prefLabel xml:lang="de">Verallgemeinern und Reflektieren</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/6fa0f785-1581-4aec-b54f-2210a84d636c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/e77ca531-a949-466a-ac8b-6c3c8a138a6e"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/07e06729-87d5-47a4-81df-a3f9a2a334c1"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/3761e15f-cef7-4424-a9e7-45a93646544f"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>5.1</core:notation>
+  <core:prefLabel xml:lang="de">Reproduzieren</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/e7f38f23-d1be-41e1-82f9-bb2084647001">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/76abdb99-d766-4527-ab97-3367afb5b1ed"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>4.3.1</core:notation>
+  <core:prefLabel xml:lang="de">modellieren komplexe oder unvertraute Situationen und entwickeln ggf. eigene Modelle,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/76abdb99-d766-4527-ab97-3367afb5b1ed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/f2f5d9c5-4eeb-4678-825c-557a43273e75"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/e7f38f23-d1be-41e1-82f9-bb2084647001"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/23b37951-6b94-4bda-912e-9b5392e6b3d2"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/26830110-e328-4839-ad91-236a257b124a"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>4.3</core:notation>
+  <core:prefLabel xml:lang="de">Verallgemeinern und Reflektieren</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/ed1aef42-40d5-4726-86ec-513b54530d1a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/20445a07-0c54-4bb0-915b-42b0d96c1f51"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>4.1.2</core:notation>
+  <core:prefLabel xml:lang="de">nutzen bekannte und direkt erkennbare Modelle (z. B. Proportionalität bzw. Dreisatz),</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/20445a07-0c54-4bb0-915b-42b0d96c1f51">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/f2f5d9c5-4eeb-4678-825c-557a43273e75"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/ed1aef42-40d5-4726-86ec-513b54530d1a"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/075f540a-f175-41b4-8b99-33abdf1c6cb2"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/4baa8ec9-bbf0-4dc9-aa67-ce9b052053e4"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>4.1</core:notation>
+  <core:prefLabel xml:lang="de">Reproduzieren</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/fe8c3adb-b50e-4650-bb00-44e26e7f3f5c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/25b3010f-928d-40a0-88d5-a2634c0f0cb2"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>6.3.1</core:notation>
+  <core:prefLabel xml:lang="de">bewerten Lösungs- und Kontrollverfahren hinsichtlich ihrer Effizienz,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/25b3010f-928d-40a0-88d5-a2634c0f0cb2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/6def32ea-b474-4cba-9887-1e7ad9247be7"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/fe8c3adb-b50e-4650-bb00-44e26e7f3f5c"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/2259ebcf-32a8-460d-aadc-dfb706a2bd45"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>6.3</core:notation>
+  <core:prefLabel xml:lang="de">Verallgemeinern und Reflektieren</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/febb5e3a-8942-4582-ac5f-a18b9766ce66">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/9373d623-2907-4bbd-94bf-42c08cf44716"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/39e7fd40-e5ff-4b3c-a07a-e5e02adf2a06"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/433a3331-2a7d-47c8-a9e8-394be5760d82"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>3.3</core:notation>
+  <core:prefLabel xml:lang="de">Verallgemeinern und Reflektieren</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/39e7fd40-e5ff-4b3c-a07a-e5e02adf2a06">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/febb5e3a-8942-4582-ac5f-a18b9766ce66"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>3.3.2</core:notation>
+  <core:prefLabel xml:lang="de">reflektieren das Finden von Lösungsideen, vergleichen und beurteilen verschiedene Lösungswege.</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/433a3331-2a7d-47c8-a9e8-394be5760d82">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/febb5e3a-8942-4582-ac5f-a18b9766ce66"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>3.3.1</core:notation>
+  <core:prefLabel xml:lang="de">lösen anspruchsvolle, komplexe oder offen formulierte Probleme,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/0a3863d2-b344-41f2-8fdf-425ec70681d2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/3f85ff14-156b-43e7-88d7-ac305a5931e9"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>7.3.3</core:notation>
+  <core:prefLabel xml:lang="de">beurteilen analoge und digitale Medien kriteriengeleitet je nach Zielsetzung,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/0b666977-4896-444d-a726-54c88f22501f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/424bbdf3-7862-4c6d-b876-8951754ceeb6"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>7.1.1</core:notation>
+  <core:prefLabel xml:lang="de">verwenden allgemeine Medien zur Kommunikation (z. B. Recherche in Fachliteratur oder Internet, Nutzung von Lernplattformen) und zur Präsentation mathematischer Inhalte in Situationen, in denen der Einsatz geübt wurde,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/0cdf4909-452e-41f6-976f-99ae1d785c00">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/3f85ff14-156b-43e7-88d7-ac305a5931e9"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>7.3.1</core:notation>
+  <core:prefLabel xml:lang="de">reflektieren Möglichkeiten und Grenzen der Nutzung mathematikspezifischer Medien, auch im Vergleich zwischen analogem und digitalem Medium,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/0d19c9d4-17d7-477b-8d22-64208bf968f8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/178489cf-ca94-4dfa-a312-e65712e35e27"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>5.3.1</core:notation>
+  <core:prefLabel xml:lang="de">entwickeln eigene Darstellungen,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/06819547-a8f0-4d3b-862d-725035b878d6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/178489cf-ca94-4dfa-a312-e65712e35e27"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>5.3.3</core:notation>
+  <core:prefLabel xml:lang="de">interpretieren nicht vertraute Darstellungen und beurteilen ihre Aussagekraft.</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/07e06729-87d5-47a4-81df-a3f9a2a334c1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/6fa0f785-1581-4aec-b54f-2210a84d636c"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>5.1.1</core:notation>
+  <core:prefLabel xml:lang="de">nutzen und erzeugen vertraute und geübte Darstellungen von mathematischen Objekten und Situationen,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/075f540a-f175-41b4-8b99-33abdf1c6cb2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/20445a07-0c54-4bb0-915b-42b0d96c1f51"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>4.1.3</core:notation>
+  <core:prefLabel xml:lang="de">prüfen die Passung der Resultate zur Aufgabenstellung,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/077fc3d4-12f9-40c0-baf3-957b648d82e0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/9d2d5824-a3b3-47ad-a10d-826a0f68f6b8"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>6.1.1</core:notation>
+  <core:prefLabel xml:lang="de">verwenden Routineverfahren (z. B. Lösen einer linearen Gleichung),</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/0909b4ea-4969-40a6-a53d-149688645669">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/4c537fdd-d095-48ef-9cc3-cecd1fa1576a"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>3.1.1</core:notation>
+  <core:prefLabel xml:lang="de">geben Heurismen an (z. B. Skizze erstellen, systematisch probieren),</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/5d2dd1c0-6098-4122-8c5c-ee3153ef109c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/10365b37-53ff-45e6-8a9d-28a8f99ecff2"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>2.1.2</core:notation>
+  <core:prefLabel xml:lang="de">entnehmen Informationen aus einfachen mathematikhaltigen Texten und Abbildungen,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/83e3b8d3-4181-4af5-97d8-e2a15947d81f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/10365b37-53ff-45e6-8a9d-28a8f99ecff2"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>2.1.1</core:notation>
+  <core:prefLabel xml:lang="de">formulieren einfache mathematische Sachverhalte mit eigenen Worten und mithilfe mathematischer Begriffe mündlich und schriftlich,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/11c4c015-ead1-4c7a-b8ef-1c8ef870c127">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/3f85ff14-156b-43e7-88d7-ac305a5931e9"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>7.3.5</core:notation>
+  <core:prefLabel xml:lang="de">setzen bekannte mathematische Verfahren mithilfe digitaler Mathematikwerkzeuge (z. B. Tabellenkalkulation) als Algorithmus um,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/124ffa0d-55bd-4ecc-a0ba-3833a1c12b82">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/7bd6ddc1-d7f6-41ae-8fc2-2c11aeaaf3b4"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>3.2.2</core:notation>
+  <core:prefLabel xml:lang="de">wählen geeignete Heurismen zur Lösung entsprechender Probleme aus,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/15e0f013-288e-4ea5-a4c1-862375f05b65">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/178489cf-ca94-4dfa-a312-e65712e35e27"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>5.3.2</core:notation>
+  <core:prefLabel xml:lang="de">analysieren und beurteilen verschiedene Formen der Darstellung entsprechend ihres Zwecks,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/2bed221e-98d3-42fb-9883-d7dc95a828b6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/5c3b886a-de51-4fee-83a4-a6bb14f25276"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/261f2258-827f-4c69-b2aa-cd537d17b2ad"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/71f26ef4-e226-4fda-b46a-c43c65fcbe09"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/9589b4cc-d997-4661-aaa4-5dcb8f1aa3bc"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>2.3</core:notation>
+  <core:prefLabel xml:lang="de">Verallgemeinern und Reflektieren</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/261f2258-827f-4c69-b2aa-cd537d17b2ad">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/2bed221e-98d3-42fb-9883-d7dc95a828b6"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>2.3.1</core:notation>
+  <core:prefLabel xml:lang="de">präsentieren sachgerecht komplexe mathematische Sachverhalte mündlich und schriftlich,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/71f26ef4-e226-4fda-b46a-c43c65fcbe09">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/2bed221e-98d3-42fb-9883-d7dc95a828b6"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>2.3.2</core:notation>
+  <core:prefLabel xml:lang="de">interpretieren und beurteilen komplexe mathematische Texte sinnentnehmend,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/9589b4cc-d997-4661-aaa4-5dcb8f1aa3bc">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/2bed221e-98d3-42fb-9883-d7dc95a828b6"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>2.3.3</core:notation>
+  <core:prefLabel xml:lang="de">vergleichen und bewerten Äußerungen von anderen zu mathematischen Inhalten sachlich und fachlich angemessen.</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/4baa8ec9-bbf0-4dc9-aa67-ce9b052053e4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/20445a07-0c54-4bb0-915b-42b0d96c1f51"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>4.1.1</core:notation>
+  <core:prefLabel xml:lang="de">ordnen einfachen Realsituationen aus dem Alltag mathematische Objekte zu,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/2259ebcf-32a8-460d-aadc-dfb706a2bd45">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/25b3010f-928d-40a0-88d5-a2634c0f0cb2"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>6.3.2</core:notation>
+  <core:prefLabel xml:lang="de">beschreiben die innere Struktur von Lösungsverfahren, erfassen deren Allgemeingültigkeit und übertragen die Verfahren auf neue Situationen.</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/23b37951-6b94-4bda-912e-9b5392e6b3d2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/76abdb99-d766-4527-ab97-3367afb5b1ed"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>4.3.3</core:notation>
+  <core:prefLabel xml:lang="de">entscheiden, ob der Modellierungskreislauf erneut durchlaufen werden sollte.</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/26830110-e328-4839-ad91-236a257b124a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/76abdb99-d766-4527-ab97-3367afb5b1ed"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>4.3.2</core:notation>
+  <core:prefLabel xml:lang="de">reflektieren und beurteilen verwendete mathematische Modelle kritisch, z. B. in Bezug auf die Realsituation,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/28ba1753-0f86-4322-b85f-60904e437e61">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/424bbdf3-7862-4c6d-b876-8951754ceeb6"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>7.1.3</core:notation>
+  <core:prefLabel xml:lang="de">nutzen analoge und digitale Mathematikwerkzeuge (z. B. wissenschaftlichen Taschenrechner), die aus dem Unterricht vertraut sind,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/61994f9d-bcdd-46f5-8e30-b34f90da9eed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/3aa82aaa-5040-4ce0-93e4-e4ca455823f9"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>5.2.2</core:notation>
+  <core:prefLabel xml:lang="de">wechseln sachgerecht zwischen mathematischen Darstellungen und erklären, wie sie vernetzt sind,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/8ea24f6b-ff64-42ea-a7b3-8360944546dc">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/3f85ff14-156b-43e7-88d7-ac305a5931e9"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>7.3.2</core:notation>
+  <core:prefLabel xml:lang="de">konzipieren und erstellen selbst analoge und digitale Medien um mathematische Sachverhalte darzustellen oder zu bearbeiten und stellen ihre Ergebnisse vor (z. B. Präsentation, Videos),</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/3761e15f-cef7-4424-a9e7-45a93646544f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/6fa0f785-1581-4aec-b54f-2210a84d636c"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>5.1.2</core:notation>
+  <core:prefLabel xml:lang="de">interpretieren vertraute Darstellungen,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/4f5b9c6e-e2e1-420e-be38-59f9e7244d09">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/424bbdf3-7862-4c6d-b876-8951754ceeb6"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>7.1.4</core:notation>
+  <core:prefLabel xml:lang="de">ziehen Informationen aus mathematikhaltigen Darstellungen in Alltagsmedien,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/47ebabfe-ffca-4157-b120-74d6cc336f66">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/424bbdf3-7862-4c6d-b876-8951754ceeb6"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>7.1.2</core:notation>
+  <core:prefLabel xml:lang="de">nutzen analoge und digitale Lernumgebungen zum Lernen von Mathematik,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/8c3863aa-10a6-4852-9275-a1c983a7fb64">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/6f9cc7ff-a8a3-4a31-83e6-b9f7ed4f726c"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>1.3.3</core:notation>
+  <core:prefLabel xml:lang="de">stellen selbstständig Fragen, die für die Mathematik charakteristisch sind, und äußern begründet Vermutungen.</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/92abcf48-4400-4f90-8ade-77a0d36351e5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/7bd6ddc1-d7f6-41ae-8fc2-2c11aeaaf3b4"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>3.2.1</core:notation>
+  <core:prefLabel xml:lang="de">formulieren  Problemstellungen,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/8ef5ee05-2fee-43dc-b094-1dcb6512f62d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/9cbba21a-15a0-478d-927a-6772899c2efb"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>2.2.3</core:notation>
+  <core:prefLabel xml:lang="de">Verwenden die mathematische Fachsprache situationsangemessen und erklären ihre Bedeutung,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/stdProzess/9b4580c3-4859-4f38-a0bd-c3d176cf5eed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess/9cbba21a-15a0-478d-927a-6772899c2efb"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/stdProzess"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:notation>2.2.2</core:notation>
+  <core:prefLabel xml:lang="de">erfassen, interpretieren und deuten komplexere mathematikhaltige Texte und Abbildungen sinnentnehmend und strukturieren Informationen,</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<owl:Ontology/>
+
+
+</rdf:RDF>

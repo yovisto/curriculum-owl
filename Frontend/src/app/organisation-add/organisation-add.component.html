@@ -1,0 +1,17 @@
+<div *ngIf="dataItem && !ttlView">
+  <form [formGroup]="organisationAddForm" (ngSubmit)="save()">
+    <label for="id">ID</label>
+    <input id="id" formControlName="id" [(ngModel)]="dataItem.id" />
+    <label for="name">Name</label>
+    <input id="name" formControlName="name" [(ngModel)]="dataItem.name" />
+    <label for="url">Url</label>
+    <input id="url" formControlName="url" [(ngModel)]="dataItem.url" />
+    <button (click)="toggleTtlView()">View Ttl</button><button routerLink="/organisations/">Cancel</button><button
+      type="submit">Save</button>
+  </form>
+
+</div>
+<div *ngIf="ttlView">
+  <p class="ttl">{{ttlText}}</p>
+  <button (click)="toggleTtlView()">View Form</button>
+</div>

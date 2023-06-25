@@ -1,0 +1,91 @@
+<div *ngIf="dataItem && !ttlView">
+  <label>ID: {{dataItem.id}}</label>
+  <form [formGroup]="curriculumForm" (ngSubmit)="save()">
+    <label for="prefLabel">Preferred Label</label>
+    <input id="prefLabel" formControlName="prefLabel" [(ngModel)]="dataItem.prefLabel" />
+    <label for="definition">Definition</label>
+    <input id="definition" formControlName="definition" [(ngModel)]="dataItem.definition" />
+    <label for="license">License</label>
+    <input id="license" formControlName="license" [(ngModel)]="dataItem.license" />
+    <label for="version">Version</label>
+    <input id="version" formControlName="version" [(ngModel)]="dataItem.version" />
+    <label for="dateCreated">Date Created</label>
+    <input type="date" formControlName="dateCreated" [(ngModel)]="dataItem.dateCreated">
+    <label for="timeRequired">Time Required</label>
+    <input id="timeRequired" formControlName="timeRequired" [(ngModel)]="dataItem.timeRequired" />
+    <label for="educationalStandard">
+      Educational Standard
+      <a title="select educational standard" (click)="openEducationalStandardDialog()">
+        <mat-icon>{{dataItem.educationalStandard ? "edit" : "add_circle"}}</mat-icon>
+      </a>
+    </label>
+    <span *ngIf="dataItem.educationalStandard">
+      <span
+        title="{{dataItem.educationalStandard.id}} - {{dataItem.educationalStandard.definition}}">{{dataItem.educationalStandard.prefLabel}}</span>
+      <a title="delete educational standard" (click)="deleteEducationalStandard()">
+        <mat-icon>delete</mat-icon>
+      </a>
+    </span>
+
+    <label for="keywords">
+      Key words
+      <a title="add keyword" (click)="openKeywordDialog()">
+        <mat-icon>add_circle</mat-icon>
+      </a>
+    </label>
+    <span *ngFor="let keyword of dataItem.keywords">
+      {{keyword}}
+      <a title="delete keyword" (click)="deleteStringListItem(dataItem.keywords, keyword)">
+        <mat-icon>delete</mat-icon>
+      </a>
+    </span>
+    <label for="narrower">
+      Narrower
+      <a title="add narrower match"
+        (click)="openMatchDialog(dataItem.narrower, concat(this.curriculums, this.curriculumItems))">
+        <mat-icon>add_circle</mat-icon>
+      </a>
+    </label>
+    <table>
+      <tbody>
+        <tr *ngFor="let narrow of dataItem.narrower">
+          <td>
+            {{narrow}}
+          </td>
+          <td>
+            <a title="delete narrow match" (click)="deleteStringListItem(dataItem.narrower, narrow)">
+              <mat-icon>delete</mat-icon>
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <label for="closeMatch">
+      Close Match
+      <a title="add close match" (click)="openMatchDialog(dataItem.closeMatch, this.curriculums)">
+        <mat-icon>add_circle</mat-icon>
+      </a>
+    </label>
+    <table>
+      <tbody>
+        <tr *ngFor="let close of dataItem.closeMatch">
+          <td>
+            {{close}}
+          </td>
+          <td>
+            <a title="delete close match" (click)="deleteStringListItem(dataItem.closeMatch, close)">
+              <mat-icon>delete</mat-icon>
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button (click)="toggleTtlView()">View Ttl</button><button routerLink="/curriculums/">Cancel</button><button
+      type="submit">Update</button>
+  </form>
+
+</div>
+<div *ngIf="ttlView">
+  <p class="ttl">{{ttlText}}</p>
+  <button (click)="toggleTtlView()">View Form</button>
+</div>

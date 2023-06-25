@@ -1,0 +1,7 @@
+<h2 mat-dialog-title>Add Keyword</h2>
+<mat-dialog-content>
+    <form [formGroup]="keywordForm" (ngSubmit)="onYesClick()">        
+        <input id="keyword" formControlName="keyword" [(ngModel)]="keyword" />    
+        <button (click)="onNoClick()">Cancel</button><button type="submit">Add</button>                                                    
+    </form>
+</mat-dialog-content>

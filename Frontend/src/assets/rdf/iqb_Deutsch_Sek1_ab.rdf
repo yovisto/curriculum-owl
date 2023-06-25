@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="/home/johann/Source/Yovisto/curriculum-owl/Import/iqb_Deutsch_Sek1_ab.rdf"
+         xmlns="/home/johann/Source/Yovisto/curriculum-owl/Import/iqb_Deutsch_Sek1_ab.rdf#"
+         xmlns:core="http://www.w3.org/2004/02/skos/core#"
+         xmlns:mode="https://dini-ag-kim.github.io/modell_lehrplaene#"
+         xmlns:sche="https://schema.org/"
+         xmlns:term="http://purl.org/dc/terms/">
+
+<owl:Ontology rdf:about="/home/johann/Source/Yovisto/curriculum-owl/Import/iqb_Deutsch_Sek1_ab.rdf"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+
+<owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+
+<owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+
+<core:ConceptScheme rdf:about="https://w3id.org/iqb/bista22des1/ab">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22des1/ab/e7f68248-09ae-4855-b3db-926ecf048850"/>
+  <core:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22des1/ab/522392a1-e595-43a9-a577-2cc58e21a26a"/>
+  <core:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22des1/ab/5420b941-773c-4320-94a0-2d93f435d75e"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22des1/ab/e7f68248-09ae-4855-b3db-926ecf048850"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22des1/ab/522392a1-e595-43a9-a577-2cc58e21a26a"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22des1/ab/5420b941-773c-4320-94a0-2d93f435d75e"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/120"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <term:creator xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</term:creator>
+  <term:title xml:lang="de">Deutsch Sek1_Anforderungsbereiche</term:title>
+  <core:prefLabel xml:lang="de">Anforderungsbereiche</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:ConceptScheme>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22des1/ab/e7f68248-09ae-4855-b3db-926ecf048850">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22des1/ab"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/ab"/>
+  <core:topConceptOf rdf:resource="https://w3id.org/iqb/bista22des1/ab"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/120"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:definition xml:lang="de">Umfasst das Verarbeiten komplexer Sachverhalte (auch auf der Basis von Texten unterschiedlicher medialer Form) mit dem Ziel, zu selbstständigen Lösungen, Gestaltungen oder Deutungen, Folgerungen, Verallgemeinerungen, Begründungen und Wertungen zu gelangen. Dabei wählen die Schülerinnen und Schüler selbstständig geeignete Arbeitstechniken, Strategien und Verfahren zur Bewältigung der Aufgabe, wenden sie auf eine neue Problemstellung an und reflektieren das eigene Vorgehen.</core:definition>
+  <core:notation>3</core:notation>
+  <core:prefLabel xml:lang="de">Anforderungsbereich III</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22des1/ab/522392a1-e595-43a9-a577-2cc58e21a26a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22des1/ab"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/ab"/>
+  <core:topConceptOf rdf:resource="https://w3id.org/iqb/bista22des1/ab"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/120"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:definition xml:lang="de">Umfasst das Wiedergeben von Sachverhalten, Textinhalten und Kenntnissen im gelernten Zusammenhang, die Verständnissicherung sowie das Anwenden und Beschreiben geübter Arbeitstechniken und Verfahren.</core:definition>
+  <core:notation>1</core:notation>
+  <core:prefLabel xml:lang="de">Anforderungsbereich I</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22des1/ab/5420b941-773c-4320-94a0-2d93f435d75e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22des1/ab"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22des1/ab"/>
+  <core:topConceptOf rdf:resource="https://w3id.org/iqb/bista22des1/ab"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/120"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:definition xml:lang="de">Umfasst das selbstständige Anordnen, Verarbeiten, Erklären und Darstellen bekannter Sachverhalte (auch auf der Basis von Texten unterschiedlicher medialer Form) unter vorgegebenen Gesichtspunkten in einem durch Übung bekannten Zusammenhang und das selbstständige Übertragen und Anwenden des Gelernten auf vergleichbare neue Zusammenhänge und Sachverhalte.</core:definition>
+  <core:notation>2</core:notation>
+  <core:prefLabel xml:lang="de">Anforderungsbereich II</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<owl:Ontology/>
+
+
+</rdf:RDF>

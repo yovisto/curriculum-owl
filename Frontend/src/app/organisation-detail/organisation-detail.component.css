@@ -1,0 +1,40 @@
+label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+input {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  padding: .5rem;
+  margin: 1rem 0;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 20px;
+  margin-right: .5rem;
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-align: right;
+}
+
+button:hover {
+  background-color: #cfd8dc;
+}
+
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
+
+.ttl {
+  margin-bottom: 2rem;
+  white-space: pre-wrap;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,43 @@
+<mat-dialog-content>
+<table mat-table [dataSource]="dataSource">
+
+    <!-- Checkbox Column -->
+    <ng-container matColumnDef="select">
+      <th mat-header-cell *matHeaderCellDef>
+        <mat-checkbox (change)="$event ? masterToggle() : null"
+                      [checked]="selection.hasValue() && isAllSelected()"
+                      [indeterminate]="selection.hasValue() && !isAllSelected()">
+        </mat-checkbox>
+      </th>
+      <td mat-cell *matCellDef="let row">
+        <mat-checkbox (click)="$event.stopPropagation()"
+                      (change)="$event ? selection.toggle(row) : null"
+                      [checked]="selection.isSelected(row)">
+        </mat-checkbox>
+      </td>
+    </ng-container>
+          
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef> ID </th>
+      <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+    </ng-container>
+      
+    <ng-container matColumnDef="prefLabel">
+      <th mat-header-cell *matHeaderCellDef> Preferred Label </th>
+      <td mat-cell *matCellDef="let element"> {{element.prefLabel}} </td>
+    </ng-container>
+  
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="definition">
+      <th mat-header-cell *matHeaderCellDef> Definition </th>
+      <td mat-cell title= "{{element.definition}}" *matCellDef="let element"> {{element.definition.substring(0, 100)}}... </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"
+        (click)="selection.toggle(row)">
+    </tr>
+  </table>
+  <button (click)="onNoClick()">Cancel</button><button (click)="onYesClick()">Add</button>
+</mat-dialog-content>
+  

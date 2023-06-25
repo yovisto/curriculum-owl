@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="/home/johann/Source/Yovisto/curriculum-owl/Import/iqb_Mathe_Sek_1_ab.rdf"
+         xmlns="/home/johann/Source/Yovisto/curriculum-owl/Import/iqb_Mathe_Sek_1_ab.rdf#"
+         xmlns:core="http://www.w3.org/2004/02/skos/core#"
+         xmlns:mode="https://dini-ag-kim.github.io/modell_lehrplaene#"
+         xmlns:sche="https://schema.org/"
+         xmlns:term="http://purl.org/dc/terms/">
+
+<owl:Ontology rdf:about="/home/johann/Source/Yovisto/curriculum-owl/Import/iqb_Mathe_Sek_1_ab.rdf"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+
+<owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+
+<owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+
+<core:ConceptScheme rdf:about="https://w3id.org/iqb/bista22mas1/ab">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22mas1/ab/da0082c2-7fe1-4e1b-b6d5-989451c3b39a"/>
+  <core:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22mas1/ab/f47ff599-d6ed-4ed2-9f5b-891c203da245"/>
+  <core:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22mas1/ab/24faf10b-6907-4610-91f9-f399d108beb9"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/ab/da0082c2-7fe1-4e1b-b6d5-989451c3b39a"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/ab/f47ff599-d6ed-4ed2-9f5b-891c203da245"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22mas1/ab/24faf10b-6907-4610-91f9-f399d108beb9"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <term:creator xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</term:creator>
+  <term:description xml:lang="de">Zum Lösen mathematischer Aufgaben werden die prozessbezogenen Kompetenzen in unterschiedlicher Ausprägung benötigt. Diesbezüglich lassen sich drei Anforderungsbereiche für alle Schülerinnen und Schüler unterscheiden. Im Allgemeinen nehmen Anspruch und kognitive Komplexität von Anforderungsbereich I bis Anforderungsbereich III zu. Die Anforderungsbereiche sind für alle prozessbezogenen Kompetenzen wie folgt charakterisiert:</term:description>
+  <term:title xml:lang="de">Mathe Sek 1_Anforderungsbereiche</term:title>
+  <core:prefLabel xml:lang="de">Anforderungsbereiche</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:ConceptScheme>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/ab/da0082c2-7fe1-4e1b-b6d5-989451c3b39a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/ab"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/ab"/>
+  <core:topConceptOf rdf:resource="https://w3id.org/iqb/bista22mas1/ab"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:definition xml:lang="de">Dieser Anforderungsbereich umfasst das selbstständige Auswählen, Anordnen, Darstellen und Bearbeiten bekannter Sachverhalte, indem Kenntnisse, Fertigkeiten und Fähigkeiten verknüpft werden, die in der Auseinandersetzung mit Mathematik auf verschiedenen Gebieten erworben wurden.</core:definition>
+  <core:notation>2</core:notation>
+  <core:prefLabel xml:lang="de">Anforderungsbereich II: Zusammenhänge herstellen</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/ab/f47ff599-d6ed-4ed2-9f5b-891c203da245">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/ab"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/ab"/>
+  <core:topConceptOf rdf:resource="https://w3id.org/iqb/bista22mas1/ab"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:definition xml:lang="de">Dieser Anforderungsbereich umfasst das selbstständige Auswählen geeigneter Arbeitstechniken und Verfahren sowie das Bearbeiten komplexer oder unbekannter Sachverhalte u. a. mit dem Ziel, zu eigenen Problemformulierungen, Lösungen, Begründungen, Folgerungen, Interpretationen oder Wertungen zu gelangen.</core:definition>
+  <core:notation>3</core:notation>
+  <core:prefLabel xml:lang="de">Anforderungsbereich  III: Verallgemeinern und Reflektieren</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22mas1/ab/24faf10b-6907-4610-91f9-f399d108beb9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22mas1/ab"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22mas1/ab"/>
+  <core:topConceptOf rdf:resource="https://w3id.org/iqb/bista22mas1/ab"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_2"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:definition xml:lang="de">Dieser Anforderungsbereich umfasst die Wiedergabe und direkte Anwendung von grundlegenden Begriffen, Sätzen und Verfahren in einem abgegrenzten Gebiet und einem wiederholenden Zusammenhang.</core:definition>
+  <core:notation>1</core:notation>
+  <core:prefLabel xml:lang="de">Anforderungsbereich I: Reproduzieren</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<owl:Ontology/>
+
+
+</rdf:RDF>

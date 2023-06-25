@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="/home/johann/Source/Yovisto/curriculum-owl/Import/iqb_Mathematik_Primar_ab.rdf"
+         xmlns="/home/johann/Source/Yovisto/curriculum-owl/Import/iqb_Mathematik_Primar_ab.rdf#"
+         xmlns:core="http://www.w3.org/2004/02/skos/core#"
+         xmlns:mode="https://dini-ag-kim.github.io/modell_lehrplaene#"
+         xmlns:sche="https://schema.org/"
+         xmlns:term="http://purl.org/dc/terms/">
+
+<owl:Ontology rdf:about="/home/johann/Source/Yovisto/curriculum-owl/Import/iqb_Mathematik_Primar_ab.rdf"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+
+<owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+
+<owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+
+<core:ConceptScheme rdf:about="https://w3id.org/iqb/bista22map/ab">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22map/ab/ade34c1a-0e4d-4b6d-8836-2434f233d46a"/>
+  <core:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22map/ab/d70fe394-add6-4760-a80a-173d69001e4f"/>
+  <core:hasTopConcept rdf:resource="https://w3id.org/iqb/bista22map/ab/964c0f5f-ef01-4f9d-bd7c-35388637b39d"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22map/ab/ade34c1a-0e4d-4b6d-8836-2434f233d46a"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22map/ab/d70fe394-add6-4760-a80a-173d69001e4f"/>
+  <core:narrower rdf:resource="https://w3id.org/iqb/bista22map/ab/964c0f5f-ef01-4f9d-bd7c-35388637b39d"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_1"/>
+  <term:creator xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</term:creator>
+  <term:description xml:lang="de">Der Erwerb prozess- und inhaltsbezogener Kompetenzen erfolgt in der aktiven Auseinandersetzung mit mathematischen Aufgabenstellungen und Anforderungen. Diesbezüglich lassen sich drei Anforderungsbereiche unterscheiden: Reproduzieren, Zusammenhänge herstellen sowie Verallgemeinern und Reflektieren. Im Allgemeinen nehmen Anspruch und kognitive Komplexität von Anforderungsbereich I bis Anforderungsbereich III zu. Die Auseinandersetzung mit Aufgabenstellungen zu allen drei Anforderungsbereichen ist für alle Schülerinnen und Schüler – unabhängig vom mathematischen Leistungsvermögen – von zentraler Bedeutung, um erfolgreich und nachhaltig prozessbezogene und inhaltsbezogene Kompetenzen auf- und auszubauen. Die Anforderungsbereiche sind wie folgt charakterisiert:</term:description>
+  <term:title xml:lang="de">Mathematik Primar_Anforderungsbereiche</term:title>
+  <core:prefLabel xml:lang="de">Anforderungsbereiche</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:ConceptScheme>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22map/ab/ade34c1a-0e4d-4b6d-8836-2434f233d46a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22map/ab"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22map/ab"/>
+  <core:topConceptOf rdf:resource="https://w3id.org/iqb/bista22map/ab"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_1"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:definition xml:lang="de">Zusammenhänge herstellen. Erkennen mathematischer Zusammenhänge und Verknüpfen von Kenntnissen, Fertigkeiten und Fähigkeiten bei der Bearbeitung mathematischer Aufgabenstellungen</core:definition>
+  <core:notation>2</core:notation>
+  <core:prefLabel xml:lang="de">Anforderungsbereich II</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22map/ab/d70fe394-add6-4760-a80a-173d69001e4f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22map/ab"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22map/ab"/>
+  <core:topConceptOf rdf:resource="https://w3id.org/iqb/bista22map/ab"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_1"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:definition xml:lang="de">Verallgemeinern und Reflektieren. Übertragen von Erkenntnissen auf unbekannte Fragestellungen sowie Entwickeln und Reflektieren von Strategien, Begründungen und Folgerungen</core:definition>
+  <core:notation>3</core:notation>
+  <core:prefLabel xml:lang="de">Anforderungsbereich III</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<core:Concept rdf:about="https://w3id.org/iqb/bista22map/ab/964c0f5f-ef01-4f9d-bd7c-35388637b39d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:broader rdf:resource="https://w3id.org/iqb/bista22map/ab"/>
+  <core:inScheme rdf:resource="https://w3id.org/iqb/bista22map/ab"/>
+  <core:topConceptOf rdf:resource="https://w3id.org/iqb/bista22map/ab"/>
+  <mode:hasSubject rdf:resource="http://w3id.org/openeduhub/vocabs/discipline/380"/>
+  <sche:educationalLevel rdf:resource="https://w3id.org/kim/educationalLevel/level_1"/>
+  <rdf:type rdf:resource="https://dini-ag-kim.github.io/modell_lehrplaene#EducationalStandard"/>
+  <core:definition xml:lang="de">Reproduzieren. Wiedergabe von Grundwissen, Ausführen von Routinetätigkeiten und direkte Anwendung von grundlegenden Begriffen und Verfahren</core:definition>
+  <core:notation>1</core:notation>
+  <core:prefLabel xml:lang="de">Anforderungsbereich I</core:prefLabel>
+  <sche:yearBuilt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</sche:yearBuilt>
+</core:Concept>
+
+<owl:Ontology/>
+
+
+</rdf:RDF>

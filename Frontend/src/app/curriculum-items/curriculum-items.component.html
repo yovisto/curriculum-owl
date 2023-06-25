@@ -1,0 +1,30 @@
+<h2>Curriculum Items</h2>
+
+<div>  
+  <button type="button" class="add-button" routerLink="/item-add">
+    Add Curriculum Item
+  </button>
+</div>
+
+<table class="mat-elevation-z8">
+  <tbody>
+    <tr *ngFor="let item of curriculumItems">
+      <td>
+        <a routerLink="/item-detail/{{item.id}}">
+          {{item.id}}
+        </a>
+      </td>
+      <td>
+        <a routerLink="/item-detail/{{item.id}}">
+          {{item.prefLabel}}
+        </a>
+      </td>
+      <td>
+        <a title="delete curriculum item" (click)="delete(item)">
+          <mat-icon>delete</mat-icon>
+        </a>
+      </td>
+
+    </tr>
+  </tbody>
+</table>

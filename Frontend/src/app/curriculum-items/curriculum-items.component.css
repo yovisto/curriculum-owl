@@ -1,0 +1,32 @@
+/* curriculumsComponent's private CSS styles */
+table {
+  width: 100%;
+  max-width: 600px;    
+}
+
+.add-button {
+ padding: .5rem 1.5rem;
+ font-size: 1rem;
+ margin-bottom: 2rem;
+}
+
+.add-button:hover {
+  color: white;
+  background-color: #42545C;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+}
+
+
+
+
+

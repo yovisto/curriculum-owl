@@ -1,3 +1,7 @@
 Export
 dinio.owl
 catalog*.xml
+dist
+node_modules
+.angular
+
