@@ -1,0 +1,7 @@
+<h2 mat-dialog-title *ngIf="data">{{data.header}}</h2>
+<mat-dialog-content>
+    <div *ngIf="data">                
+        <p *ngFor="let item of data.keys"><strong>{{item}}</strong>: {{data.data[item]}}</p>
+    </div>
+    <button (click)="onNoClick()">Close</button>
+</mat-dialog-content>

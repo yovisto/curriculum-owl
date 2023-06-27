@@ -34,7 +34,9 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatToolbarModule} from '@angular/material/toolbar'
 import { EducationalStandardComponent } from './educational-standard/educational-standard.component';
-import { MatchComponent } from './match/match.component'
+import { MatchComponent } from './match/match.component';
+import { EducationalStandardDetailComponent } from './educational-standard-detail/educational-standard-detail.component';
+import { GenericDialogContentComponent } from './generic-dialog-content/generic-dialog-content.component'
 
 @NgModule({
   imports: [
@@ -76,7 +78,9 @@ import { MatchComponent } from './match/match.component'
     KeywordAddComponent,
     KeywordAddComponent,
     EducationalStandardComponent,
-    MatchComponent
+    MatchComponent,
+    EducationalStandardDetailComponent,
+    GenericDialogContentComponent
   ],
   bootstrap: [AppComponent],
   providers:[importProvidersFrom([BrowserAnimationsModule])]

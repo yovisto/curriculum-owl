@@ -1,5 +1,5 @@
 import { RdfBean, RdfPrefixes, RdfProperty, RdfSubject, XSDDataType } from "ts-rdf-mapper";
-import { Concept } from "./concept";
+import { EducationalStandard } from "./educational-standard";
 
 @RdfPrefixes
 ({
@@ -27,8 +27,8 @@ export class CurriculumItem {
     public taughtBy: string | undefined;
     @RdfProperty({predicate: 'dini:assessedBy', xsdType: XSDDataType.XSD_STRING})
     public assessedBy: string | undefined;
-    @RdfProperty({predicate: 'dini:educationalStandard', clazz: Concept})
-    public educationalStandard: Concept | undefined;
+    @RdfProperty({predicate: 'dini:educationalStandard', clazz: EducationalStandard})
+    public educationalStandard: EducationalStandard | undefined;
     @RdfProperty({predicate: 'core:broader', xsdType: XSDDataType.XSD_STRING, isArray: true})
     public broader: Array<string> = [];    
     @RdfProperty({predicate: 'core:narrower', xsdType: XSDDataType.XSD_STRING, isArray: true})

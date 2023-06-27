@@ -18,8 +18,11 @@
             </a>
         </label>
         <span *ngIf="dataItem.educationalStandard">
-            <span
-                title="{{dataItem.educationalStandard.id}} - {{dataItem.educationalStandard.definition}}">{{dataItem.educationalStandard.prefLabel}}</span>
+            <span title="{{dataItem.educationalStandard.id}} - {{dataItem.educationalStandard.definition}}">
+                <a (click)="openEducationalStandardItemDetailDialog(dataItem.educationalStandard)">
+                    {{dataItem.educationalStandard.prefLabel}}
+                </a>
+            </span>
             <a title="delete educational standard" (click)="deleteEducationalStandard()">
                 <mat-icon>delete</mat-icon>
             </a>

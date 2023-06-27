@@ -11,7 +11,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { CurriculumItemService } from '../services/curriculum-item.service';
 import { EntityComponentBase } from '../base-classes/entity-component-base';
 import { Organisation } from '../models/organisation';
-import { Concept } from '../models/concept';
+import { EducationalStandard } from '../models/educational-standard';
 
 @Component({
   selector: 'app-curriculum-detail',

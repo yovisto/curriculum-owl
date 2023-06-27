@@ -9,6 +9,7 @@ import { CurriculumItemDetailComponent } from './curriculum-item-detail/curricul
 import { CurriculumItemAddComponent } from './curriculum-item-add/curriculum-item-add.component';
 import { OrganisationAddComponent } from './organisation-add/organisation-add.component';
 import { OrganisationDetailComponent } from './organisation-detail/organisation-detail.component';
+import { EducationalStandardDetailComponent } from './educational-standard-detail/educational-standard-detail.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/curriculums', pathMatch: 'full' },
@@ -20,7 +21,8 @@ const routes: Routes = [
   { path: 'curriculum-items', component: CurriculumItemsComponent },
   { path: 'organisations', component: OrganisationsComponent },
   { path: 'curriculum-add', component: CurriculumAddComponent },
-  { path: 'organisation-add', component: OrganisationAddComponent }
+  { path: 'organisation-add', component: OrganisationAddComponent },
+  { path: 'educational-standards', component: EducationalStandardDetailComponent }
 ];
 
 @NgModule({

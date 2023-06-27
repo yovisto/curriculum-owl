@@ -5,26 +5,12 @@ import { CurriculumItem } from "../models/curriculum-item";
 import { CurriculumService } from "../services/curriculum.service";
 import { CurriculumItemService } from "../services/curriculum-item.service";
 import { MatchComponent } from "../match/match.component";
-import { Concept } from "../models/concept";
-
-import {
-    iqb_Deutsch_Primar_ab,
-    iqb_Deutsch_Primar_bistas,
-    iqb_Deutsch_Sek1_ab,
-    iqb_Deutsch_Sek1_stdESA,
-    iqb_Deutsch_Sek1_stdMSA,
-    iqb_Mathe_Sek_1_ab,
-    iqb_Mathe_Sek_1_stdInhaltESA,
-    iqb_Mathe_Sek_1_stdInhaltMSA,
-    iqb_Mathe_Sek_1_stdProzess,
-    iqb_Mathematik_Primar_ab,
-    iqb_Mathematik_Primar_stdInhalt,
-    iqb_Mathematik_Primar_stdProzess
-} from '../constants/educational-standards'
+import { EducationalStandard } from "../models/educational-standard";
 import { EducationalStandardComponent } from "../educational-standard/educational-standard.component";
 import { RdfMapper } from "ts-rdf-mapper";
 import { Organisation } from "../models/organisation";
 import { IToggleTtl } from "../interfaces/toggle-ttl.interface";
+import { GenericDialogContentComponent } from "../generic-dialog-content/generic-dialog-content.component";
 
 export class EntityComponentBase<T extends Curriculum | CurriculumItem> implements IToggleTtl {
 
@@ -58,7 +44,7 @@ export class EntityComponentBase<T extends Curriculum | CurriculumItem> implemen
                 this.dataItem.publisher = Object.assign(new Organisation(), this.dataItem.publisher);
             }
             if (this.dataItem.educationalStandard) {
-                this.dataItem.educationalStandard = Object.assign(new Concept(), this.dataItem.educationalStandard);
+                this.dataItem.educationalStandard = Object.assign(new EducationalStandard(), this.dataItem.educationalStandard);
             }
         }
         
@@ -118,63 +104,30 @@ export class EntityComponentBase<T extends Curriculum | CurriculumItem> implemen
                 });
             }
         });
-    }
-
-    private _getEducationalStandards(): Array<Concept> {
-        const standards_rdf = [
-            iqb_Deutsch_Primar_ab,
-            iqb_Deutsch_Primar_bistas,
-            iqb_Deutsch_Sek1_ab,
-            iqb_Deutsch_Sek1_stdESA,
-            iqb_Deutsch_Sek1_stdMSA,
-            iqb_Mathe_Sek_1_ab,
-            iqb_Mathe_Sek_1_stdInhaltESA,
-            iqb_Mathe_Sek_1_stdInhaltMSA,
-            iqb_Mathe_Sek_1_stdProzess,
-            iqb_Mathematik_Primar_ab,
-            iqb_Mathematik_Primar_stdInhalt,
-            iqb_Mathematik_Primar_stdProzess
-        ];
-
-        const educationalStandards: Array<Concept> = [];
-        const parser = new DOMParser();
-        standards_rdf.forEach((standard: string) => {
-            const doc = parser.parseFromString(standard, "application/xml");
-            doc.documentElement.childNodes.forEach((x: any) => {
-                const nodeName = (x.nodeName as string).trim();
-                if (nodeName == "core:Concept") {
-                    const standard = new Concept();
-                    standard.id = x.attributes['rdf:about'].value;
-
-                    x.childNodes.forEach((y: any) => {
-                        if ((y.nodeName as string).trim() == "core:definition") {
-                            standard.definition = y.textContent;
-                        }
-                        if ((y.nodeName as string).trim() == "core:prefLabel") {
-                            standard.prefLabel = y.textContent;
-                        }
-                        if ((y.nodeName as string).trim() == "sche:yearBuilt") {
-                            standard.yearBuilt = y.textContent;
-                        }
-                    });
-                    educationalStandards.push(standard);
-                }
-            });
-        });
-
-        return educationalStandards;
-    }
+    }    
 
     openEducationalStandardDialog(): void {
         const dialogRef = this.dlg.open(EducationalStandardComponent, {
-            width: '700px',
-            data: this._getEducationalStandards()
+            width: '900px',            
         });
 
         dialogRef.afterClosed().subscribe(result => {
             if (result && this.dataItem) {
                 this.dataItem.educationalStandard = result[0];
             }
+        });
+    }
+
+    openEducationalStandardItemDetailDialog(row: any): void {
+        const dataParam =  {'Id': row.id , 'Educational Level': row.educationalLevel, 'Label': row.prefLabel, 'Definition': row.definition };
+        const keys = ['Id', 'Educational Level', 'Label', 'Definition'];
+        const header = 'Educational Standard Item Detail';
+        const data = {header: header, data: dataParam, keys: keys};
+        
+        this.dlg.open(GenericDialogContentComponent, {
+          width: '500px',      
+          data: data,
+          autoFocus: false,
         });
     }
 

@@ -1,0 +1,54 @@
+<div class="top">
+    <mat-form-field class="mat-form-field">
+        <input matInput (keyup)="applyFilter($event.target)" placeholder="Filter">
+    </mat-form-field>
+
+    <div *ngIf="dataSource">
+        <mat-table #table [dataSource]="dataSource" class="mat-elevation-z8 table-pointer">
+
+            <ng-container matColumnDef="id">
+                <mat-header-cell *matHeaderCellDef> Id </mat-header-cell>
+                <mat-cell title={{element.id}} *matCellDef="let element"> {{element.id.substring(0, 50)}}...
+                </mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="prefLabel">
+                <mat-header-cell *matHeaderCellDef> Label </mat-header-cell>
+                <mat-cell title={{element.prefLabel}} *matCellDef="let element"> {{element.prefLabel ?
+                    element.prefLabel.substring(0,
+                    50) : ""}}...
+                </mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="definition">
+                <mat-header-cell *matHeaderCellDef> Definition </mat-header-cell>
+                <mat-cell title={{element.definition}} *matCellDef="let element"> {{element.definition ?
+                    element.definition.substring(0,
+                    50) : ""}}... </mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="educationalLevel">
+                <mat-header-cell *matHeaderCellDef> Edu. Level </mat-header-cell>
+                <mat-cell title={{element.educationalLevel}} *matCellDef="let element"> {{element.educationalLevel ?
+                    element.educationalLevel.substring(0,
+                    50) : ""}}... </mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="yearBuilt">
+                <mat-header-cell *matHeaderCellDef> Year </mat-header-cell>
+                <mat-cell *matCellDef="let element"> {{element.yearBuilt}} </mat-cell>
+            </ng-container>
+
+            <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+            <mat-row *matRowDef="let row; columns: displayedColumns;" (click)="onRowClick(row)"></mat-row>
+
+        </mat-table>
+        <mat-toolbar>
+            <mat-toolbar-row>
+                <mat-paginator #paginator [pageSize]="5" showFirstLastButtons>
+                </mat-paginator>
+            </mat-toolbar-row>
+        </mat-toolbar>
+
+    </div>
+</div>
