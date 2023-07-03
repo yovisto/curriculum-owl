@@ -1,0 +1,52 @@
+<h2>Subjects</h2>
+<div class="top">
+    <mat-form-field class="mat-form-field">
+        <input matInput (keyup)="applyFilter($event.target)" placeholder="Filter">
+    </mat-form-field>
+
+    <div *ngIf="dataSource">
+        <mat-table #table [dataSource]="dataSource" class="mat-elevation-z8 table-pointer">
+
+            <ng-container matColumnDef="id">
+                <mat-header-cell *matHeaderCellDef> Id </mat-header-cell>
+                <mat-cell title={{element.id}} *matCellDef="let element"> 
+                    {{element.id?.slice(element.id ? element.id.lastIndexOf('/') + 1 : 0)}}
+                </mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="prefLabel">
+                <mat-header-cell *matHeaderCellDef> Label </mat-header-cell>
+                <mat-cell title="{{element.prefLabel_de}}, {{element.prefLabel_en}}" *matCellDef="let element"> 
+                    {{element.prefLabel_de}} <br/>
+                    {{element.prefLabel_en}}                    
+                </mat-cell>
+            </ng-container>
+            
+
+            <ng-container matColumnDef="altLabel">
+                <mat-header-cell *matHeaderCellDef> Alt. Label </mat-header-cell>
+                <mat-cell *matCellDef="let element"> {{getFormattedAltLabel(element)}} </mat-cell>
+            </ng-container>
+
+
+            <ng-container matColumnDef="editorialNote">
+                <mat-header-cell *matHeaderCellDef> Editorial Note </mat-header-cell>
+                <mat-cell title={{element.editorialNote}} *matCellDef="let element"> {{element.editorialNote ?
+                    element.editorialNote.substring(0,
+                    50) : ""}}... </mat-cell>
+            </ng-container>
+
+            
+            <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+            <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+
+        </mat-table>
+        <mat-toolbar>
+            <mat-toolbar-row>
+                <mat-paginator #paginator [pageSize]="5" showFirstLastButtons>
+                </mat-paginator>
+            </mat-toolbar-row>
+        </mat-toolbar>
+
+    </div>
+</div>

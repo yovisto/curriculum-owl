@@ -36,7 +36,9 @@ import { MatToolbarModule} from '@angular/material/toolbar'
 import { EducationalStandardComponent } from './educational-standard/educational-standard.component';
 import { MatchComponent } from './match/match.component';
 import { EducationalStandardDetailComponent } from './educational-standard-detail/educational-standard-detail.component';
-import { GenericDialogContentComponent } from './generic-dialog-content/generic-dialog-content.component'
+import { GenericDialogContentComponent } from './generic-dialog-content/generic-dialog-content.component';
+import { EducationalLevelsComponent } from './educational-levels/educational-levels.component';
+import { EducationalSubjectsComponent } from './educational-subjects/educational-subjects.component'
 
 @NgModule({
   imports: [
@@ -80,7 +82,9 @@ import { GenericDialogContentComponent } from './generic-dialog-content/generic-
     EducationalStandardComponent,
     MatchComponent,
     EducationalStandardDetailComponent,
-    GenericDialogContentComponent
+    GenericDialogContentComponent,    
+    EducationalLevelsComponent,
+    EducationalSubjectsComponent,    
   ],
   bootstrap: [AppComponent],
   providers:[importProvidersFrom([BrowserAnimationsModule])]

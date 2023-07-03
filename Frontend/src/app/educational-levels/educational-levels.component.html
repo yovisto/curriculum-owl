@@ -1,0 +1,19 @@
+<h2>Educational Levels</h2>
+<div *ngIf="educationalLevels">
+    <table class="mat-elevation-z8">
+        <tbody>
+            <tr *ngFor="let item of educationalLevels">
+                <td title="{{item.id}}">
+                    {{item.id?.slice(item.id ? item.id.lastIndexOf('/') + 1 : 0)}}
+                </td>
+                <td>
+                    {{item.prefLabel_de}}, <br />{{item.prefLabel_en}}
+                </td>
+                <td>
+                    {{getFormattedAltLabel(item)}}
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

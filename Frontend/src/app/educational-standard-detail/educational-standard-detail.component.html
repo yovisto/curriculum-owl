@@ -1,3 +1,4 @@
+<h2>Educational Standards</h2>
 <div class="top">
     <mat-form-field class="mat-form-field">
         <input matInput (keyup)="applyFilter($event.target)" placeholder="Filter">
@@ -8,7 +9,8 @@
 
             <ng-container matColumnDef="id">
                 <mat-header-cell *matHeaderCellDef> Id </mat-header-cell>
-                <mat-cell title={{element.id}} *matCellDef="let element"> {{element.id.substring(0, 50)}}...
+                <mat-cell title={{element.id}} *matCellDef="let element"> 
+                    {{element.id.slice(element.id.lastIndexOf('/') + 1)}}
                 </mat-cell>
             </ng-container>
 
@@ -29,9 +31,18 @@
 
             <ng-container matColumnDef="educationalLevel">
                 <mat-header-cell *matHeaderCellDef> Edu. Level </mat-header-cell>
-                <mat-cell title={{element.educationalLevel}} *matCellDef="let element"> {{element.educationalLevel ?
-                    element.educationalLevel.substring(0,
-                    50) : ""}}... </mat-cell>
+                <mat-cell title={{element.educationalLevel.id}} *matCellDef="let element"> 
+                    {{element.educationalLevel.prefLabel_de}} <br />
+                    {{element.educationalLevel.prefLabel_en}} <br />                    
+                </mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="subject">
+                <mat-header-cell *matHeaderCellDef> Subject </mat-header-cell>
+                <mat-cell title={{element.subject.id}} *matCellDef="let element"> 
+                    {{element.subject.prefLabel_de}} <br />
+                    {{element.subject.prefLabel_en}} <br />                    
+                </mat-cell>
             </ng-container>
 
             <ng-container matColumnDef="yearBuilt">

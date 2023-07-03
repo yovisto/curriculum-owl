@@ -11,6 +11,8 @@ import { RdfMapper } from "ts-rdf-mapper";
 import { Organisation } from "../models/organisation";
 import { IToggleTtl } from "../interfaces/toggle-ttl.interface";
 import { GenericDialogContentComponent } from "../generic-dialog-content/generic-dialog-content.component";
+import { EducationalLevel } from "../models/educational-level";
+import { Subject } from "../models/subject";
 
 export class EntityComponentBase<T extends Curriculum | CurriculumItem> implements IToggleTtl {
 
@@ -44,6 +46,8 @@ export class EntityComponentBase<T extends Curriculum | CurriculumItem> implemen
                 this.dataItem.publisher = Object.assign(new Organisation(), this.dataItem.publisher);
             }
             if (this.dataItem.educationalStandard) {
+                this.dataItem.educationalStandard.educationalLevel = Object.assign(new EducationalLevel, this.dataItem.educationalStandard.educationalLevel);
+                this.dataItem.educationalStandard.subject = Object.assign(new Subject, this.dataItem.educationalStandard.subject);
                 this.dataItem.educationalStandard = Object.assign(new EducationalStandard(), this.dataItem.educationalStandard);
             }
         }
@@ -119,16 +123,22 @@ export class EntityComponentBase<T extends Curriculum | CurriculumItem> implemen
     }
 
     openEducationalStandardItemDetailDialog(row: any): void {
-        const dataParam =  {'Id': row.id , 'Educational Level': row.educationalLevel, 'Label': row.prefLabel, 'Definition': row.definition };
-        const keys = ['Id', 'Educational Level', 'Label', 'Definition'];
-        const header = 'Educational Standard Item Detail';
-        const data = {header: header, data: dataParam, keys: keys};
-        
-        this.dlg.open(GenericDialogContentComponent, {
-          width: '500px',      
-          data: data,
-          autoFocus: false,
-        });
+        const dataParam = {
+            'Id': row.id,
+            'Label': row.prefLabel,
+            'Educational Level': `${row.educationalLevel.prefLabel_de}, ${row.educationalLevel.prefLabel_en}`, 
+            'Subject': `${row.subject.prefLabel_de}, ${row.subject.prefLabel_en}`,
+            'Definition': row.definition
+          };
+          const keys = ['Id', 'Label', 'Educational Level', 'Subject', 'Definition'];
+          const header = 'Educational Standard Item Detail';
+          const data = { header: header, data: dataParam, keys: keys };
+      
+          this.dlg.open(GenericDialogContentComponent, {
+            width: '500px',
+            data: data,
+            autoFocus: false,
+          });        
     }
 
     deleteEducationalStandard(): void {

@@ -1,0 +1,11 @@
+table {
+    width: 100%;
+
+}
+
+td {
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+}

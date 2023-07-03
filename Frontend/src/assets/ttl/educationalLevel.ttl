@@ -1,0 +1,314 @@
+@prefix : </home/johann/Source/Yovisto/curriculum-owl/Import/educationalLevel.rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix core: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix term: <http://purl.org/dc/terms/> .
+@base </home/johann/Source/Yovisto/curriculum-owl/Import/educationalLevel.rdf#> .
+
+<file:/home/johann/Source/Yovisto/curriculum-owl/Import/educationalLevel.rdf> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/created
+term:created rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+term:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+term:issued rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+term:license rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/modified
+term:modified rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+term:title rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#altLabel
+core:altLabel rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#broadMatch
+core:broadMatch rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#broader
+core:broader rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#closeMatch
+core:closeMatch rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#definition
+core:definition rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#exactMatch
+core:exactMatch rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#hasTopConcept
+core:hasTopConcept rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#inScheme
+core:inScheme rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#narrowMatch
+core:narrowMatch rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#narrower
+core:narrower rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+core:prefLabel rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#topConceptOf
+core:topConceptOf rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+core:Concept rdf:type owl:Class .
+
+
+###  http://www.w3.org/2004/02/skos/core#ConceptScheme
+core:ConceptScheme rdf:type owl:Class .
+
+
+###  https://dini-ag-kim.github.io/modell_lehrplaene#EducationalLevel
+<https://dini-ag-kim.github.io/modell_lehrplaene#EducationalLevel> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://w3id.org/kim/educationalLevel
+<https://w3id.org/kim/educationalLevel> rdf:type owl:NamedIndividual ,
+                                                 core:ConceptScheme ;
+                                        term:created "2020-04-08"^^xsd:dateTime ;
+                                        term:description "Eine Wertelliste für die Stufe im Bildungssystem als Lehr-/Lernkontext, für den Lernobjekt ausgewiesen ist."@de ;
+                                        term:issued "2020-04-08"^^xsd:date ;
+                                        term:license <http://creativecommons.org/publicdomain/zero/1.0> ;
+                                        term:modified "2022-03-23"^^xsd:date ;
+                                        term:title "Bildungsstufe"@de ,
+                                                   "Educational level"@en ;
+                                        core:hasTopConcept <https://w3id.org/kim/educationalLevel/level_0> ,
+                                                           <https://w3id.org/kim/educationalLevel/level_1> ,
+                                                           <https://w3id.org/kim/educationalLevel/level_2> ,
+                                                           <https://w3id.org/kim/educationalLevel/level_3> ,
+                                                           <https://w3id.org/kim/educationalLevel/level_4> ,
+                                                           <https://w3id.org/kim/educationalLevel/level_5> ,
+                                                           <https://w3id.org/kim/educationalLevel/level_A> ,
+                                                           <https://w3id.org/kim/educationalLevel/level_B> ,
+                                                           <https://w3id.org/kim/educationalLevel/level_C> .
+
+
+###  https://w3id.org/kim/educationalLevel/level_0
+<https://w3id.org/kim/educationalLevel/level_0> rdf:type owl:NamedIndividual ,
+                                                         core:Concept ,
+                                                         <https://dini-ag-kim.github.io/modell_lehrplaene#EducationalLevel> ;
+                                                core:altLabel "Elementarstufe"@de ,
+                                                              "Frühbereich"@de ,
+                                                              "Frühkindliche Bildung"@de ,
+                                                              "ISCED 2011, Level 0"@de ,
+                                                              "ISCED 2011, Level 0"@en ;
+                                                core:exactMatch <http://w3id.org/openeduhub/vocabs/educationalContext/elementarbereich> ,
+                                                                <https://w3id.org/kim/isced-2011/level0> ;
+                                                core:narrowMatch <https://w3id.org/kim/isced-1997/level0> ;
+                                                core:prefLabel "Early childhood education"@en ,
+                                                               "Elementarbereich"@de ;
+                                                core:topConceptOf <https://w3id.org/kim/educationalLevel> .
+
+
+###  https://w3id.org/kim/educationalLevel/level_1
+<https://w3id.org/kim/educationalLevel/level_1> rdf:type owl:NamedIndividual ,
+                                                         core:Concept ,
+                                                         <https://dini-ag-kim.github.io/modell_lehrplaene#EducationalLevel> ;
+                                                core:altLabel "ISCED 2011, Level 1"@de ,
+                                                              "ISCED 2011, Level 1"@en ,
+                                                              "Primarstufe"@de ;
+                                                core:exactMatch <http://w3id.org/openeduhub/vocabs/educationalContext/grundschule> ,
+                                                                <https://w3id.org/kim/isced-1997/level1> ,
+                                                                <https://w3id.org/kim/isced-2011/level1> ;
+                                                core:prefLabel "Primarbereich"@de ,
+                                                               "Primary education"@en ;
+                                                core:topConceptOf <https://w3id.org/kim/educationalLevel> .
+
+
+###  https://w3id.org/kim/educationalLevel/level_2
+<https://w3id.org/kim/educationalLevel/level_2> rdf:type owl:NamedIndividual ,
+                                                         core:Concept ,
+                                                         <https://dini-ag-kim.github.io/modell_lehrplaene#EducationalLevel> ;
+                                                core:altLabel "ISCED 2011, Level 2"@de ,
+                                                              "ISCED 2011, Level 2"@en ,
+                                                              "Sekundarstufe I"@de ;
+                                                core:exactMatch <http://w3id.org/openeduhub/vocabs/educationalContext/sekundarstufe_1> ,
+                                                                <https://w3id.org/kim/isced-1997/level2> ,
+                                                                <https://w3id.org/kim/isced-2011/level2> ;
+                                                core:prefLabel "Lower secondary education"@en ,
+                                                               "Sekundarbereich I"@de ;
+                                                core:topConceptOf <https://w3id.org/kim/educationalLevel> .
+
+
+###  https://w3id.org/kim/educationalLevel/level_3
+<https://w3id.org/kim/educationalLevel/level_3> rdf:type owl:NamedIndividual ,
+                                                         core:Concept ,
+                                                         <https://dini-ag-kim.github.io/modell_lehrplaene#EducationalLevel> ;
+                                                core:altLabel "ISCED 2011, Level 3"@de ,
+                                                              "ISCED 2011, Level 3"@en ,
+                                                              "Sekundarstufe II"@de ;
+                                                core:exactMatch <http://w3id.org/openeduhub/vocabs/educationalContext/sekundarstufe_2> ,
+                                                                <https://w3id.org/kim/isced-1997/level3> ,
+                                                                <https://w3id.org/kim/isced-2011/level3> ;
+                                                core:prefLabel "Sekundarbereich II"@de ,
+                                                               "Upper secondary education"@en ;
+                                                core:topConceptOf <https://w3id.org/kim/educationalLevel> .
+
+
+###  https://w3id.org/kim/educationalLevel/level_4
+<https://w3id.org/kim/educationalLevel/level_4> rdf:type owl:NamedIndividual ,
+                                                         core:Concept ,
+                                                         <https://dini-ag-kim.github.io/modell_lehrplaene#EducationalLevel> ;
+                                                core:altLabel "Berufliche Bildung"@de ,
+                                                              "ISCED 2011, Level 4"@de ,
+                                                              "ISCED 2011, Level 4"@en ;
+                                                core:closeMatch <http://w3id.org/openeduhub/vocabs/educationalContext/berufliche_bildung> ;
+                                                core:exactMatch <https://w3id.org/kim/isced-1997/level4> ,
+                                                                <https://w3id.org/kim/isced-2011/level4> ;
+                                                core:prefLabel "Post-secondary non-tertiary education"@en ,
+                                                               "Postsekundarer nicht-tertiärer Bereich"@de ;
+                                                core:topConceptOf <https://w3id.org/kim/educationalLevel> .
+
+
+###  https://w3id.org/kim/educationalLevel/level_5
+<https://w3id.org/kim/educationalLevel/level_5> rdf:type owl:NamedIndividual ,
+                                                         core:Concept ,
+                                                         <https://dini-ag-kim.github.io/modell_lehrplaene#EducationalLevel> ;
+                                                core:altLabel "ISCED 2011, Level 5"@de ,
+                                                              "ISCED 2011, Level 5"@en ;
+                                                core:closeMatch <https://w3id.org/kim/isced-1997/level5> ;
+                                                core:definition "Erste Stufe der tertiären Bildung, die nicht direkt zu einer höheren Forschungsqualifikation führt"@de ,
+                                                                "First stage of tertiary education, not leading directly to an advanced research qualification"@en ;
+                                                core:exactMatch <https://w3id.org/kim/isced-2011/level5> ;
+                                                core:prefLabel "Kurzes tertiäres Bildungsprogramm"@de ,
+                                                               "Short-cycle tertiary education"@en ;
+                                                core:topConceptOf <https://w3id.org/kim/educationalLevel> .
+
+
+###  https://w3id.org/kim/educationalLevel/level_6
+<https://w3id.org/kim/educationalLevel/level_6> rdf:type owl:NamedIndividual ,
+                                                         core:Concept ,
+                                                         <https://dini-ag-kim.github.io/modell_lehrplaene#EducationalLevel> ;
+                                                core:altLabel "ISCED 2011, Level 6"@de ,
+                                                              "ISCED 2011, Level 6"@en ;
+                                                core:broadMatch <http://w3id.org/openeduhub/vocabs/educationalContext/hochschule> ;
+                                                core:broader <https://w3id.org/kim/educationalLevel/level_A> ;
+                                                core:closeMatch <https://w3id.org/kim/isced-1997/level5> ;
+                                                core:exactMatch <https://w3id.org/kim/isced-2011/level6> ;
+                                                core:inScheme <https://w3id.org/kim/educationalLevel> ;
+                                                core:prefLabel "Bachelor oder äquivalent"@de ,
+                                                               "Bachelor or equivalent"@en .
+
+
+###  https://w3id.org/kim/educationalLevel/level_7
+<https://w3id.org/kim/educationalLevel/level_7> rdf:type owl:NamedIndividual ,
+                                                         core:Concept ,
+                                                         <https://dini-ag-kim.github.io/modell_lehrplaene#EducationalLevel> ;
+                                                core:altLabel "ISCED 2011, Level 7"@de ,
+                                                              "ISCED 2011, Level 7"@en ;
+                                                core:broadMatch <http://w3id.org/openeduhub/vocabs/educationalContext/hochschule> ;
+                                                core:broader <https://w3id.org/kim/educationalLevel/level_A> ;
+                                                core:closeMatch <https://w3id.org/kim/isced-1997/level5> ;
+                                                core:exactMatch <https://w3id.org/kim/isced-2011/level7> ;
+                                                core:inScheme <https://w3id.org/kim/educationalLevel> ;
+                                                core:prefLabel "Master oder äquivalent"@de ,
+                                                               "Master or equivalent"@en .
+
+
+###  https://w3id.org/kim/educationalLevel/level_8
+<https://w3id.org/kim/educationalLevel/level_8> rdf:type owl:NamedIndividual ,
+                                                         core:Concept ,
+                                                         <https://dini-ag-kim.github.io/modell_lehrplaene#EducationalLevel> ;
+                                                core:altLabel "ISCED 2011, Level 8"@de ,
+                                                              "ISCED 2011, Level 8"@en ;
+                                                core:broadMatch <http://w3id.org/openeduhub/vocabs/educationalContext/hochschule> ;
+                                                core:broader <https://w3id.org/kim/educationalLevel/level_A> ;
+                                                core:exactMatch <https://w3id.org/kim/isced-1997/level6> ,
+                                                                <https://w3id.org/kim/isced-2011/level8> ;
+                                                core:inScheme <https://w3id.org/kim/educationalLevel> ;
+                                                core:prefLabel "Doctoral or equivalent"@en ,
+                                                               "Promotion oder äquivalent"@de .
+
+
+###  https://w3id.org/kim/educationalLevel/level_A
+<https://w3id.org/kim/educationalLevel/level_A> rdf:type owl:NamedIndividual ,
+                                                         core:Concept ,
+                                                         <https://dini-ag-kim.github.io/modell_lehrplaene#EducationalLevel> ;
+                                                core:exactMatch <http://w3id.org/openeduhub/vocabs/educationalContext/hochschule> ;
+                                                core:narrowMatch <https://w3id.org/kim/isced-1997/level5> ,
+                                                                 <https://w3id.org/kim/isced-1997/level6> ,
+                                                                 <https://w3id.org/kim/isced-2011/level6> ,
+                                                                 <https://w3id.org/kim/isced-2011/level7> ,
+                                                                 <https://w3id.org/kim/isced-2011/level8> ;
+                                                core:narrower <https://w3id.org/kim/educationalLevel/level_6> ,
+                                                              <https://w3id.org/kim/educationalLevel/level_7> ,
+                                                              <https://w3id.org/kim/educationalLevel/level_8> ;
+                                                core:prefLabel "Hochschule"@de ,
+                                                               "University"@en ;
+                                                core:topConceptOf <https://w3id.org/kim/educationalLevel> .
+
+
+###  https://w3id.org/kim/educationalLevel/level_B
+<https://w3id.org/kim/educationalLevel/level_B> rdf:type owl:NamedIndividual ,
+                                                         core:Concept ,
+                                                         <https://dini-ag-kim.github.io/modell_lehrplaene#EducationalLevel> ;
+                                                core:definition "Der Vorbereitungsdienst bezeichnet die zweite Phase der Lehrkräfteausbildung in Deutschland."@de ,
+                                                                "The preparatory service designates the second phase of teacher training in germany."@en ;
+                                                core:prefLabel "Preparatory service"@en ,
+                                                               "Vorbereitungsdienst"@de ;
+                                                core:topConceptOf <https://w3id.org/kim/educationalLevel> .
+
+
+###  https://w3id.org/kim/educationalLevel/level_C
+<https://w3id.org/kim/educationalLevel/level_C> rdf:type owl:NamedIndividual ,
+                                                         core:Concept ,
+                                                         <https://dini-ag-kim.github.io/modell_lehrplaene#EducationalLevel> ;
+                                                core:exactMatch <http://w3id.org/openeduhub/vocabs/educationalContext/fortbildung> ;
+                                                core:prefLabel "Advanced training"@en ,
+                                                               "Fortbildung"@de ;
+                                                core:topConceptOf <https://w3id.org/kim/educationalLevel> .
+
+
+###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi

@@ -15,7 +15,7 @@ import { KeyValue } from '@angular/common';
 })
 export class EducationalStandardDetailComponent implements OnInit, AfterViewInit {
 
-  displayedColumns = ['id', 'prefLabel', 'definition', 'educationalLevel', 'yearBuilt'];
+  displayedColumns = ['id', 'prefLabel', 'definition', 'educationalLevel', 'subject', 'yearBuilt'];
   dataSource: MatTableDataSource<EducationalStandard> | undefined;
   selection = new SelectionModel<EducationalStandard>(false, []);
   @ViewChild('paginator') paginator: MatPaginator;
@@ -56,14 +56,20 @@ export class EducationalStandardDetailComponent implements OnInit, AfterViewInit
       this.notifyDialogParent.emit(this.selection.selected);
       return;
     }
-    
-    const dataParam =  {'Id': row.id , 'Educational Level': row.educationalLevel, 'Label': row.prefLabel, 'Definition': row.definition };
-    const keys = ['Id', 'Educational Level', 'Label', 'Definition'];
+
+    const dataParam = {
+      'Id': row.id,
+      'Label': row.prefLabel,
+      'Educational Level': `${row.educationalLevel.prefLabel_de}, ${row.educationalLevel.prefLabel_en}`, 
+      'Subject': `${row.subject.prefLabel_de}, ${row.subject.prefLabel_en}`,
+      'Definition': row.definition
+    };
+    const keys = ['Id', 'Label', 'Educational Level', 'Subject', 'Definition'];
     const header = 'Educational Standard Item Detail';
-    const data = {header: header, data: dataParam, keys: keys};
-    
+    const data = { header: header, data: dataParam, keys: keys };
+
     this.dlg.open(GenericDialogContentComponent, {
-      width: '500px',      
+      width: '500px',
       data: data,
       autoFocus: false,
     });

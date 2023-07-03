@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CurriculumItemService } from '../services/curriculum-item.service';
 import { CurriculumItem } from '../models/curriculum-item';
 import { HttpClient } from '@angular/common/http';
@@ -8,17 +8,15 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: './curriculum-items.component.html',
   styleUrls: ['./curriculum-items.component.css']
 })
-export class CurriculumItemsComponent {
+export class CurriculumItemsComponent implements OnInit{
 
   curriculumItems: CurriculumItem[] = [];
 
-  constructor(private curriculumItemService: CurriculumItemService, private http: HttpClient) { }
+  constructor(private curriculumItemService: CurriculumItemService) { }
 
   ngOnInit(): void {
     this.getCurriculumItems();
-    
-    //this.http.get('assets/file1.txt', {responseType: 'text'})
-    //  .subscribe(data => console.log(data));
+      
   }
 
   getCurriculumItems(): void {
